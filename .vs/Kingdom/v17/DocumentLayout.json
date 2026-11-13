@@ -1,0 +1,965 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "C:\\work_splace\\game\\project_cv\\Kingdom\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{7ED8C90A-4E9D-F306-317B-BB0CA98A8B3D}|Assembly-CSharp-Editor.csproj|c:\\work_splace\\game\\project_cv\\kingdom\\assets\\editor\\tdscenegenerator.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{7ED8C90A-4E9D-F306-317B-BB0CA98A8B3D}|Assembly-CSharp-Editor.csproj|solutionrelative:assets\\editor\\tdscenegenerator.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{662FBB2B-7792-05F0-F70F-68FDD059AC61}|Assembly-CSharp.csproj|C:\\work_splace\\game\\project_cv\\Kingdom\\assets\\_project\\scripts\\utils\\universalspriteloader.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{662FBB2B-7792-05F0-F70F-68FDD059AC61}|Assembly-CSharp.csproj|solutionrelative:assets\\_project\\scripts\\utils\\universalspriteloader.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{7ED8C90A-4E9D-F306-317B-BB0CA98A8B3D}|Assembly-CSharp-Editor.csproj|C:\\work_splace\\game\\project_cv\\Kingdom\\assets\\editor\\mainmenugenerator.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{7ED8C90A-4E9D-F306-317B-BB0CA98A8B3D}|Assembly-CSharp-Editor.csproj|solutionrelative:assets\\editor\\mainmenugenerator.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{662FBB2B-7792-05F0-F70F-68FDD059AC61}|Assembly-CSharp.csproj|C:\\work_splace\\game\\project_cv\\Kingdom\\assets\\_project\\scripts\\ui\\shopui.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{662FBB2B-7792-05F0-F70F-68FDD059AC61}|Assembly-CSharp.csproj|solutionrelative:assets\\_project\\scripts\\ui\\shopui.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{662FBB2B-7792-05F0-F70F-68FDD059AC61}|Assembly-CSharp.csproj|C:\\work_splace\\game\\project_cv\\Kingdom\\assets\\_project\\scripts\\ui\\spellhud.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{662FBB2B-7792-05F0-F70F-68FDD059AC61}|Assembly-CSharp.csproj|solutionrelative:assets\\_project\\scripts\\ui\\spellhud.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{662FBB2B-7792-05F0-F70F-68FDD059AC61}|Assembly-CSharp.csproj|C:\\work_splace\\game\\project_cv\\Kingdom\\assets\\_project\\scripts\\managers\\buildmanager.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{662FBB2B-7792-05F0-F70F-68FDD059AC61}|Assembly-CSharp.csproj|solutionrelative:assets\\_project\\scripts\\managers\\buildmanager.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{662FBB2B-7792-05F0-F70F-68FDD059AC61}|Assembly-CSharp.csproj|C:\\work_splace\\game\\project_cv\\Kingdom\\assets\\_project\\scripts\\buildings\\barracks.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{662FBB2B-7792-05F0-F70F-68FDD059AC61}|Assembly-CSharp.csproj|solutionrelative:assets\\_project\\scripts\\buildings\\barracks.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{662FBB2B-7792-05F0-F70F-68FDD059AC61}|Assembly-CSharp.csproj|C:\\work_splace\\game\\project_cv\\Kingdom\\assets\\_project\\scripts\\buildings\\turret.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{662FBB2B-7792-05F0-F70F-68FDD059AC61}|Assembly-CSharp.csproj|solutionrelative:assets\\_project\\scripts\\buildings\\turret.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{662FBB2B-7792-05F0-F70F-68FDD059AC61}|Assembly-CSharp.csproj|C:\\work_splace\\game\\project_cv\\Kingdom\\assets\\_project\\scripts\\enemyscripts\\enemy.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{662FBB2B-7792-05F0-F70F-68FDD059AC61}|Assembly-CSharp.csproj|solutionrelative:assets\\_project\\scripts\\enemyscripts\\enemy.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{662FBB2B-7792-05F0-F70F-68FDD059AC61}|Assembly-CSharp.csproj|C:\\work_splace\\game\\project_cv\\Kingdom\\assets\\_project\\scripts\\ui\\mainmenucontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{662FBB2B-7792-05F0-F70F-68FDD059AC61}|Assembly-CSharp.csproj|solutionrelative:assets\\_project\\scripts\\ui\\mainmenucontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{662FBB2B-7792-05F0-F70F-68FDD059AC61}|Assembly-CSharp.csproj|C:\\work_splace\\game\\project_cv\\Kingdom\\assets\\_project\\scripts\\managers\\levelmanager.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{662FBB2B-7792-05F0-F70F-68FDD059AC61}|Assembly-CSharp.csproj|solutionrelative:assets\\_project\\scripts\\managers\\levelmanager.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{662FBB2B-7792-05F0-F70F-68FDD059AC61}|Assembly-CSharp.csproj|C:\\work_splace\\game\\project_cv\\Kingdom\\assets\\_project\\scripts\\ui\\statsui.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{662FBB2B-7792-05F0-F70F-68FDD059AC61}|Assembly-CSharp.csproj|solutionrelative:assets\\_project\\scripts\\ui\\statsui.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{662FBB2B-7792-05F0-F70F-68FDD059AC61}|Assembly-CSharp.csproj|C:\\work_splace\\game\\project_cv\\Kingdom\\assets\\_project\\scripts\\data\\handcraftedleveldatabase.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{662FBB2B-7792-05F0-F70F-68FDD059AC61}|Assembly-CSharp.csproj|solutionrelative:assets\\_project\\scripts\\data\\handcraftedleveldatabase.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{662FBB2B-7792-05F0-F70F-68FDD059AC61}|Assembly-CSharp.csproj|C:\\work_splace\\game\\project_cv\\Kingdom\\assets\\_project\\scripts\\ui\\shopmenu.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{662FBB2B-7792-05F0-F70F-68FDD059AC61}|Assembly-CSharp.csproj|solutionrelative:assets\\_project\\scripts\\ui\\shopmenu.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{662FBB2B-7792-05F0-F70F-68FDD059AC61}|Assembly-CSharp.csproj|C:\\work_splace\\game\\project_cv\\Kingdom\\assets\\_project\\scripts\\enemyscripts\\enemyspawner.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{662FBB2B-7792-05F0-F70F-68FDD059AC61}|Assembly-CSharp.csproj|solutionrelative:assets\\_project\\scripts\\enemyscripts\\enemyspawner.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{662FBB2B-7792-05F0-F70F-68FDD059AC61}|Assembly-CSharp.csproj|C:\\work_splace\\game\\project_cv\\Kingdom\\assets\\_project\\scripts\\enemyscripts\\enemymovement.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{662FBB2B-7792-05F0-F70F-68FDD059AC61}|Assembly-CSharp.csproj|solutionrelative:assets\\_project\\scripts\\enemyscripts\\enemymovement.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{7ED8C90A-4E9D-F306-317B-BB0CA98A8B3D}|Assembly-CSharp-Editor.csproj|C:\\work_splace\\game\\project_cv\\Kingdom\\assets\\editor\\tdautoprefabtool.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{7ED8C90A-4E9D-F306-317B-BB0CA98A8B3D}|Assembly-CSharp-Editor.csproj|solutionrelative:assets\\editor\\tdautoprefabtool.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{7ED8C90A-4E9D-F306-317B-BB0CA98A8B3D}|Assembly-CSharp-Editor.csproj|C:\\work_splace\\game\\project_cv\\Kingdom\\assets\\editor\\setupbuildsettingstool.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{7ED8C90A-4E9D-F306-317B-BB0CA98A8B3D}|Assembly-CSharp-Editor.csproj|solutionrelative:assets\\editor\\setupbuildsettingstool.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{662FBB2B-7792-05F0-F70F-68FDD059AC61}|Assembly-CSharp.csproj|C:\\work_splace\\game\\project_cv\\Kingdom\\assets\\_project\\scripts\\ui\\towerui.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{662FBB2B-7792-05F0-F70F-68FDD059AC61}|Assembly-CSharp.csproj|solutionrelative:assets\\_project\\scripts\\ui\\towerui.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{662FBB2B-7792-05F0-F70F-68FDD059AC61}|Assembly-CSharp.csproj|C:\\work_splace\\game\\project_cv\\Kingdom\\assets\\_project\\scripts\\buildings\\tower.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{662FBB2B-7792-05F0-F70F-68FDD059AC61}|Assembly-CSharp.csproj|solutionrelative:assets\\_project\\scripts\\buildings\\tower.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{7ED8C90A-4E9D-F306-317B-BB0CA98A8B3D}|Assembly-CSharp-Editor.csproj|C:\\work_splace\\game\\project_cv\\Kingdom\\assets\\editor\\levelvalidator.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{7ED8C90A-4E9D-F306-317B-BB0CA98A8B3D}|Assembly-CSharp-Editor.csproj|solutionrelative:assets\\editor\\levelvalidator.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{7ED8C90A-4E9D-F306-317B-BB0CA98A8B3D}|Assembly-CSharp-Editor.csproj|C:\\work_splace\\game\\project_cv\\Kingdom\\assets\\editor\\isometrictilehelper.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{7ED8C90A-4E9D-F306-317B-BB0CA98A8B3D}|Assembly-CSharp-Editor.csproj|solutionrelative:assets\\editor\\isometrictilehelper.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{7ED8C90A-4E9D-F306-317B-BB0CA98A8B3D}|Assembly-CSharp-Editor.csproj|C:\\work_splace\\game\\project_cv\\Kingdom\\assets\\editor\\heroprefabbuilder.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{7ED8C90A-4E9D-F306-317B-BB0CA98A8B3D}|Assembly-CSharp-Editor.csproj|solutionrelative:assets\\editor\\heroprefabbuilder.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{7ED8C90A-4E9D-F306-317B-BB0CA98A8B3D}|Assembly-CSharp-Editor.csproj|C:\\work_splace\\game\\project_cv\\Kingdom\\assets\\editor\\gamedatabalancer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{7ED8C90A-4E9D-F306-317B-BB0CA98A8B3D}|Assembly-CSharp-Editor.csproj|solutionrelative:assets\\editor\\gamedatabalancer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{7ED8C90A-4E9D-F306-317B-BB0CA98A8B3D}|Assembly-CSharp-Editor.csproj|C:\\work_splace\\game\\project_cv\\Kingdom\\assets\\editor\\bulletprefabgenerator.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{7ED8C90A-4E9D-F306-317B-BB0CA98A8B3D}|Assembly-CSharp-Editor.csproj|solutionrelative:assets\\editor\\bulletprefabgenerator.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{662FBB2B-7792-05F0-F70F-68FDD059AC61}|Assembly-CSharp.csproj|C:\\work_splace\\game\\project_cv\\Kingdom\\assets\\_project\\scripts\\enemyscripts\\dragonboss.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{662FBB2B-7792-05F0-F70F-68FDD059AC61}|Assembly-CSharp.csproj|solutionrelative:assets\\_project\\scripts\\enemyscripts\\dragonboss.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{662FBB2B-7792-05F0-F70F-68FDD059AC61}|Assembly-CSharp.csproj|C:\\work_splace\\game\\project_cv\\Kingdom\\assets\\_project\\scripts\\enemyscripts\\enemyhealth.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{662FBB2B-7792-05F0-F70F-68FDD059AC61}|Assembly-CSharp.csproj|solutionrelative:assets\\_project\\scripts\\enemyscripts\\enemyhealth.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{662FBB2B-7792-05F0-F70F-68FDD059AC61}|Assembly-CSharp.csproj|C:\\work_splace\\game\\project_cv\\Kingdom\\assets\\_project\\scripts\\heroscripts\\hero.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{662FBB2B-7792-05F0-F70F-68FDD059AC61}|Assembly-CSharp.csproj|solutionrelative:assets\\_project\\scripts\\heroscripts\\hero.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{662FBB2B-7792-05F0-F70F-68FDD059AC61}|Assembly-CSharp.csproj|C:\\work_splace\\game\\project_cv\\Kingdom\\assets\\_project\\scripts\\ui\\herohud.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{662FBB2B-7792-05F0-F70F-68FDD059AC61}|Assembly-CSharp.csproj|solutionrelative:assets\\_project\\scripts\\ui\\herohud.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{662FBB2B-7792-05F0-F70F-68FDD059AC61}|Assembly-CSharp.csproj|C:\\work_splace\\game\\project_cv\\Kingdom\\assets\\_project\\scripts\\heroscripts\\herocameracontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{662FBB2B-7792-05F0-F70F-68FDD059AC61}|Assembly-CSharp.csproj|solutionrelative:assets\\_project\\scripts\\heroscripts\\herocameracontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{662FBB2B-7792-05F0-F70F-68FDD059AC61}|Assembly-CSharp.csproj|C:\\work_splace\\game\\project_cv\\Kingdom\\assets\\_project\\scripts\\ui\\dametextmanager.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{662FBB2B-7792-05F0-F70F-68FDD059AC61}|Assembly-CSharp.csproj|solutionrelative:assets\\_project\\scripts\\ui\\dametextmanager.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{662FBB2B-7792-05F0-F70F-68FDD059AC61}|Assembly-CSharp.csproj|C:\\work_splace\\game\\project_cv\\Kingdom\\assets\\_project\\scripts\\utils\\inputrouter.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{662FBB2B-7792-05F0-F70F-68FDD059AC61}|Assembly-CSharp.csproj|solutionrelative:assets\\_project\\scripts\\utils\\inputrouter.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{662FBB2B-7792-05F0-F70F-68FDD059AC61}|Assembly-CSharp.csproj|C:\\work_splace\\game\\project_cv\\Kingdom\\assets\\_project\\scripts\\heroscripts\\herocontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{662FBB2B-7792-05F0-F70F-68FDD059AC61}|Assembly-CSharp.csproj|solutionrelative:assets\\_project\\scripts\\heroscripts\\herocontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{662FBB2B-7792-05F0-F70F-68FDD059AC61}|Assembly-CSharp.csproj|C:\\work_splace\\game\\project_cv\\Kingdom\\assets\\_project\\scripts\\ui\\bottomenemyhud.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{662FBB2B-7792-05F0-F70F-68FDD059AC61}|Assembly-CSharp.csproj|solutionrelative:assets\\_project\\scripts\\ui\\bottomenemyhud.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{662FBB2B-7792-05F0-F70F-68FDD059AC61}|Assembly-CSharp.csproj|C:\\work_splace\\game\\project_cv\\Kingdom\\assets\\_project\\scripts\\heroscripts\\herodeployer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{662FBB2B-7792-05F0-F70F-68FDD059AC61}|Assembly-CSharp.csproj|solutionrelative:assets\\_project\\scripts\\heroscripts\\herodeployer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{662FBB2B-7792-05F0-F70F-68FDD059AC61}|Assembly-CSharp.csproj|C:\\work_splace\\game\\project_cv\\Kingdom\\assets\\_project\\scripts\\plot.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{662FBB2B-7792-05F0-F70F-68FDD059AC61}|Assembly-CSharp.csproj|solutionrelative:assets\\_project\\scripts\\plot.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{662FBB2B-7792-05F0-F70F-68FDD059AC61}|Assembly-CSharp.csproj|C:\\work_splace\\game\\project_cv\\Kingdom\\assets\\_project\\scripts\\managers\\missiontracker.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{662FBB2B-7792-05F0-F70F-68FDD059AC61}|Assembly-CSharp.csproj|solutionrelative:assets\\_project\\scripts\\managers\\missiontracker.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{662FBB2B-7792-05F0-F70F-68FDD059AC61}|Assembly-CSharp.csproj|C:\\work_splace\\game\\project_cv\\Kingdom\\assets\\_project\\scripts\\utils\\gameinput.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{662FBB2B-7792-05F0-F70F-68FDD059AC61}|Assembly-CSharp.csproj|solutionrelative:assets\\_project\\scripts\\utils\\gameinput.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{662FBB2B-7792-05F0-F70F-68FDD059AC61}|Assembly-CSharp.csproj|C:\\work_splace\\game\\project_cv\\Kingdom\\assets\\_project\\scripts\\buildings\\slowturret.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{662FBB2B-7792-05F0-F70F-68FDD059AC61}|Assembly-CSharp.csproj|solutionrelative:assets\\_project\\scripts\\buildings\\slowturret.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{662FBB2B-7792-05F0-F70F-68FDD059AC61}|Assembly-CSharp.csproj|C:\\work_splace\\game\\project_cv\\Kingdom\\assets\\_project\\scripts\\buildings\\ibasetower.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{662FBB2B-7792-05F0-F70F-68FDD059AC61}|Assembly-CSharp.csproj|solutionrelative:assets\\_project\\scripts\\buildings\\ibasetower.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{662FBB2B-7792-05F0-F70F-68FDD059AC61}|Assembly-CSharp.csproj|C:\\work_splace\\game\\project_cv\\Kingdom\\assets\\_project\\scripts\\buildings\\buffcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{662FBB2B-7792-05F0-F70F-68FDD059AC61}|Assembly-CSharp.csproj|solutionrelative:assets\\_project\\scripts\\buildings\\buffcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{662FBB2B-7792-05F0-F70F-68FDD059AC61}|Assembly-CSharp.csproj|C:\\work_splace\\game\\project_cv\\Kingdom\\assets\\_project\\scripts\\enemyscripts\\statuseffectcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{662FBB2B-7792-05F0-F70F-68FDD059AC61}|Assembly-CSharp.csproj|solutionrelative:assets\\_project\\scripts\\enemyscripts\\statuseffectcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{662FBB2B-7792-05F0-F70F-68FDD059AC61}|Assembly-CSharp.csproj|C:\\work_splace\\game\\project_cv\\Kingdom\\assets\\_project\\scripts\\bullet.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{662FBB2B-7792-05F0-F70F-68FDD059AC61}|Assembly-CSharp.csproj|solutionrelative:assets\\_project\\scripts\\bullet.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{662FBB2B-7792-05F0-F70F-68FDD059AC61}|Assembly-CSharp.csproj|C:\\work_splace\\game\\project_cv\\Kingdom\\assets\\_project\\scripts\\managers\\castlemanager.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{662FBB2B-7792-05F0-F70F-68FDD059AC61}|Assembly-CSharp.csproj|solutionrelative:assets\\_project\\scripts\\managers\\castlemanager.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{662FBB2B-7792-05F0-F70F-68FDD059AC61}|Assembly-CSharp.csproj|C:\\work_splace\\game\\project_cv\\Kingdom\\assets\\_project\\scripts\\core\\definitions.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{662FBB2B-7792-05F0-F70F-68FDD059AC61}|Assembly-CSharp.csproj|solutionrelative:assets\\_project\\scripts\\core\\definitions.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{662FBB2B-7792-05F0-F70F-68FDD059AC61}|Assembly-CSharp.csproj|C:\\work_splace\\game\\project_cv\\Kingdom\\assets\\_project\\scripts\\data\\gamedatabalancer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{662FBB2B-7792-05F0-F70F-68FDD059AC61}|Assembly-CSharp.csproj|solutionrelative:assets\\_project\\scripts\\data\\gamedatabalancer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{662FBB2B-7792-05F0-F70F-68FDD059AC61}|Assembly-CSharp.csproj|C:\\work_splace\\game\\project_cv\\Kingdom\\assets\\_project\\scripts\\enemyscripts\\enemyregistry.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{662FBB2B-7792-05F0-F70F-68FDD059AC61}|Assembly-CSharp.csproj|solutionrelative:assets\\_project\\scripts\\enemyscripts\\enemyregistry.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{662FBB2B-7792-05F0-F70F-68FDD059AC61}|Assembly-CSharp.csproj|C:\\work_splace\\game\\project_cv\\Kingdom\\assets\\_project\\scripts\\data\\leveldatabase.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{662FBB2B-7792-05F0-F70F-68FDD059AC61}|Assembly-CSharp.csproj|solutionrelative:assets\\_project\\scripts\\data\\leveldatabase.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{662FBB2B-7792-05F0-F70F-68FDD059AC61}|Assembly-CSharp.csproj|C:\\work_splace\\game\\project_cv\\Kingdom\\assets\\_project\\scripts\\ui\\levelprepmanager.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{662FBB2B-7792-05F0-F70F-68FDD059AC61}|Assembly-CSharp.csproj|solutionrelative:assets\\_project\\scripts\\ui\\levelprepmanager.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{662FBB2B-7792-05F0-F70F-68FDD059AC61}|Assembly-CSharp.csproj|C:\\work_splace\\game\\project_cv\\Kingdom\\assets\\_project\\scripts\\managers\\savemanager.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{662FBB2B-7792-05F0-F70F-68FDD059AC61}|Assembly-CSharp.csproj|solutionrelative:assets\\_project\\scripts\\managers\\savemanager.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{662FBB2B-7792-05F0-F70F-68FDD059AC61}|Assembly-CSharp.csproj|C:\\work_splace\\game\\project_cv\\Kingdom\\assets\\_project\\scripts\\data\\leveldefinition.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{662FBB2B-7792-05F0-F70F-68FDD059AC61}|Assembly-CSharp.csproj|solutionrelative:assets\\_project\\scripts\\data\\leveldefinition.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{662FBB2B-7792-05F0-F70F-68FDD059AC61}|Assembly-CSharp.csproj|C:\\work_splace\\game\\project_cv\\Kingdom\\assets\\_project\\scripts\\enemyscripts\\damgeinfo.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{662FBB2B-7792-05F0-F70F-68FDD059AC61}|Assembly-CSharp.csproj|solutionrelative:assets\\_project\\scripts\\enemyscripts\\damgeinfo.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{662FBB2B-7792-05F0-F70F-68FDD059AC61}|Assembly-CSharp.csproj|C:\\work_splace\\game\\project_cv\\Kingdom\\assets\\_project\\scripts\\ui\\rangeindicator.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{662FBB2B-7792-05F0-F70F-68FDD059AC61}|Assembly-CSharp.csproj|solutionrelative:assets\\_project\\scripts\\ui\\rangeindicator.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{662FBB2B-7792-05F0-F70F-68FDD059AC61}|Assembly-CSharp.csproj|C:\\work_splace\\game\\project_cv\\Kingdom\\assets\\_project\\scripts\\ui\\gameoverscreen.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{662FBB2B-7792-05F0-F70F-68FDD059AC61}|Assembly-CSharp.csproj|solutionrelative:assets\\_project\\scripts\\ui\\gameoverscreen.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{662FBB2B-7792-05F0-F70F-68FDD059AC61}|Assembly-CSharp.csproj|C:\\work_splace\\game\\project_cv\\Kingdom\\assets\\_project\\scripts\\utils\\eventsysteminputfixer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{662FBB2B-7792-05F0-F70F-68FDD059AC61}|Assembly-CSharp.csproj|solutionrelative:assets\\_project\\scripts\\utils\\eventsysteminputfixer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\work_splace\\game\\project_cv\\Kingdom\\Assets\\_Project\\Scripts\\Utils\\NewMonoBehaviourScript.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:Assets\\_Project\\Scripts\\Utils\\NewMonoBehaviourScript.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\work_splace\\game\\project_cv\\Kingdom\\Assets\\_Project\\Scripts\\UI\\NewMonoBehaviourScript.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:Assets\\_Project\\Scripts\\UI\\NewMonoBehaviourScript.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{662FBB2B-7792-05F0-F70F-68FDD059AC61}|Assembly-CSharp.csproj|C:\\work_splace\\game\\project_cv\\Kingdom\\assets\\_project\\scripts\\managers\\spellmanager.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{662FBB2B-7792-05F0-F70F-68FDD059AC61}|Assembly-CSharp.csproj|solutionrelative:assets\\_project\\scripts\\managers\\spellmanager.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{662FBB2B-7792-05F0-F70F-68FDD059AC61}|Assembly-CSharp.csproj|C:\\work_splace\\game\\project_cv\\Kingdom\\assets\\_project\\scripts\\vfx\\explosioneffect.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{662FBB2B-7792-05F0-F70F-68FDD059AC61}|Assembly-CSharp.csproj|solutionrelative:assets\\_project\\scripts\\vfx\\explosioneffect.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 1,
+          "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "UniversalSpriteLoader.cs",
+              "DocumentMoniker": "C:\\work_splace\\game\\project_cv\\Kingdom\\Assets\\_Project\\Scripts\\Utils\\UniversalSpriteLoader.cs",
+              "RelativeDocumentMoniker": "Assets\\_Project\\Scripts\\Utils\\UniversalSpriteLoader.cs",
+              "ToolTip": "C:\\work_splace\\game\\project_cv\\Kingdom\\Assets\\_Project\\Scripts\\Utils\\UniversalSpriteLoader.cs",
+              "RelativeToolTip": "Assets\\_Project\\Scripts\\Utils\\UniversalSpriteLoader.cs",
+              "ViewState": "AgIAACYAAAAAAAAAAAAwwFUAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-10-28T11:54:34.178Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "TDSceneGenerator.cs",
+              "DocumentMoniker": "C:\\work_splace\\game\\project_cv\\Kingdom\\Assets\\Editor\\TDSceneGenerator.cs",
+              "RelativeDocumentMoniker": "Assets\\Editor\\TDSceneGenerator.cs",
+              "ToolTip": "C:\\work_splace\\game\\project_cv\\Kingdom\\Assets\\Editor\\TDSceneGenerator.cs",
+              "RelativeToolTip": "Assets\\Editor\\TDSceneGenerator.cs",
+              "ViewState": "AgIAADMCAAAAAAAAAAAqwFYCAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-10-26T09:07:20.787Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "MainMenuGenerator.cs",
+              "DocumentMoniker": "C:\\work_splace\\game\\project_cv\\Kingdom\\Assets\\Editor\\MainMenuGenerator.cs",
+              "RelativeDocumentMoniker": "Assets\\Editor\\MainMenuGenerator.cs",
+              "ToolTip": "C:\\work_splace\\game\\project_cv\\Kingdom\\Assets\\Editor\\MainMenuGenerator.cs",
+              "RelativeToolTip": "Assets\\Editor\\MainMenuGenerator.cs",
+              "ViewState": "AgIAADkBAAAAAAAAAAAwwF8BAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-10-24T08:25:25.383Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "SpellHUD.cs",
+              "DocumentMoniker": "C:\\work_splace\\game\\project_cv\\Kingdom\\Assets\\_Project\\Scripts\\UI\\SpellHUD.cs",
+              "RelativeDocumentMoniker": "Assets\\_Project\\Scripts\\UI\\SpellHUD.cs",
+              "ToolTip": "C:\\work_splace\\game\\project_cv\\Kingdom\\Assets\\_Project\\Scripts\\UI\\SpellHUD.cs",
+              "RelativeToolTip": "Assets\\_Project\\Scripts\\UI\\SpellHUD.cs",
+              "ViewState": "AgIAAMUAAAAAAAAAAAAwwOsAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-10-28T10:51:52.716Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "ShopUI.cs",
+              "DocumentMoniker": "C:\\work_splace\\game\\project_cv\\Kingdom\\Assets\\_Project\\Scripts\\UI\\ShopUI.cs",
+              "RelativeDocumentMoniker": "Assets\\_Project\\Scripts\\UI\\ShopUI.cs",
+              "ToolTip": "C:\\work_splace\\game\\project_cv\\Kingdom\\Assets\\_Project\\Scripts\\UI\\ShopUI.cs",
+              "RelativeToolTip": "Assets\\_Project\\Scripts\\UI\\ShopUI.cs",
+              "ViewState": "AgIAADkCAAAAAAAAAAAwwF8CAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-10-28T07:20:44Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "Barracks.cs",
+              "DocumentMoniker": "C:\\work_splace\\game\\project_cv\\Kingdom\\Assets\\_Project\\Scripts\\Buildings\\Barracks.cs",
+              "RelativeDocumentMoniker": "Assets\\_Project\\Scripts\\Buildings\\Barracks.cs",
+              "ToolTip": "C:\\work_splace\\game\\project_cv\\Kingdom\\Assets\\_Project\\Scripts\\Buildings\\Barracks.cs",
+              "RelativeToolTip": "Assets\\_Project\\Scripts\\Buildings\\Barracks.cs",
+              "ViewState": "AgIAAFsAAAAAAAAAAAAwwIEAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-10-25T15:17:34.439Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 7,
+              "Title": "Turret.cs",
+              "DocumentMoniker": "C:\\work_splace\\game\\project_cv\\Kingdom\\Assets\\_Project\\Scripts\\Buildings\\Turret.cs",
+              "RelativeDocumentMoniker": "Assets\\_Project\\Scripts\\Buildings\\Turret.cs",
+              "ToolTip": "C:\\work_splace\\game\\project_cv\\Kingdom\\Assets\\_Project\\Scripts\\Buildings\\Turret.cs",
+              "RelativeToolTip": "Assets\\_Project\\Scripts\\Buildings\\Turret.cs",
+              "ViewState": "AgIAAN4AAAAAAAAAAAAUwPEAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-09-24T07:53:54.665Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 8,
+              "Title": "Enemy.cs",
+              "DocumentMoniker": "C:\\work_splace\\game\\project_cv\\Kingdom\\Assets\\_Project\\Scripts\\EnemyScripts\\Enemy.cs",
+              "RelativeDocumentMoniker": "Assets\\_Project\\Scripts\\EnemyScripts\\Enemy.cs",
+              "ToolTip": "C:\\work_splace\\game\\project_cv\\Kingdom\\Assets\\_Project\\Scripts\\EnemyScripts\\Enemy.cs",
+              "RelativeToolTip": "Assets\\_Project\\Scripts\\EnemyScripts\\Enemy.cs",
+              "ViewState": "AgIAAJAAAAAAAAAAAAAwwLYAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-09-24T10:40:45.691Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "BuildManager.cs",
+              "DocumentMoniker": "C:\\work_splace\\game\\project_cv\\Kingdom\\Assets\\_Project\\Scripts\\Managers\\BuildManager.cs",
+              "RelativeDocumentMoniker": "Assets\\_Project\\Scripts\\Managers\\BuildManager.cs",
+              "ToolTip": "C:\\work_splace\\game\\project_cv\\Kingdom\\Assets\\_Project\\Scripts\\Managers\\BuildManager.cs",
+              "RelativeToolTip": "Assets\\_Project\\Scripts\\Managers\\BuildManager.cs",
+              "ViewState": "AgIAALgAAAAAAAAAAAAwwN4AAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-09-24T08:26:39.967Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 9,
+              "Title": "MainMenuController.cs",
+              "DocumentMoniker": "C:\\work_splace\\game\\project_cv\\Kingdom\\Assets\\_Project\\Scripts\\UI\\MainMenuController.cs",
+              "RelativeDocumentMoniker": "Assets\\_Project\\Scripts\\UI\\MainMenuController.cs",
+              "ToolTip": "C:\\work_splace\\game\\project_cv\\Kingdom\\Assets\\_Project\\Scripts\\UI\\MainMenuController.cs",
+              "RelativeToolTip": "Assets\\_Project\\Scripts\\UI\\MainMenuController.cs",
+              "ViewState": "AgIAADQBAAAAAAAAAAAIwFkBAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-10-28T05:39:24.654Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 10,
+              "Title": "LevelManager.cs",
+              "DocumentMoniker": "C:\\work_splace\\game\\project_cv\\Kingdom\\Assets\\_Project\\Scripts\\Managers\\LevelManager.cs",
+              "RelativeDocumentMoniker": "Assets\\_Project\\Scripts\\Managers\\LevelManager.cs",
+              "ToolTip": "C:\\work_splace\\game\\project_cv\\Kingdom\\Assets\\_Project\\Scripts\\Managers\\LevelManager.cs",
+              "RelativeToolTip": "Assets\\_Project\\Scripts\\Managers\\LevelManager.cs",
+              "ViewState": "AgIAAEsBAAAAAAAAAAAIwHABAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-09-24T09:12:30.948Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 11,
+              "Title": "StatsUI.cs",
+              "DocumentMoniker": "C:\\work_splace\\game\\project_cv\\Kingdom\\Assets\\_Project\\Scripts\\UI\\StatsUI.cs",
+              "RelativeDocumentMoniker": "Assets\\_Project\\Scripts\\UI\\StatsUI.cs",
+              "ToolTip": "C:\\work_splace\\game\\project_cv\\Kingdom\\Assets\\_Project\\Scripts\\UI\\StatsUI.cs",
+              "RelativeToolTip": "Assets\\_Project\\Scripts\\UI\\StatsUI.cs",
+              "ViewState": "AgIAAFUBAAAAAAAAAAAwwF8BAAAFAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-10-27T02:58:45.35Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 12,
+              "Title": "HandcraftedLevelDatabase.cs",
+              "DocumentMoniker": "C:\\work_splace\\game\\project_cv\\Kingdom\\Assets\\_Project\\Scripts\\Data\\HandcraftedLevelDatabase.cs",
+              "RelativeDocumentMoniker": "Assets\\_Project\\Scripts\\Data\\HandcraftedLevelDatabase.cs",
+              "ToolTip": "C:\\work_splace\\game\\project_cv\\Kingdom\\Assets\\_Project\\Scripts\\Data\\HandcraftedLevelDatabase.cs",
+              "RelativeToolTip": "Assets\\_Project\\Scripts\\Data\\HandcraftedLevelDatabase.cs",
+              "ViewState": "AgIAAGcCAAAAAAAAAAAIwIwCAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-10-27T02:33:05.353Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 13,
+              "Title": "shopMenu.cs",
+              "DocumentMoniker": "C:\\work_splace\\game\\project_cv\\Kingdom\\Assets\\_Project\\Scripts\\UI\\shopMenu.cs",
+              "RelativeDocumentMoniker": "Assets\\_Project\\Scripts\\UI\\shopMenu.cs",
+              "ToolTip": "C:\\work_splace\\game\\project_cv\\Kingdom\\Assets\\_Project\\Scripts\\UI\\shopMenu.cs",
+              "RelativeToolTip": "Assets\\_Project\\Scripts\\UI\\shopMenu.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-10-28T07:20:20.59Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 14,
+              "Title": "EnemySpawner.cs",
+              "DocumentMoniker": "C:\\work_splace\\game\\project_cv\\Kingdom\\Assets\\_Project\\Scripts\\EnemyScripts\\EnemySpawner.cs",
+              "RelativeDocumentMoniker": "Assets\\_Project\\Scripts\\EnemyScripts\\EnemySpawner.cs",
+              "ToolTip": "C:\\work_splace\\game\\project_cv\\Kingdom\\Assets\\_Project\\Scripts\\EnemyScripts\\EnemySpawner.cs",
+              "RelativeToolTip": "Assets\\_Project\\Scripts\\EnemyScripts\\EnemySpawner.cs",
+              "ViewState": "AgIAAMEBAAAAAAAAAAAowOABAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-09-24T08:27:16.373Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 15,
+              "Title": "EnemyMovement.cs",
+              "DocumentMoniker": "C:\\work_splace\\game\\project_cv\\Kingdom\\Assets\\_Project\\Scripts\\EnemyScripts\\EnemyMovement.cs",
+              "RelativeDocumentMoniker": "Assets\\_Project\\Scripts\\EnemyScripts\\EnemyMovement.cs",
+              "ToolTip": "C:\\work_splace\\game\\project_cv\\Kingdom\\Assets\\_Project\\Scripts\\EnemyScripts\\EnemyMovement.cs",
+              "RelativeToolTip": "Assets\\_Project\\Scripts\\EnemyScripts\\EnemyMovement.cs",
+              "ViewState": "AgIAAAkBAAAAAAAAAAAowCgBAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-09-24T07:49:45.785Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 16,
+              "Title": "TDAutoPrefabTool.cs",
+              "DocumentMoniker": "C:\\work_splace\\game\\project_cv\\Kingdom\\Assets\\Editor\\TDAutoPrefabTool.cs",
+              "RelativeDocumentMoniker": "Assets\\Editor\\TDAutoPrefabTool.cs",
+              "ToolTip": "C:\\work_splace\\game\\project_cv\\Kingdom\\Assets\\Editor\\TDAutoPrefabTool.cs",
+              "RelativeToolTip": "Assets\\Editor\\TDAutoPrefabTool.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA0AAAAqAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-10-27T13:25:32.424Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 17,
+              "Title": "SetupBuildSettingsTool.cs",
+              "DocumentMoniker": "C:\\work_splace\\game\\project_cv\\Kingdom\\Assets\\Editor\\SetupBuildSettingsTool.cs",
+              "RelativeDocumentMoniker": "Assets\\Editor\\SetupBuildSettingsTool.cs",
+              "ToolTip": "C:\\work_splace\\game\\project_cv\\Kingdom\\Assets\\Editor\\SetupBuildSettingsTool.cs",
+              "RelativeToolTip": "Assets\\Editor\\SetupBuildSettingsTool.cs",
+              "ViewState": "AgIAABQAAAAAAAAAAAArwCIAAAB6AAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-10-26T10:11:47.698Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 18,
+              "Title": "TowerUI.cs",
+              "DocumentMoniker": "C:\\work_splace\\game\\project_cv\\Kingdom\\Assets\\_Project\\Scripts\\UI\\TowerUI.cs",
+              "RelativeDocumentMoniker": "Assets\\_Project\\Scripts\\UI\\TowerUI.cs",
+              "ToolTip": "C:\\work_splace\\game\\project_cv\\Kingdom\\Assets\\_Project\\Scripts\\UI\\TowerUI.cs",
+              "RelativeToolTip": "Assets\\_Project\\Scripts\\UI\\TowerUI.cs",
+              "ViewState": "AgIAAAcCAAAAAAAAAADwvx8CAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-09-24T08:25:32.829Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 19,
+              "Title": "Tower.cs",
+              "DocumentMoniker": "C:\\work_splace\\game\\project_cv\\Kingdom\\Assets\\_Project\\Scripts\\Buildings\\Tower.cs",
+              "RelativeDocumentMoniker": "Assets\\_Project\\Scripts\\Buildings\\Tower.cs",
+              "ToolTip": "C:\\work_splace\\game\\project_cv\\Kingdom\\Assets\\_Project\\Scripts\\Buildings\\Tower.cs",
+              "RelativeToolTip": "Assets\\_Project\\Scripts\\Buildings\\Tower.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABgAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-10-24T08:25:53.08Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 20,
+              "Title": "LevelValidator.cs",
+              "DocumentMoniker": "C:\\work_splace\\game\\project_cv\\Kingdom\\Assets\\Editor\\LevelValidator.cs",
+              "RelativeDocumentMoniker": "Assets\\Editor\\LevelValidator.cs",
+              "ToolTip": "C:\\work_splace\\game\\project_cv\\Kingdom\\Assets\\Editor\\LevelValidator.cs",
+              "RelativeToolTip": "Assets\\Editor\\LevelValidator.cs",
+              "ViewState": "AgIAAGAAAAAAAAAAAADwv34AAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-10-24T08:26:35.835Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 21,
+              "Title": "IsometricTileHelper.cs",
+              "DocumentMoniker": "C:\\work_splace\\game\\project_cv\\Kingdom\\Assets\\Editor\\IsometricTileHelper.cs",
+              "RelativeDocumentMoniker": "Assets\\Editor\\IsometricTileHelper.cs",
+              "ToolTip": "C:\\work_splace\\game\\project_cv\\Kingdom\\Assets\\Editor\\IsometricTileHelper.cs",
+              "RelativeToolTip": "Assets\\Editor\\IsometricTileHelper.cs",
+              "ViewState": "AgIAAEQAAAAAAAAAAADwv2IAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-10-27T02:34:28.857Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 22,
+              "Title": "HeroPrefabBuilder.cs",
+              "DocumentMoniker": "C:\\work_splace\\game\\project_cv\\Kingdom\\Assets\\Editor\\HeroPrefabBuilder.cs",
+              "RelativeDocumentMoniker": "Assets\\Editor\\HeroPrefabBuilder.cs",
+              "ToolTip": "C:\\work_splace\\game\\project_cv\\Kingdom\\Assets\\Editor\\HeroPrefabBuilder.cs",
+              "RelativeToolTip": "Assets\\Editor\\HeroPrefabBuilder.cs",
+              "ViewState": "AgIAAB8CAAAAAAAAAADwvz0CAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-10-26T09:10:17.707Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 23,
+              "Title": "GameDataBalancer.cs",
+              "DocumentMoniker": "C:\\work_splace\\game\\project_cv\\Kingdom\\Assets\\Editor\\GameDataBalancer.cs",
+              "RelativeDocumentMoniker": "Assets\\Editor\\GameDataBalancer.cs",
+              "ToolTip": "C:\\work_splace\\game\\project_cv\\Kingdom\\Assets\\Editor\\GameDataBalancer.cs",
+              "RelativeToolTip": "Assets\\Editor\\GameDataBalancer.cs",
+              "ViewState": "AgIAABkAAAAAAAAAAADwvzEAAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-10-26T07:59:07.419Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 24,
+              "Title": "BulletPrefabGenerator.cs",
+              "DocumentMoniker": "C:\\work_splace\\game\\project_cv\\Kingdom\\Assets\\Editor\\BulletPrefabGenerator.cs",
+              "RelativeDocumentMoniker": "Assets\\Editor\\BulletPrefabGenerator.cs",
+              "ToolTip": "C:\\work_splace\\game\\project_cv\\Kingdom\\Assets\\Editor\\BulletPrefabGenerator.cs",
+              "RelativeToolTip": "Assets\\Editor\\BulletPrefabGenerator.cs",
+              "ViewState": "AgIAAEUBAAAAAAAAAAAIwFsBAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-10-28T04:35:54.092Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 25,
+              "Title": "DragonBoss.cs",
+              "DocumentMoniker": "C:\\work_splace\\game\\project_cv\\Kingdom\\Assets\\_Project\\Scripts\\EnemyScripts\\DragonBoss.cs",
+              "RelativeDocumentMoniker": "Assets\\_Project\\Scripts\\EnemyScripts\\DragonBoss.cs",
+              "ToolTip": "C:\\work_splace\\game\\project_cv\\Kingdom\\Assets\\_Project\\Scripts\\EnemyScripts\\DragonBoss.cs",
+              "RelativeToolTip": "Assets\\_Project\\Scripts\\EnemyScripts\\DragonBoss.cs",
+              "ViewState": "AgIAALwAAAAAAAAAAAAowNsAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-10-27T13:24:48.731Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 26,
+              "Title": "EnemyHealth.cs",
+              "DocumentMoniker": "C:\\work_splace\\game\\project_cv\\Kingdom\\Assets\\_Project\\Scripts\\EnemyScripts\\EnemyHealth.cs",
+              "RelativeDocumentMoniker": "Assets\\_Project\\Scripts\\EnemyScripts\\EnemyHealth.cs",
+              "ToolTip": "C:\\work_splace\\game\\project_cv\\Kingdom\\Assets\\_Project\\Scripts\\EnemyScripts\\EnemyHealth.cs",
+              "RelativeToolTip": "Assets\\_Project\\Scripts\\EnemyScripts\\EnemyHealth.cs",
+              "ViewState": "AgIAAIIBAAAAAAAAAAAowI4BAAARAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-09-24T08:24:51.303Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 27,
+              "Title": "Hero.cs",
+              "DocumentMoniker": "C:\\work_splace\\game\\project_cv\\Kingdom\\Assets\\_Project\\Scripts\\HeroScripts\\Hero.cs",
+              "RelativeDocumentMoniker": "Assets\\_Project\\Scripts\\HeroScripts\\Hero.cs",
+              "ToolTip": "C:\\work_splace\\game\\project_cv\\Kingdom\\Assets\\_Project\\Scripts\\HeroScripts\\Hero.cs",
+              "RelativeToolTip": "Assets\\_Project\\Scripts\\HeroScripts\\Hero.cs",
+              "ViewState": "AgIAAM8CAAAAAAAAAAAowO4CAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-10-27T02:57:50.343Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 29,
+              "Title": "HeroCameraController.cs",
+              "DocumentMoniker": "C:\\work_splace\\game\\project_cv\\Kingdom\\Assets\\_Project\\Scripts\\HeroScripts\\HeroCameraController.cs",
+              "RelativeDocumentMoniker": "Assets\\_Project\\Scripts\\HeroScripts\\HeroCameraController.cs",
+              "ToolTip": "C:\\work_splace\\game\\project_cv\\Kingdom\\Assets\\_Project\\Scripts\\HeroScripts\\HeroCameraController.cs",
+              "RelativeToolTip": "Assets\\_Project\\Scripts\\HeroScripts\\HeroCameraController.cs",
+              "ViewState": "AgIAAJkAAAAAAAAAAADwv7cAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-10-27T02:58:01.946Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 28,
+              "Title": "HeroHUD.cs",
+              "DocumentMoniker": "C:\\work_splace\\game\\project_cv\\Kingdom\\Assets\\_Project\\Scripts\\UI\\HeroHUD.cs",
+              "RelativeDocumentMoniker": "Assets\\_Project\\Scripts\\UI\\HeroHUD.cs",
+              "ToolTip": "C:\\work_splace\\game\\project_cv\\Kingdom\\Assets\\_Project\\Scripts\\UI\\HeroHUD.cs",
+              "RelativeToolTip": "Assets\\_Project\\Scripts\\UI\\HeroHUD.cs",
+              "ViewState": "AgIAAA8BAAAAAAAAAADwvy0BAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-10-26T10:39:37.591Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 30,
+              "Title": "DameTextManager.cs",
+              "DocumentMoniker": "C:\\work_splace\\game\\project_cv\\Kingdom\\Assets\\_Project\\Scripts\\UI\\DameTextManager.cs",
+              "RelativeDocumentMoniker": "Assets\\_Project\\Scripts\\UI\\DameTextManager.cs",
+              "ToolTip": "C:\\work_splace\\game\\project_cv\\Kingdom\\Assets\\_Project\\Scripts\\UI\\DameTextManager.cs",
+              "RelativeToolTip": "Assets\\_Project\\Scripts\\UI\\DameTextManager.cs",
+              "ViewState": "AgIAAIAAAAAAAAAAAADwv54AAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-10-27T02:56:45.834Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 31,
+              "Title": "InputRouter.cs",
+              "DocumentMoniker": "C:\\work_splace\\game\\project_cv\\Kingdom\\Assets\\_Project\\Scripts\\Utils\\InputRouter.cs",
+              "RelativeDocumentMoniker": "Assets\\_Project\\Scripts\\Utils\\InputRouter.cs",
+              "ToolTip": "C:\\work_splace\\game\\project_cv\\Kingdom\\Assets\\_Project\\Scripts\\Utils\\InputRouter.cs",
+              "RelativeToolTip": "Assets\\_Project\\Scripts\\Utils\\InputRouter.cs",
+              "ViewState": "AgIAABIAAAAAAAAAAAAowDEAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-10-26T10:41:07.826Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 32,
+              "Title": "HeroController.cs",
+              "DocumentMoniker": "C:\\work_splace\\game\\project_cv\\Kingdom\\Assets\\_Project\\Scripts\\HeroScripts\\HeroController.cs",
+              "RelativeDocumentMoniker": "Assets\\_Project\\Scripts\\HeroScripts\\HeroController.cs",
+              "ToolTip": "C:\\work_splace\\game\\project_cv\\Kingdom\\Assets\\_Project\\Scripts\\HeroScripts\\HeroController.cs",
+              "RelativeToolTip": "Assets\\_Project\\Scripts\\HeroScripts\\HeroController.cs",
+              "ViewState": "AgIAAHAAAAAAAAAAAAAowI8AAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-09-24T08:30:55.813Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 33,
+              "Title": "BottomEnemyHUD.cs",
+              "DocumentMoniker": "C:\\work_splace\\game\\project_cv\\Kingdom\\Assets\\_Project\\Scripts\\UI\\BottomEnemyHUD.cs",
+              "RelativeDocumentMoniker": "Assets\\_Project\\Scripts\\UI\\BottomEnemyHUD.cs",
+              "ToolTip": "C:\\work_splace\\game\\project_cv\\Kingdom\\Assets\\_Project\\Scripts\\UI\\BottomEnemyHUD.cs",
+              "RelativeToolTip": "Assets\\_Project\\Scripts\\UI\\BottomEnemyHUD.cs",
+              "ViewState": "AgIAABkBAAAAAAAAAAAowDgBAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-09-24T09:11:30.72Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 34,
+              "Title": "HeroDeployer.cs",
+              "DocumentMoniker": "C:\\work_splace\\game\\project_cv\\Kingdom\\Assets\\_Project\\Scripts\\HeroScripts\\HeroDeployer.cs",
+              "RelativeDocumentMoniker": "Assets\\_Project\\Scripts\\HeroScripts\\HeroDeployer.cs",
+              "ToolTip": "C:\\work_splace\\game\\project_cv\\Kingdom\\Assets\\_Project\\Scripts\\HeroScripts\\HeroDeployer.cs",
+              "RelativeToolTip": "Assets\\_Project\\Scripts\\HeroScripts\\HeroDeployer.cs",
+              "ViewState": "AgIAAIAAAAAAAAAAAAAowJ8AAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-10-26T10:39:10.309Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 35,
+              "Title": "Plot.cs",
+              "DocumentMoniker": "C:\\work_splace\\game\\project_cv\\Kingdom\\Assets\\_Project\\Scripts\\Plot.cs",
+              "RelativeDocumentMoniker": "Assets\\_Project\\Scripts\\Plot.cs",
+              "ToolTip": "C:\\work_splace\\game\\project_cv\\Kingdom\\Assets\\_Project\\Scripts\\Plot.cs",
+              "RelativeToolTip": "Assets\\_Project\\Scripts\\Plot.cs",
+              "ViewState": "AgIAALYAAAAAAAAAAAAowNUAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-09-24T08:25:56.258Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 36,
+              "Title": "MissionTracker.cs",
+              "DocumentMoniker": "C:\\work_splace\\game\\project_cv\\Kingdom\\Assets\\_Project\\Scripts\\Managers\\MissionTracker.cs",
+              "RelativeDocumentMoniker": "Assets\\_Project\\Scripts\\Managers\\MissionTracker.cs",
+              "ToolTip": "C:\\work_splace\\game\\project_cv\\Kingdom\\Assets\\_Project\\Scripts\\Managers\\MissionTracker.cs",
+              "RelativeToolTip": "Assets\\_Project\\Scripts\\Managers\\MissionTracker.cs",
+              "ViewState": "AgIAALUBAAAAAAAAAAAqwNUBAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-10-26T08:56:40.719Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 37,
+              "Title": "GameInput.cs",
+              "DocumentMoniker": "C:\\work_splace\\game\\project_cv\\Kingdom\\Assets\\_Project\\Scripts\\Utils\\GameInput.cs",
+              "RelativeDocumentMoniker": "Assets\\_Project\\Scripts\\Utils\\GameInput.cs",
+              "ToolTip": "C:\\work_splace\\game\\project_cv\\Kingdom\\Assets\\_Project\\Scripts\\Utils\\GameInput.cs",
+              "RelativeToolTip": "Assets\\_Project\\Scripts\\Utils\\GameInput.cs",
+              "ViewState": "AgIAAF0AAAAAAAAAAAAowHwAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-09-24T09:18:36.817Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 38,
+              "Title": "SlowTurret.cs",
+              "DocumentMoniker": "C:\\work_splace\\game\\project_cv\\Kingdom\\Assets\\_Project\\Scripts\\Buildings\\SlowTurret.cs",
+              "RelativeDocumentMoniker": "Assets\\_Project\\Scripts\\Buildings\\SlowTurret.cs",
+              "ToolTip": "C:\\work_splace\\game\\project_cv\\Kingdom\\Assets\\_Project\\Scripts\\Buildings\\SlowTurret.cs",
+              "RelativeToolTip": "Assets\\_Project\\Scripts\\Buildings\\SlowTurret.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-10-26T09:07:18.503Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 40,
+              "Title": "BuffController.cs",
+              "DocumentMoniker": "C:\\work_splace\\game\\project_cv\\Kingdom\\Assets\\_Project\\Scripts\\Buildings\\BuffController.cs",
+              "RelativeDocumentMoniker": "Assets\\_Project\\Scripts\\Buildings\\BuffController.cs",
+              "ToolTip": "C:\\work_splace\\game\\project_cv\\Kingdom\\Assets\\_Project\\Scripts\\Buildings\\BuffController.cs",
+              "RelativeToolTip": "Assets\\_Project\\Scripts\\Buildings\\BuffController.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-10-26T09:07:15.592Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 39,
+              "Title": "IBaseTower.cs",
+              "DocumentMoniker": "C:\\work_splace\\game\\project_cv\\Kingdom\\Assets\\_Project\\Scripts\\Buildings\\IBaseTower.cs",
+              "RelativeDocumentMoniker": "Assets\\_Project\\Scripts\\Buildings\\IBaseTower.cs",
+              "ToolTip": "C:\\work_splace\\game\\project_cv\\Kingdom\\Assets\\_Project\\Scripts\\Buildings\\IBaseTower.cs",
+              "RelativeToolTip": "Assets\\_Project\\Scripts\\Buildings\\IBaseTower.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA0AAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-10-25T14:30:05.171Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 41,
+              "Title": "StatusEffectController.cs",
+              "DocumentMoniker": "C:\\work_splace\\game\\project_cv\\Kingdom\\Assets\\_Project\\Scripts\\EnemyScripts\\StatusEffectController.cs",
+              "RelativeDocumentMoniker": "Assets\\_Project\\Scripts\\EnemyScripts\\StatusEffectController.cs",
+              "ToolTip": "C:\\work_splace\\game\\project_cv\\Kingdom\\Assets\\_Project\\Scripts\\EnemyScripts\\StatusEffectController.cs",
+              "RelativeToolTip": "Assets\\_Project\\Scripts\\EnemyScripts\\StatusEffectController.cs",
+              "ViewState": "AgIAAGsAAAAAAAAAAAA7wHQAAABUAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-10-25T14:20:49.487Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 42,
+              "Title": "Bullet.cs",
+              "DocumentMoniker": "C:\\work_splace\\game\\project_cv\\Kingdom\\Assets\\_Project\\Scripts\\Bullet.cs",
+              "RelativeDocumentMoniker": "Assets\\_Project\\Scripts\\Bullet.cs",
+              "ToolTip": "C:\\work_splace\\game\\project_cv\\Kingdom\\Assets\\_Project\\Scripts\\Bullet.cs",
+              "RelativeToolTip": "Assets\\_Project\\Scripts\\Bullet.cs",
+              "ViewState": "AgIAADUBAAAAAAAAAAAowFQBAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-09-24T07:53:16.923Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 43,
+              "Title": "CastleManager.cs",
+              "DocumentMoniker": "C:\\work_splace\\game\\project_cv\\Kingdom\\Assets\\_Project\\Scripts\\Managers\\CastleManager.cs",
+              "RelativeDocumentMoniker": "Assets\\_Project\\Scripts\\Managers\\CastleManager.cs",
+              "ToolTip": "C:\\work_splace\\game\\project_cv\\Kingdom\\Assets\\_Project\\Scripts\\Managers\\CastleManager.cs",
+              "RelativeToolTip": "Assets\\_Project\\Scripts\\Managers\\CastleManager.cs",
+              "ViewState": "AgIAALQAAAAAAAAAAAAIwL8AAAAjAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-10-26T08:55:57.609Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 44,
+              "Title": "Definitions.cs",
+              "DocumentMoniker": "C:\\work_splace\\game\\project_cv\\Kingdom\\Assets\\_Project\\Scripts\\Core\\Definitions.cs",
+              "RelativeDocumentMoniker": "Assets\\_Project\\Scripts\\Core\\Definitions.cs",
+              "ToolTip": "C:\\work_splace\\game\\project_cv\\Kingdom\\Assets\\_Project\\Scripts\\Core\\Definitions.cs",
+              "RelativeToolTip": "Assets\\_Project\\Scripts\\Core\\Definitions.cs",
+              "ViewState": "AgIAAFsAAAAAAAAAAAAqwHsAAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-10-25T14:31:38.223Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 45,
+              "Title": "GameDataBalancer.cs",
+              "DocumentMoniker": "C:\\work_splace\\game\\project_cv\\Kingdom\\Assets\\_Project\\Scripts\\Data\\GameDataBalancer.cs",
+              "RelativeDocumentMoniker": "Assets\\_Project\\Scripts\\Data\\GameDataBalancer.cs",
+              "ToolTip": "C:\\work_splace\\game\\project_cv\\Kingdom\\Assets\\_Project\\Scripts\\Data\\GameDataBalancer.cs",
+              "RelativeToolTip": "Assets\\_Project\\Scripts\\Data\\GameDataBalancer.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAADUAAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-10-26T07:58:21.888Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 46,
+              "Title": "EnemyRegistry.cs",
+              "DocumentMoniker": "C:\\work_splace\\game\\project_cv\\Kingdom\\Assets\\_Project\\Scripts\\EnemyScripts\\EnemyRegistry.cs",
+              "RelativeDocumentMoniker": "Assets\\_Project\\Scripts\\EnemyScripts\\EnemyRegistry.cs",
+              "ToolTip": "C:\\work_splace\\game\\project_cv\\Kingdom\\Assets\\_Project\\Scripts\\EnemyScripts\\EnemyRegistry.cs",
+              "RelativeToolTip": "Assets\\_Project\\Scripts\\EnemyScripts\\EnemyRegistry.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAQAAAAJAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-10-24T07:52:01.274Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 47,
+              "Title": "LevelDatabase.cs",
+              "DocumentMoniker": "C:\\work_splace\\game\\project_cv\\Kingdom\\Assets\\_Project\\Scripts\\Data\\LevelDatabase.cs",
+              "RelativeDocumentMoniker": "Assets\\_Project\\Scripts\\Data\\LevelDatabase.cs",
+              "ToolTip": "C:\\work_splace\\game\\project_cv\\Kingdom\\Assets\\_Project\\Scripts\\Data\\LevelDatabase.cs",
+              "RelativeToolTip": "Assets\\_Project\\Scripts\\Data\\LevelDatabase.cs",
+              "ViewState": "AgIAAB4AAAAAAAAAAAAuwFUAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-10-24T06:54:14.887Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 48,
+              "Title": "LevelPrepManager.cs",
+              "DocumentMoniker": "C:\\work_splace\\game\\project_cv\\Kingdom\\Assets\\_Project\\Scripts\\UI\\LevelPrepManager.cs",
+              "RelativeDocumentMoniker": "Assets\\_Project\\Scripts\\UI\\LevelPrepManager.cs",
+              "ToolTip": "C:\\work_splace\\game\\project_cv\\Kingdom\\Assets\\_Project\\Scripts\\UI\\LevelPrepManager.cs",
+              "RelativeToolTip": "Assets\\_Project\\Scripts\\UI\\LevelPrepManager.cs",
+              "ViewState": "AgIAACsAAAAAAAAAAAAAAC0AAAAFAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-10-25T14:34:47.095Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 50,
+              "Title": "LevelDefinition.cs",
+              "DocumentMoniker": "C:\\work_splace\\game\\project_cv\\Kingdom\\Assets\\_Project\\Scripts\\Data\\LevelDefinition.cs",
+              "RelativeDocumentMoniker": "Assets\\_Project\\Scripts\\Data\\LevelDefinition.cs",
+              "ToolTip": "C:\\work_splace\\game\\project_cv\\Kingdom\\Assets\\_Project\\Scripts\\Data\\LevelDefinition.cs",
+              "RelativeToolTip": "Assets\\_Project\\Scripts\\Data\\LevelDefinition.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABsAAAAsAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-10-24T06:52:49.298Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 51,
+              "Title": "DamgeInfo.cs",
+              "DocumentMoniker": "C:\\work_splace\\game\\project_cv\\Kingdom\\Assets\\_Project\\Scripts\\EnemyScripts\\DamgeInfo.cs",
+              "RelativeDocumentMoniker": "Assets\\_Project\\Scripts\\EnemyScripts\\DamgeInfo.cs",
+              "ToolTip": "C:\\work_splace\\game\\project_cv\\Kingdom\\Assets\\_Project\\Scripts\\EnemyScripts\\DamgeInfo.cs",
+              "RelativeToolTip": "Assets\\_Project\\Scripts\\EnemyScripts\\DamgeInfo.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAASAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-10-24T07:49:15.995Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 49,
+              "Title": "SaveManager.cs",
+              "DocumentMoniker": "C:\\work_splace\\game\\project_cv\\Kingdom\\Assets\\_Project\\Scripts\\Managers\\SaveManager.cs",
+              "RelativeDocumentMoniker": "Assets\\_Project\\Scripts\\Managers\\SaveManager.cs",
+              "ToolTip": "C:\\work_splace\\game\\project_cv\\Kingdom\\Assets\\_Project\\Scripts\\Managers\\SaveManager.cs",
+              "RelativeToolTip": "Assets\\_Project\\Scripts\\Managers\\SaveManager.cs",
+              "ViewState": "AgIAAG0AAAAAAAAAAAAqwI0AAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-10-24T08:20:18.786Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 52,
+              "Title": "RangeIndicator.cs",
+              "DocumentMoniker": "C:\\work_splace\\game\\project_cv\\Kingdom\\Assets\\_Project\\Scripts\\UI\\RangeIndicator.cs",
+              "RelativeDocumentMoniker": "Assets\\_Project\\Scripts\\UI\\RangeIndicator.cs",
+              "ToolTip": "C:\\work_splace\\game\\project_cv\\Kingdom\\Assets\\_Project\\Scripts\\UI\\RangeIndicator.cs",
+              "RelativeToolTip": "Assets\\_Project\\Scripts\\UI\\RangeIndicator.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAADMAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-09-24T10:09:28.944Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 53,
+              "Title": "GameOverScreen.cs",
+              "DocumentMoniker": "C:\\work_splace\\game\\project_cv\\Kingdom\\Assets\\_Project\\Scripts\\UI\\GameOverScreen.cs",
+              "RelativeDocumentMoniker": "Assets\\_Project\\Scripts\\UI\\GameOverScreen.cs",
+              "ToolTip": "C:\\work_splace\\game\\project_cv\\Kingdom\\Assets\\_Project\\Scripts\\UI\\GameOverScreen.cs",
+              "RelativeToolTip": "Assets\\_Project\\Scripts\\UI\\GameOverScreen.cs",
+              "ViewState": "AgIAAKwAAAAAAAAAAAAqwMwAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-09-24T09:12:01.814Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 54,
+              "Title": "EventSystemInputFixer.cs",
+              "DocumentMoniker": "C:\\work_splace\\game\\project_cv\\Kingdom\\Assets\\_Project\\Scripts\\Utils\\EventSystemInputFixer.cs",
+              "RelativeDocumentMoniker": "Assets\\_Project\\Scripts\\Utils\\EventSystemInputFixer.cs",
+              "ToolTip": "C:\\work_splace\\game\\project_cv\\Kingdom\\Assets\\_Project\\Scripts\\Utils\\EventSystemInputFixer.cs",
+              "RelativeToolTip": "Assets\\_Project\\Scripts\\Utils\\EventSystemInputFixer.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-09-24T09:17:37.474Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 55,
+              "Title": "NewMonoBehaviourScript.cs",
+              "DocumentMoniker": "C:\\work_splace\\game\\project_cv\\Kingdom\\Assets\\_Project\\Scripts\\Utils\\NewMonoBehaviourScript.cs",
+              "RelativeDocumentMoniker": "Assets\\_Project\\Scripts\\Utils\\NewMonoBehaviourScript.cs",
+              "ToolTip": "C:\\work_splace\\game\\project_cv\\Kingdom\\Assets\\_Project\\Scripts\\Utils\\NewMonoBehaviourScript.cs",
+              "RelativeToolTip": "Assets\\_Project\\Scripts\\Utils\\NewMonoBehaviourScript.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAkAAAAiAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-09-24T09:17:06.325Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 56,
+              "Title": "NewMonoBehaviourScript.cs",
+              "DocumentMoniker": "C:\\work_splace\\game\\project_cv\\Kingdom\\Assets\\_Project\\Scripts\\UI\\NewMonoBehaviourScript.cs",
+              "RelativeDocumentMoniker": "Assets\\_Project\\Scripts\\UI\\NewMonoBehaviourScript.cs",
+              "ToolTip": "C:\\work_splace\\game\\project_cv\\Kingdom\\Assets\\_Project\\Scripts\\UI\\NewMonoBehaviourScript.cs",
+              "RelativeToolTip": "Assets\\_Project\\Scripts\\UI\\NewMonoBehaviourScript.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAYAAAAbAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-09-24T08:24:02.137Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 58,
+              "Title": "ExplosionEffect.cs",
+              "DocumentMoniker": "C:\\work_splace\\game\\project_cv\\Kingdom\\Assets\\_Project\\Scripts\\VFX\\ExplosionEffect.cs",
+              "RelativeDocumentMoniker": "Assets\\_Project\\Scripts\\VFX\\ExplosionEffect.cs",
+              "ToolTip": "C:\\work_splace\\game\\project_cv\\Kingdom\\Assets\\_Project\\Scripts\\VFX\\ExplosionEffect.cs",
+              "RelativeToolTip": "Assets\\_Project\\Scripts\\VFX\\ExplosionEffect.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-09-24T07:51:31.97Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 57,
+              "Title": "SpellManager.cs",
+              "DocumentMoniker": "C:\\work_splace\\game\\project_cv\\Kingdom\\Assets\\_Project\\Scripts\\Managers\\SpellManager.cs",
+              "RelativeDocumentMoniker": "Assets\\_Project\\Scripts\\Managers\\SpellManager.cs",
+              "ToolTip": "C:\\work_splace\\game\\project_cv\\Kingdom\\Assets\\_Project\\Scripts\\Managers\\SpellManager.cs",
+              "RelativeToolTip": "Assets\\_Project\\Scripts\\Managers\\SpellManager.cs",
+              "ViewState": "AgIAAGwAAAAAAAAAAAAqwIwAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-09-24T07:25:45.805Z"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

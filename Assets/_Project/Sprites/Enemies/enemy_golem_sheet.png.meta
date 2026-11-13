@@ -1,0 +1,1001 @@
+fileFormatVersion: 2
+guid: df1b8c187c8b76044a9a38eb981ff528
+TextureImporter:
+  internalIDToNameTable:
+  - first:
+      213: 5495369247217095836
+    second: enemy_golem_sheet_0
+  - first:
+      213: -4316150985612475113
+    second: enemy_golem_sheet_1
+  - first:
+      213: -7938450738842805937
+    second: enemy_golem_sheet_2
+  - first:
+      213: 3220189023888149408
+    second: enemy_golem_sheet_3
+  - first:
+      213: -1280697694765815026
+    second: enemy_golem_sheet_4
+  - first:
+      213: -2733179499006661719
+    second: enemy_golem_sheet_5
+  - first:
+      213: -3651256096601516426
+    second: enemy_golem_sheet_6
+  - first:
+      213: 5013175585645614761
+    second: enemy_golem_sheet_7
+  - first:
+      213: -4300733246891559552
+    second: enemy_golem_sheet_8
+  - first:
+      213: 2136980321888519561
+    second: enemy_golem_sheet_9
+  - first:
+      213: -5840000285129343015
+    second: enemy_golem_sheet_10
+  - first:
+      213: -4690007871046296478
+    second: enemy_golem_sheet_11
+  - first:
+      213: -8637062049160717359
+    second: enemy_golem_sheet_12
+  - first:
+      213: -862118162942727411
+    second: enemy_golem_sheet_13
+  - first:
+      213: 963960183609468449
+    second: enemy_golem_sheet_14
+  - first:
+      213: 4361615554325957119
+    second: enemy_golem_sheet_15
+  - first:
+      213: -9093523008677559190
+    second: enemy_golem_sheet_16
+  - first:
+      213: 2545019643698565951
+    second: enemy_golem_sheet_17
+  - first:
+      213: 6281796599165346771
+    second: enemy_golem_sheet_18
+  - first:
+      213: -7331493558831531623
+    second: enemy_golem_sheet_19
+  - first:
+      213: 7326213346486390572
+    second: enemy_golem_sheet_20
+  - first:
+      213: 1122871506985284356
+    second: enemy_golem_sheet_21
+  - first:
+      213: 3142041926763928916
+    second: enemy_golem_sheet_22
+  - first:
+      213: -5369907264656533435
+    second: enemy_golem_sheet_23
+  - first:
+      213: 2883776532987594017
+    second: enemy_golem_sheet_24
+  - first:
+      213: -14085830773371447
+    second: enemy_golem_sheet_25
+  - first:
+      213: -1743460139422972468
+    second: enemy_golem_sheet_26
+  - first:
+      213: 1141070368090037831
+    second: enemy_golem_sheet_27
+  - first:
+      213: 6864595670290924766
+    second: enemy_golem_sheet_28
+  - first:
+      213: -8009788984872898050
+    second: enemy_golem_sheet_29
+  - first:
+      213: -3441239048112273901
+    second: enemy_golem_sheet_30
+  - first:
+      213: -5588356254707149425
+    second: enemy_golem_sheet_31
+  externalObjects: {}
+  serializedVersion: 13
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+    flipGreenChannel: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  ignoreMipmapLimit: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 1
+    aniso: 1
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 100
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  swizzle: 50462976
+  cookieLightType: 0
+  platformSettings:
+  - serializedVersion: 4
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: iOS
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: Android
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: WebGL
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: WindowsStoreApps
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: enemy_golem_sheet_0
+      rect:
+        serializedVersion: 2
+        x: 49
+        y: 779
+        width: 82
+        height: 82
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c941bf1f639734c40800000000000000
+      internalID: 5495369247217095836
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: enemy_golem_sheet_1
+      rect:
+        serializedVersion: 2
+        x: 249
+        y: 779
+        width: 82
+        height: 82
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 715cd99eb83f914c0800000000000000
+      internalID: -4316150985612475113
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: enemy_golem_sheet_2
+      rect:
+        serializedVersion: 2
+        x: 449
+        y: 784
+        width: 82
+        height: 82
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f49565cdc15f4d190800000000000000
+      internalID: -7938450738842805937
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: enemy_golem_sheet_3
+      rect:
+        serializedVersion: 2
+        x: 649
+        y: 784
+        width: 82
+        height: 82
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 0ab077e1bd860bc20800000000000000
+      internalID: 3220189023888149408
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: enemy_golem_sheet_4
+      rect:
+        serializedVersion: 2
+        x: 49
+        y: 629
+        width: 82
+        height: 82
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e0b62d66b3c0a3ee0800000000000000
+      internalID: -1280697694765815026
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: enemy_golem_sheet_5
+      rect:
+        serializedVersion: 2
+        x: 249
+        y: 634
+        width: 82
+        height: 82
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 9abe3560abbc11ad0800000000000000
+      internalID: -2733179499006661719
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: enemy_golem_sheet_6
+      rect:
+        serializedVersion: 2
+        x: 449
+        y: 629
+        width: 82
+        height: 82
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 6765612ece1245dc0800000000000000
+      internalID: -3651256096601516426
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: enemy_golem_sheet_7
+      rect:
+        serializedVersion: 2
+        x: 649
+        y: 629
+        width: 82
+        height: 82
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 9a6511b52a0629540800000000000000
+      internalID: 5013175585645614761
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: enemy_golem_sheet_8
+      rect:
+        serializedVersion: 2
+        x: 849
+        y: 634
+        width: 82
+        height: 82
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 085f051f5e9b054c0800000000000000
+      internalID: -4300733246891559552
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: enemy_golem_sheet_9
+      rect:
+        serializedVersion: 2
+        x: 1049
+        y: 629
+        width: 82
+        height: 82
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 9854a22d74418ad10800000000000000
+      internalID: 2136980321888519561
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: enemy_golem_sheet_10
+      rect:
+        serializedVersion: 2
+        x: 49
+        y: 479
+        width: 82
+        height: 82
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 9df7facaea624fea0800000000000000
+      internalID: -5840000285129343015
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: enemy_golem_sheet_11
+      rect:
+        serializedVersion: 2
+        x: 244
+        y: 479
+        width: 82
+        height: 82
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 26cdf74a0beb9eeb0800000000000000
+      internalID: -4690007871046296478
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: enemy_golem_sheet_12
+      rect:
+        serializedVersion: 2
+        x: 444
+        y: 479
+        width: 82
+        height: 82
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 1db94c0d3ddf22880800000000000000
+      internalID: -8637062049160717359
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: enemy_golem_sheet_13
+      rect:
+        serializedVersion: 2
+        x: 654
+        y: 479
+        width: 112
+        height: 87
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d0be26739142904f0800000000000000
+      internalID: -862118162942727411
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: enemy_golem_sheet_14
+      rect:
+        serializedVersion: 2
+        x: 859
+        y: 479
+        width: 82
+        height: 82
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 126a9a10eaca06d00800000000000000
+      internalID: 963960183609468449
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: enemy_golem_sheet_15
+      rect:
+        serializedVersion: 2
+        x: 959
+        y: 454
+        width: 37
+        height: 97
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ff9ca62ec32978c30800000000000000
+      internalID: 4361615554325957119
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: enemy_golem_sheet_16
+      rect:
+        serializedVersion: 2
+        x: 1054
+        y: 479
+        width: 82
+        height: 82
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a64ceeec0015dc180800000000000000
+      internalID: -9093523008677559190
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: enemy_golem_sheet_17
+      rect:
+        serializedVersion: 2
+        x: 1149
+        y: 449
+        width: 42
+        height: 42
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f335b01c1e9b15320800000000000000
+      internalID: 2545019643698565951
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: enemy_golem_sheet_18
+      rect:
+        serializedVersion: 2
+        x: 49
+        y: 329
+        width: 82
+        height: 82
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 3d3e18c79bc6d2750800000000000000
+      internalID: 6281796599165346771
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: enemy_golem_sheet_19
+      rect:
+        serializedVersion: 2
+        x: 249
+        y: 334
+        width: 82
+        height: 82
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 99938c0c37d414a90800000000000000
+      internalID: -7331493558831531623
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: enemy_golem_sheet_20
+      rect:
+        serializedVersion: 2
+        x: 449
+        y: 339
+        width: 82
+        height: 82
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c2f0c020930fba560800000000000000
+      internalID: 7326213346486390572
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: enemy_golem_sheet_21
+      rect:
+        serializedVersion: 2
+        x: 649
+        y: 299
+        width: 87
+        height: 127
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 403f346bfad359f00800000000000000
+      internalID: 1122871506985284356
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: enemy_golem_sheet_22
+      rect:
+        serializedVersion: 2
+        x: 829
+        y: 299
+        width: 127
+        height: 122
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 45dd5223c76ca9b20800000000000000
+      internalID: 3142041926763928916
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: enemy_golem_sheet_23
+      rect:
+        serializedVersion: 2
+        x: 1009
+        y: 299
+        width: 167
+        height: 112
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 5489b553bc14a75b0800000000000000
+      internalID: -5369907264656533435
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: enemy_golem_sheet_24
+      rect:
+        serializedVersion: 2
+        x: 469
+        y: 309
+        width: 47
+        height: 27
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 12545545a7b350820800000000000000
+      internalID: 2883776532987594017
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: enemy_golem_sheet_25
+      rect:
+        serializedVersion: 2
+        x: 44
+        y: 179
+        width: 82
+        height: 82
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 9cd0364f205fdcff0800000000000000
+      internalID: -14085830773371447
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: enemy_golem_sheet_26
+      rect:
+        serializedVersion: 2
+        x: 239
+        y: 179
+        width: 82
+        height: 82
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: cc504ad8d3cfdc7e0800000000000000
+      internalID: -1743460139422972468
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: enemy_golem_sheet_27
+      rect:
+        serializedVersion: 2
+        x: 49
+        y: 29
+        width: 82
+        height: 82
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 74e1bb14475e5df00800000000000000
+      internalID: 1141070368090037831
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: enemy_golem_sheet_28
+      rect:
+        serializedVersion: 2
+        x: 266
+        y: 24
+        width: 89
+        height: 89
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ed400665461f34f50800000000000000
+      internalID: 6864595670290924766
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: enemy_golem_sheet_29
+      rect:
+        serializedVersion: 2
+        x: 487
+        y: 19
+        width: 87
+        height: 87
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ef170de1b5387d090800000000000000
+      internalID: -8009788984872898050
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: enemy_golem_sheet_30
+      rect:
+        serializedVersion: 2
+        x: 711
+        y: 8
+        width: 87
+        height: 86
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 316801671534e30d0800000000000000
+      internalID: -3441239048112273901
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: enemy_golem_sheet_31
+      rect:
+        serializedVersion: 2
+        x: 930
+        y: 0
+        width: 71
+        height: 86
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f8519df389b2272b0800000000000000
+      internalID: -5588356254707149425
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    customData: 
+    physicsShape: []
+    bones: []
+    spriteID: 
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+    spriteCustomMetadata:
+      entries: []
+    nameFileIdTable:
+      enemy_golem_sheet_0: 5495369247217095836
+      enemy_golem_sheet_1: -4316150985612475113
+      enemy_golem_sheet_10: -5840000285129343015
+      enemy_golem_sheet_11: -4690007871046296478
+      enemy_golem_sheet_12: -8637062049160717359
+      enemy_golem_sheet_13: -862118162942727411
+      enemy_golem_sheet_14: 963960183609468449
+      enemy_golem_sheet_15: 4361615554325957119
+      enemy_golem_sheet_16: -9093523008677559190
+      enemy_golem_sheet_17: 2545019643698565951
+      enemy_golem_sheet_18: 6281796599165346771
+      enemy_golem_sheet_19: -7331493558831531623
+      enemy_golem_sheet_2: -7938450738842805937
+      enemy_golem_sheet_20: 7326213346486390572
+      enemy_golem_sheet_21: 1122871506985284356
+      enemy_golem_sheet_22: 3142041926763928916
+      enemy_golem_sheet_23: -5369907264656533435
+      enemy_golem_sheet_24: 2883776532987594017
+      enemy_golem_sheet_25: -14085830773371447
+      enemy_golem_sheet_26: -1743460139422972468
+      enemy_golem_sheet_27: 1141070368090037831
+      enemy_golem_sheet_28: 6864595670290924766
+      enemy_golem_sheet_29: -8009788984872898050
+      enemy_golem_sheet_3: 3220189023888149408
+      enemy_golem_sheet_30: -3441239048112273901
+      enemy_golem_sheet_31: -5588356254707149425
+      enemy_golem_sheet_4: -1280697694765815026
+      enemy_golem_sheet_5: -2733179499006661719
+      enemy_golem_sheet_6: -3651256096601516426
+      enemy_golem_sheet_7: 5013175585645614761
+      enemy_golem_sheet_8: -4300733246891559552
+      enemy_golem_sheet_9: 2136980321888519561
+  mipmapLimitGroupName: 
+  pSDRemoveMatte: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

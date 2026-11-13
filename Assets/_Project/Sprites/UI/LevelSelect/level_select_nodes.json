@@ -1,0 +1,97 @@
+{
+ "image_size": [
+  1920,
+  1080
+ ],
+ "note": "node px = point where the node base touches the ground; sprites are 80x120, pivot bottom-center at (40,100). unity origin = image center, 100px/unit",
+ "nodes": [
+  {
+   "level": 1,
+   "px": [
+    96,
+    828
+   ],
+   "unity": [
+    -8.64,
+    -2.88
+   ]
+  },
+  {
+   "level": 2,
+   "px": [
+    384,
+    684
+   ],
+   "unity": [
+    -5.76,
+    -1.44
+   ]
+  },
+  {
+   "level": 3,
+   "px": [
+    528,
+    756
+   ],
+   "unity": [
+    -4.32,
+    -2.16
+   ]
+  },
+  {
+   "level": 4,
+   "px": [
+    816,
+    612
+   ],
+   "unity": [
+    -1.44,
+    -0.72
+   ]
+  },
+  {
+   "level": 5,
+   "px": [
+    960,
+    684
+   ],
+   "unity": [
+    0.0,
+    -1.44
+   ]
+  },
+  {
+   "level": 6,
+   "px": [
+    1248,
+    540
+   ],
+   "unity": [
+    2.88,
+    0.0
+   ]
+  },
+  {
+   "level": 7,
+   "px": [
+    1392,
+    612
+   ],
+   "unity": [
+    4.32,
+    -0.72
+   ]
+  },
+  {
+   "level": 8,
+   "px": [
+    1680,
+    468
+   ],
+   "unity": [
+    7.2,
+    0.72
+   ]
+  }
+ ]
+}

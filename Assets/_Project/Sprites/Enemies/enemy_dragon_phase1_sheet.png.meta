@@ -1,0 +1,637 @@
+fileFormatVersion: 2
+guid: 5197ae9c196fa7441b191b37bfc0120d
+TextureImporter:
+  internalIDToNameTable:
+  - first:
+      213: -1378657989079574757
+    second: enemy_dragon_phase1_sheet_0
+  - first:
+      213: 8990633710803060974
+    second: enemy_dragon_phase1_sheet_1
+  - first:
+      213: 336089273941478100
+    second: enemy_dragon_phase1_sheet_2
+  - first:
+      213: -3119007282919514024
+    second: enemy_dragon_phase1_sheet_3
+  - first:
+      213: -2158363870617372597
+    second: enemy_dragon_phase1_sheet_4
+  - first:
+      213: 8382343585342424794
+    second: enemy_dragon_phase1_sheet_5
+  - first:
+      213: -1805306207265181407
+    second: enemy_dragon_phase1_sheet_6
+  - first:
+      213: -1956993926313569567
+    second: enemy_dragon_phase1_sheet_7
+  - first:
+      213: 6812155822589937649
+    second: enemy_dragon_phase1_sheet_8
+  - first:
+      213: 4768592711179118833
+    second: enemy_dragon_phase1_sheet_9
+  - first:
+      213: 9121422218980317252
+    second: enemy_dragon_phase1_sheet_10
+  - first:
+      213: 4698506147001467740
+    second: enemy_dragon_phase1_sheet_11
+  - first:
+      213: -6415840530436983220
+    second: enemy_dragon_phase1_sheet_12
+  - first:
+      213: 203560619361605773
+    second: enemy_dragon_phase1_sheet_13
+  - first:
+      213: -1387600332289087222
+    second: enemy_dragon_phase1_sheet_14
+  - first:
+      213: 880374289970434982
+    second: enemy_dragon_phase1_sheet_15
+  - first:
+      213: -556115704276916573
+    second: enemy_dragon_phase1_sheet_16
+  - first:
+      213: -1481412576603060381
+    second: enemy_dragon_phase1_sheet_17
+  externalObjects: {}
+  serializedVersion: 13
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+    flipGreenChannel: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  ignoreMipmapLimit: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 1
+    aniso: 1
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 100
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  swizzle: 50462976
+  cookieLightType: 0
+  platformSettings:
+  - serializedVersion: 4
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: iOS
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: Android
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: WebGL
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: WindowsStoreApps
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: enemy_dragon_phase1_sheet_0
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 422
+        width: 154
+        height: 106
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b1758260dd50edce0800000000000000
+      internalID: -1378657989079574757
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: enemy_dragon_phase1_sheet_1
+      rect:
+        serializedVersion: 2
+        x: 197
+        y: 425
+        width: 155
+        height: 103
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ee8811eb9b525cc70800000000000000
+      internalID: 8990633710803060974
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: enemy_dragon_phase1_sheet_2
+      rect:
+        serializedVersion: 2
+        x: 395
+        y: 428
+        width: 155
+        height: 100
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 4dac91af9670aa400800000000000000
+      internalID: 336089273941478100
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: enemy_dragon_phase1_sheet_3
+      rect:
+        serializedVersion: 2
+        x: 593
+        y: 425
+        width: 155
+        height: 103
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 850e9b1c66f07b4d0800000000000000
+      internalID: -3119007282919514024
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: enemy_dragon_phase1_sheet_4
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 290
+        width: 154
+        height: 107
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b4870d3ce73fb02e0800000000000000
+      internalID: -2158363870617372597
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: enemy_dragon_phase1_sheet_5
+      rect:
+        serializedVersion: 2
+        x: 197
+        y: 290
+        width: 194
+        height: 107
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ad60c9d4411145470800000000000000
+      internalID: 8382343585342424794
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: enemy_dragon_phase1_sheet_6
+      rect:
+        serializedVersion: 2
+        x: 395
+        y: 290
+        width: 206
+        height: 107
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 121b625c19342f6e0800000000000000
+      internalID: -1805306207265181407
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: enemy_dragon_phase1_sheet_7
+      rect:
+        serializedVersion: 2
+        x: 593
+        y: 290
+        width: 206
+        height: 107
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 1e29b72846c57d4e0800000000000000
+      internalID: -1956993926313569567
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: enemy_dragon_phase1_sheet_8
+      rect:
+        serializedVersion: 2
+        x: 791
+        y: 290
+        width: 206
+        height: 107
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 1f70518d0a3a98e50800000000000000
+      internalID: 6812155822589937649
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: enemy_dragon_phase1_sheet_9
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 158
+        width: 154
+        height: 104
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 1f829544ec17d2240800000000000000
+      internalID: 4768592711179118833
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: enemy_dragon_phase1_sheet_10
+      rect:
+        serializedVersion: 2
+        x: 197
+        y: 158
+        width: 155
+        height: 104
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 4485da84e2dc59e70800000000000000
+      internalID: 9121422218980317252
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: enemy_dragon_phase1_sheet_11
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 26
+        width: 154
+        height: 104
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c53030b6272743140800000000000000
+      internalID: 4698506147001467740
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: enemy_dragon_phase1_sheet_12
+      rect:
+        serializedVersion: 2
+        x: 197
+        y: 20
+        width: 161
+        height: 101
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c46ffb7b70b56f6a0800000000000000
+      internalID: -6415840530436983220
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: enemy_dragon_phase1_sheet_13
+      rect:
+        serializedVersion: 2
+        x: 395
+        y: 8
+        width: 164
+        height: 95
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d889e470e4133d200800000000000000
+      internalID: 203560619361605773
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: enemy_dragon_phase1_sheet_14
+      rect:
+        serializedVersion: 2
+        x: 596
+        y: 0
+        width: 164
+        height: 79
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a09e1bf79d04ebce0800000000000000
+      internalID: -1387600332289087222
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: enemy_dragon_phase1_sheet_15
+      rect:
+        serializedVersion: 2
+        x: 797
+        y: 0
+        width: 152
+        height: 55
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 6a3131790c7b73c00800000000000000
+      internalID: 880374289970434982
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: enemy_dragon_phase1_sheet_16
+      rect:
+        serializedVersion: 2
+        x: 1001
+        y: 0
+        width: 95
+        height: 37
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 3a6ee80a6b74848f0800000000000000
+      internalID: -556115704276916573
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: enemy_dragon_phase1_sheet_17
+      rect:
+        serializedVersion: 2
+        x: 1130
+        y: 0
+        width: 11
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 36747c54c17f07be0800000000000000
+      internalID: -1481412576603060381
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    customData: 
+    physicsShape: []
+    bones: []
+    spriteID: 
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+    spriteCustomMetadata:
+      entries: []
+    nameFileIdTable:
+      enemy_dragon_phase1_sheet_0: -1378657989079574757
+      enemy_dragon_phase1_sheet_1: 8990633710803060974
+      enemy_dragon_phase1_sheet_10: 9121422218980317252
+      enemy_dragon_phase1_sheet_11: 4698506147001467740
+      enemy_dragon_phase1_sheet_12: -6415840530436983220
+      enemy_dragon_phase1_sheet_13: 203560619361605773
+      enemy_dragon_phase1_sheet_14: -1387600332289087222
+      enemy_dragon_phase1_sheet_15: 880374289970434982
+      enemy_dragon_phase1_sheet_16: -556115704276916573
+      enemy_dragon_phase1_sheet_17: -1481412576603060381
+      enemy_dragon_phase1_sheet_2: 336089273941478100
+      enemy_dragon_phase1_sheet_3: -3119007282919514024
+      enemy_dragon_phase1_sheet_4: -2158363870617372597
+      enemy_dragon_phase1_sheet_5: 8382343585342424794
+      enemy_dragon_phase1_sheet_6: -1805306207265181407
+      enemy_dragon_phase1_sheet_7: -1956993926313569567
+      enemy_dragon_phase1_sheet_8: 6812155822589937649
+      enemy_dragon_phase1_sheet_9: 4768592711179118833
+  mipmapLimitGroupName: 
+  pSDRemoveMatte: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

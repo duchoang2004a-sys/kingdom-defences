@@ -1,0 +1,81 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 1639eec9508e9b841b36b21c16e788d3, type: 3}
+  m_Name: LevelDatabase
+  m_EditorClassIdentifier: Assembly-CSharp::LevelDatabase
+  levels:
+  - sceneName: Level_1
+    displayName: "M\xE0n 1: \u0110\u01B0\u1EDDng M\xF2n"
+    levelNumber: 1
+    startingGold: 350
+    startingLives: 20
+    definition: {fileID: 0}
+  - sceneName: Level_2
+    displayName: "M\xE0n 2: Ng\xE3 R\u1EBD"
+    levelNumber: 2
+    startingGold: 320
+    startingLives: 20
+    definition: {fileID: 0}
+  - sceneName: Level_3
+    displayName: "M\xE0n 3: C\xE1nh \u0110\u1ED3ng"
+    levelNumber: 3
+    startingGold: 320
+    startingLives: 20
+    definition: {fileID: 0}
+  - sceneName: Level_4
+    displayName: "M\xE0n 4: H\u1EBBm \u0110\xE1"
+    levelNumber: 4
+    startingGold: 300
+    startingLives: 20
+    definition: {fileID: 0}
+  - sceneName: Level_5
+    displayName: "M\xE0n 5: Giao L\u1ED9"
+    levelNumber: 5
+    startingGold: 300
+    startingLives: 20
+    definition: {fileID: 0}
+  - sceneName: Level_6
+    displayName: "M\xE0n 6: K\u1EBB D\u1EABn \u0110\u01B0\u1EDDng"
+    levelNumber: 6
+    startingGold: 280
+    startingLives: 20
+    definition: {fileID: 0}
+  - sceneName: Level_7
+    displayName: "M\xE0n 7: Th\xE0nh L\u0169y"
+    levelNumber: 7
+    startingGold: 280
+    startingLives: 20
+    definition: {fileID: 0}
+  - sceneName: Level_8
+    displayName: "M\xE0n 8: B\u0103ng Gi\xE1"
+    levelNumber: 8
+    startingGold: 260
+    startingLives: 20
+    definition: {fileID: 0}
+  - sceneName: Level_9
+    displayName: "M\xE0n 9: N\xFAi L\u1EEDa"
+    levelNumber: 9
+    startingGold: 260
+    startingLives: 20
+    definition: {fileID: 0}
+  - sceneName: Level_10
+    displayName: "M\xE0n 10: Ngai R\u1ED3ng"
+    levelNumber: 10
+    startingGold: 240
+    startingLives: 20
+    definition: {fileID: 0}
+  - sceneName: Level_11
+    displayName: "C\u1EEDa \u1EA2i 11"
+    levelNumber: 11
+    startingGold: 450
+    startingLives: 20
+    definition: {fileID: 11400000, guid: d01a315bbcfca2a47a10ea531622c913, type: 2}

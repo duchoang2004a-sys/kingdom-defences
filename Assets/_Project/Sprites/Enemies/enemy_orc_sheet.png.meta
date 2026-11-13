@@ -1,0 +1,949 @@
+fileFormatVersion: 2
+guid: fd60dcd6b7ac5a342af8d890a195fad8
+TextureImporter:
+  internalIDToNameTable:
+  - first:
+      213: -4961199178158465228
+    second: enemy_orc_sheet_0
+  - first:
+      213: 5353468077865154906
+    second: enemy_orc_sheet_1
+  - first:
+      213: -2964435800036506414
+    second: enemy_orc_sheet_2
+  - first:
+      213: -5858334846764037825
+    second: enemy_orc_sheet_3
+  - first:
+      213: 3517146183343309780
+    second: enemy_orc_sheet_4
+  - first:
+      213: -8556010611351985659
+    second: enemy_orc_sheet_5
+  - first:
+      213: 4663679186351225739
+    second: enemy_orc_sheet_6
+  - first:
+      213: 2804575591680783361
+    second: enemy_orc_sheet_7
+  - first:
+      213: -2718087206221992939
+    second: enemy_orc_sheet_8
+  - first:
+      213: -5917489927525027497
+    second: enemy_orc_sheet_9
+  - first:
+      213: 9156476003483834647
+    second: enemy_orc_sheet_10
+  - first:
+      213: -8483521447659093349
+    second: enemy_orc_sheet_11
+  - first:
+      213: -7472854291047716708
+    second: enemy_orc_sheet_12
+  - first:
+      213: 3225716844324426399
+    second: enemy_orc_sheet_13
+  - first:
+      213: 1886962618891589752
+    second: enemy_orc_sheet_14
+  - first:
+      213: -6499487529906886257
+    second: enemy_orc_sheet_15
+  - first:
+      213: -4802575592612452284
+    second: enemy_orc_sheet_16
+  - first:
+      213: 1474377574729947628
+    second: enemy_orc_sheet_17
+  - first:
+      213: -6445592731910437039
+    second: enemy_orc_sheet_18
+  - first:
+      213: 188918524016866260
+    second: enemy_orc_sheet_19
+  - first:
+      213: -4542918309861558553
+    second: enemy_orc_sheet_20
+  - first:
+      213: -8464898707477599038
+    second: enemy_orc_sheet_21
+  - first:
+      213: -7187866770874223093
+    second: enemy_orc_sheet_22
+  - first:
+      213: 8238067673338304452
+    second: enemy_orc_sheet_23
+  - first:
+      213: -3334308394517063762
+    second: enemy_orc_sheet_24
+  - first:
+      213: -626541520725309977
+    second: enemy_orc_sheet_25
+  - first:
+      213: -8960082088228567187
+    second: enemy_orc_sheet_26
+  - first:
+      213: 7362323083306009722
+    second: enemy_orc_sheet_27
+  - first:
+      213: 5032399658078530203
+    second: enemy_orc_sheet_28
+  - first:
+      213: 8593778381570692840
+    second: enemy_orc_sheet_29
+  externalObjects: {}
+  serializedVersion: 13
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+    flipGreenChannel: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  ignoreMipmapLimit: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 1
+    aniso: 1
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 100
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  swizzle: 50462976
+  cookieLightType: 0
+  platformSettings:
+  - serializedVersion: 4
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: iOS
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: Android
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: WebGL
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: WindowsStoreApps
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: enemy_orc_sheet_0
+      rect:
+        serializedVersion: 2
+        x: 29
+        y: 467
+        width: 56
+        height: 59
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 43f97ed02a7462bb0800000000000000
+      internalID: -4961199178158465228
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: enemy_orc_sheet_1
+      rect:
+        serializedVersion: 2
+        x: 149
+        y: 467
+        width: 59
+        height: 59
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a59bb895ad65b4a40800000000000000
+      internalID: 5353468077865154906
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: enemy_orc_sheet_2
+      rect:
+        serializedVersion: 2
+        x: 269
+        y: 470
+        width: 59
+        height: 59
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 2d48f5b98553cd6d0800000000000000
+      internalID: -2964435800036506414
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: enemy_orc_sheet_3
+      rect:
+        serializedVersion: 2
+        x: 389
+        y: 470
+        width: 59
+        height: 59
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f394653ee7303bea0800000000000000
+      internalID: -5858334846764037825
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: enemy_orc_sheet_4
+      rect:
+        serializedVersion: 2
+        x: 29
+        y: 377
+        width: 56
+        height: 59
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 4d38c41b1d96fc030800000000000000
+      internalID: 3517146183343309780
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: enemy_orc_sheet_5
+      rect:
+        serializedVersion: 2
+        x: 149
+        y: 380
+        width: 59
+        height: 62
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 50264ef3ea1f24980800000000000000
+      internalID: -8556010611351985659
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: enemy_orc_sheet_6
+      rect:
+        serializedVersion: 2
+        x: 269
+        y: 377
+        width: 62
+        height: 59
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b8bf8d0c287b8b040800000000000000
+      internalID: 4663679186351225739
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: enemy_orc_sheet_7
+      rect:
+        serializedVersion: 2
+        x: 389
+        y: 377
+        width: 56
+        height: 59
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 1043ddf24aadbe620800000000000000
+      internalID: 2804575591680783361
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: enemy_orc_sheet_8
+      rect:
+        serializedVersion: 2
+        x: 509
+        y: 380
+        width: 53
+        height: 59
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 51caa94461a674ad0800000000000000
+      internalID: -2718087206221992939
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: enemy_orc_sheet_9
+      rect:
+        serializedVersion: 2
+        x: 629
+        y: 377
+        width: 50
+        height: 56
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 7513beb534ad0eda0800000000000000
+      internalID: -5917489927525027497
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: enemy_orc_sheet_10
+      rect:
+        serializedVersion: 2
+        x: 29
+        y: 287
+        width: 56
+        height: 59
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 719da0e7966521f70800000000000000
+      internalID: 9156476003483834647
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: enemy_orc_sheet_11
+      rect:
+        serializedVersion: 2
+        x: 146
+        y: 287
+        width: 50
+        height: 50
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b924fd3e03a744a80800000000000000
+      internalID: -8483521447659093349
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: enemy_orc_sheet_12
+      rect:
+        serializedVersion: 2
+        x: 263
+        y: 287
+        width: 56
+        height: 50
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c98e8db7d961b4890800000000000000
+      internalID: -7472854291047716708
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: enemy_orc_sheet_13
+      rect:
+        serializedVersion: 2
+        x: 392
+        y: 287
+        width: 68
+        height: 56
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f9293fb116c04cc20800000000000000
+      internalID: 3225716844324426399
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: enemy_orc_sheet_14
+      rect:
+        serializedVersion: 2
+        x: 515
+        y: 272
+        width: 83
+        height: 65
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 878597b1186df2a10800000000000000
+      internalID: 1886962618891589752
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: enemy_orc_sheet_15
+      rect:
+        serializedVersion: 2
+        x: 632
+        y: 269
+        width: 83
+        height: 68
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f89a1ddf68e2dc5a0800000000000000
+      internalID: -6499487529906886257
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: enemy_orc_sheet_16
+      rect:
+        serializedVersion: 2
+        x: 29
+        y: 197
+        width: 56
+        height: 59
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 448af5391f2d95db0800000000000000
+      internalID: -4802575592612452284
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: enemy_orc_sheet_17
+      rect:
+        serializedVersion: 2
+        x: 149
+        y: 200
+        width: 50
+        height: 56
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ce99496b79a067410800000000000000
+      internalID: 1474377574729947628
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: enemy_orc_sheet_18
+      rect:
+        serializedVersion: 2
+        x: 269
+        y: 203
+        width: 50
+        height: 59
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 15783af7f87ac86a0800000000000000
+      internalID: -6445592731910437039
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: enemy_orc_sheet_19
+      rect:
+        serializedVersion: 2
+        x: 389
+        y: 179
+        width: 53
+        height: 86
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 4d3348b856c2f9200800000000000000
+      internalID: 188918524016866260
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: enemy_orc_sheet_20
+      rect:
+        serializedVersion: 2
+        x: 497
+        y: 179
+        width: 77
+        height: 86
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 7e67519dddf44f0c0800000000000000
+      internalID: -4542918309861558553
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: enemy_orc_sheet_21
+      rect:
+        serializedVersion: 2
+        x: 605
+        y: 179
+        width: 101
+        height: 83
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 2cc62297973a68a80800000000000000
+      internalID: -8464898707477599038
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: enemy_orc_sheet_22
+      rect:
+        serializedVersion: 2
+        x: 281
+        y: 185
+        width: 29
+        height: 17
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b06353d31419f3c90800000000000000
+      internalID: -7187866770874223093
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: enemy_orc_sheet_23
+      rect:
+        serializedVersion: 2
+        x: 26
+        y: 107
+        width: 56
+        height: 59
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 4c755f8d6ee735270800000000000000
+      internalID: 8238067673338304452
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: enemy_orc_sheet_24
+      rect:
+        serializedVersion: 2
+        x: 143
+        y: 107
+        width: 56
+        height: 59
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ea7153d5e282ab1d0800000000000000
+      internalID: -3334308394517063762
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: enemy_orc_sheet_25
+      rect:
+        serializedVersion: 2
+        x: 29
+        y: 17
+        width: 56
+        height: 59
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 7e582247ec31e47f0800000000000000
+      internalID: -626541520725309977
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: enemy_orc_sheet_26
+      rect:
+        serializedVersion: 2
+        x: 158
+        y: 11
+        width: 66
+        height: 60
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d67cbc430d467a380800000000000000
+      internalID: -8960082088228567187
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: enemy_orc_sheet_27
+      rect:
+        serializedVersion: 2
+        x: 289
+        y: 5
+        width: 72
+        height: 57
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a740d1646d93c2660800000000000000
+      internalID: 7362323083306009722
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: enemy_orc_sheet_28
+      rect:
+        serializedVersion: 2
+        x: 421
+        y: 0
+        width: 60
+        height: 55
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b9a619383dca6d540800000000000000
+      internalID: 5032399658078530203
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: enemy_orc_sheet_29
+      rect:
+        serializedVersion: 2
+        x: 555
+        y: 0
+        width: 46
+        height: 46
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 8e6d3fff7eb334770800000000000000
+      internalID: 8593778381570692840
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    customData: 
+    physicsShape: []
+    bones: []
+    spriteID: 
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+    spriteCustomMetadata:
+      entries: []
+    nameFileIdTable:
+      enemy_orc_sheet_0: -4961199178158465228
+      enemy_orc_sheet_1: 5353468077865154906
+      enemy_orc_sheet_10: 9156476003483834647
+      enemy_orc_sheet_11: -8483521447659093349
+      enemy_orc_sheet_12: -7472854291047716708
+      enemy_orc_sheet_13: 3225716844324426399
+      enemy_orc_sheet_14: 1886962618891589752
+      enemy_orc_sheet_15: -6499487529906886257
+      enemy_orc_sheet_16: -4802575592612452284
+      enemy_orc_sheet_17: 1474377574729947628
+      enemy_orc_sheet_18: -6445592731910437039
+      enemy_orc_sheet_19: 188918524016866260
+      enemy_orc_sheet_2: -2964435800036506414
+      enemy_orc_sheet_20: -4542918309861558553
+      enemy_orc_sheet_21: -8464898707477599038
+      enemy_orc_sheet_22: -7187866770874223093
+      enemy_orc_sheet_23: 8238067673338304452
+      enemy_orc_sheet_24: -3334308394517063762
+      enemy_orc_sheet_25: -626541520725309977
+      enemy_orc_sheet_26: -8960082088228567187
+      enemy_orc_sheet_27: 7362323083306009722
+      enemy_orc_sheet_28: 5032399658078530203
+      enemy_orc_sheet_29: 8593778381570692840
+      enemy_orc_sheet_3: -5858334846764037825
+      enemy_orc_sheet_4: 3517146183343309780
+      enemy_orc_sheet_5: -8556010611351985659
+      enemy_orc_sheet_6: 4663679186351225739
+      enemy_orc_sheet_7: 2804575591680783361
+      enemy_orc_sheet_8: -2718087206221992939
+      enemy_orc_sheet_9: -5917489927525027497
+  mipmapLimitGroupName: 
+  pSDRemoveMatte: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

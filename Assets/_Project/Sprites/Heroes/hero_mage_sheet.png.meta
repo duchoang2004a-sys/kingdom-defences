@@ -1,0 +1,975 @@
+fileFormatVersion: 2
+guid: 8299f6aebb8985247b74baae7ea3a5f2
+TextureImporter:
+  internalIDToNameTable:
+  - first:
+      213: 410388864010854235
+    second: hero_mage_sheet_0
+  - first:
+      213: -1978602000400029091
+    second: hero_mage_sheet_1
+  - first:
+      213: -4065130861030667602
+    second: hero_mage_sheet_2
+  - first:
+      213: -9197629017613936745
+    second: hero_mage_sheet_3
+  - first:
+      213: -4385285573384448887
+    second: hero_mage_sheet_4
+  - first:
+      213: 7064638362272016031
+    second: hero_mage_sheet_5
+  - first:
+      213: -6892255937430702834
+    second: hero_mage_sheet_6
+  - first:
+      213: 7666308194009559089
+    second: hero_mage_sheet_7
+  - first:
+      213: -4724842190087150764
+    second: hero_mage_sheet_8
+  - first:
+      213: 6446480399264457936
+    second: hero_mage_sheet_9
+  - first:
+      213: 1297852408299741643
+    second: hero_mage_sheet_10
+  - first:
+      213: -1702578166102422252
+    second: hero_mage_sheet_11
+  - first:
+      213: -7095470042013949827
+    second: hero_mage_sheet_12
+  - first:
+      213: -1097438033509281703
+    second: hero_mage_sheet_13
+  - first:
+      213: -6751457548475054792
+    second: hero_mage_sheet_14
+  - first:
+      213: 3060797394070724471
+    second: hero_mage_sheet_15
+  - first:
+      213: -4258035990511964533
+    second: hero_mage_sheet_16
+  - first:
+      213: -4640285258798659165
+    second: hero_mage_sheet_17
+  - first:
+      213: 8389101971897758360
+    second: hero_mage_sheet_18
+  - first:
+      213: -4469833321873681824
+    second: hero_mage_sheet_19
+  - first:
+      213: -5231650439917842547
+    second: hero_mage_sheet_20
+  - first:
+      213: -7194586636552582605
+    second: hero_mage_sheet_21
+  - first:
+      213: -1963534329757880989
+    second: hero_mage_sheet_22
+  - first:
+      213: -8237664656603482928
+    second: hero_mage_sheet_23
+  - first:
+      213: -1649278094784512587
+    second: hero_mage_sheet_24
+  - first:
+      213: 5523268786573402632
+    second: hero_mage_sheet_25
+  - first:
+      213: 8224364424498954723
+    second: hero_mage_sheet_26
+  - first:
+      213: 924112343226238102
+    second: hero_mage_sheet_27
+  - first:
+      213: -6412597290467915820
+    second: hero_mage_sheet_28
+  - first:
+      213: -8536451258218866186
+    second: hero_mage_sheet_29
+  - first:
+      213: 2853075992958101688
+    second: hero_mage_sheet_30
+  externalObjects: {}
+  serializedVersion: 13
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+    flipGreenChannel: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  ignoreMipmapLimit: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 1
+    aniso: 1
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 100
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  swizzle: 50462976
+  cookieLightType: 0
+  platformSettings:
+  - serializedVersion: 4
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: iOS
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: Android
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: WebGL
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: WindowsStoreApps
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: hero_mage_sheet_0
+      rect:
+        serializedVersion: 2
+        x: 29
+        y: 467
+        width: 59
+        height: 56
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b5f942b5f7ef1b500800000000000000
+      internalID: 410388864010854235
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: hero_mage_sheet_1
+      rect:
+        serializedVersion: 2
+        x: 149
+        y: 467
+        width: 59
+        height: 56
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d5a6746b6f79a84e0800000000000000
+      internalID: -1978602000400029091
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: hero_mage_sheet_2
+      rect:
+        serializedVersion: 2
+        x: 269
+        y: 470
+        width: 62
+        height: 56
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: eaa0ac61501c597c0800000000000000
+      internalID: -4065130861030667602
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: hero_mage_sheet_3
+      rect:
+        serializedVersion: 2
+        x: 389
+        y: 470
+        width: 59
+        height: 56
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 797db4db3257b5080800000000000000
+      internalID: -9197629017613936745
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: hero_mage_sheet_4
+      rect:
+        serializedVersion: 2
+        x: 29
+        y: 377
+        width: 59
+        height: 56
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 98456c751065423c0800000000000000
+      internalID: -4385285573384448887
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: hero_mage_sheet_5
+      rect:
+        serializedVersion: 2
+        x: 149
+        y: 380
+        width: 59
+        height: 59
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f9622d11923aa0260800000000000000
+      internalID: 7064638362272016031
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: hero_mage_sheet_6
+      rect:
+        serializedVersion: 2
+        x: 269
+        y: 377
+        width: 62
+        height: 56
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e05bd5cddb9c950a0800000000000000
+      internalID: -6892255937430702834
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: hero_mage_sheet_7
+      rect:
+        serializedVersion: 2
+        x: 389
+        y: 377
+        width: 59
+        height: 56
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 1303b924fa2346a60800000000000000
+      internalID: 7666308194009559089
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: hero_mage_sheet_8
+      rect:
+        serializedVersion: 2
+        x: 509
+        y: 380
+        width: 56
+        height: 59
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 453a318bf0dfd6eb0800000000000000
+      internalID: -4724842190087150764
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: hero_mage_sheet_9
+      rect:
+        serializedVersion: 2
+        x: 629
+        y: 377
+        width: 53
+        height: 56
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 0d42da9a4cf767950800000000000000
+      internalID: 6446480399264457936
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: hero_mage_sheet_10
+      rect:
+        serializedVersion: 2
+        x: 29
+        y: 287
+        width: 59
+        height: 56
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: bc1679793e5e20210800000000000000
+      internalID: 1297852408299741643
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: hero_mage_sheet_11
+      rect:
+        serializedVersion: 2
+        x: 146
+        y: 287
+        width: 50
+        height: 50
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 41d0127bd2a3f58e0800000000000000
+      internalID: -1702578166102422252
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: hero_mage_sheet_12
+      rect:
+        serializedVersion: 2
+        x: 266
+        y: 287
+        width: 53
+        height: 50
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d7025571793d78d90800000000000000
+      internalID: -7095470042013949827
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: hero_mage_sheet_13
+      rect:
+        serializedVersion: 2
+        x: 392
+        y: 287
+        width: 68
+        height: 53
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 9501da94ced15c0f0800000000000000
+      internalID: -1097438033509281703
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: hero_mage_sheet_14
+      rect:
+        serializedVersion: 2
+        x: 515
+        y: 272
+        width: 83
+        height: 65
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 835c30361210e42a0800000000000000
+      internalID: -6751457548475054792
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: hero_mage_sheet_15
+      rect:
+        serializedVersion: 2
+        x: 632
+        y: 269
+        width: 83
+        height: 68
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 77fd60b53032a7a20800000000000000
+      internalID: 3060797394070724471
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: hero_mage_sheet_16
+      rect:
+        serializedVersion: 2
+        x: 29
+        y: 197
+        width: 59
+        height: 56
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b8ea4b0a3da68e4c0800000000000000
+      internalID: -4258035990511964533
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: hero_mage_sheet_17
+      rect:
+        serializedVersion: 2
+        x: 149
+        y: 200
+        width: 53
+        height: 56
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 3a903d474256a9fb0800000000000000
+      internalID: -4640285258798659165
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: hero_mage_sheet_18
+      rect:
+        serializedVersion: 2
+        x: 269
+        y: 203
+        width: 53
+        height: 59
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 892be7bcbc31c6470800000000000000
+      internalID: 8389101971897758360
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: hero_mage_sheet_19
+      rect:
+        serializedVersion: 2
+        x: 389
+        y: 206
+        width: 53
+        height: 59
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 062d384a646f7f1c0800000000000000
+      internalID: -4469833321873681824
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: hero_mage_sheet_20
+      rect:
+        serializedVersion: 2
+        x: 497
+        y: 179
+        width: 77
+        height: 86
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d8f4ea3b4a17567b0800000000000000
+      internalID: -5231650439917842547
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: hero_mage_sheet_21
+      rect:
+        serializedVersion: 2
+        x: 605
+        y: 179
+        width: 101
+        height: 80
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 33ac2869291b72c90800000000000000
+      internalID: -7194586636552582605
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: hero_mage_sheet_22
+      rect:
+        serializedVersion: 2
+        x: 281
+        y: 179
+        width: 29
+        height: 14
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 36d2f7a2eef10c4e0800000000000000
+      internalID: -1963534329757880989
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: hero_mage_sheet_23
+      rect:
+        serializedVersion: 2
+        x: 389
+        y: 179
+        width: 53
+        height: 20
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 0d4fb5cc3afedad80800000000000000
+      internalID: -8237664656603482928
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: hero_mage_sheet_24
+      rect:
+        serializedVersion: 2
+        x: 26
+        y: 107
+        width: 59
+        height: 56
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 5bd3980af469c19e0800000000000000
+      internalID: -1649278094784512587
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: hero_mage_sheet_25
+      rect:
+        serializedVersion: 2
+        x: 143
+        y: 107
+        width: 59
+        height: 56
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 802e5b6a2b796ac40800000000000000
+      internalID: 5523268786573402632
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: hero_mage_sheet_26
+      rect:
+        serializedVersion: 2
+        x: 29
+        y: 17
+        width: 59
+        height: 56
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 3e1ce999edfc22270800000000000000
+      internalID: 8224364424498954723
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: hero_mage_sheet_27
+      rect:
+        serializedVersion: 2
+        x: 158
+        y: 11
+        width: 68
+        height: 58
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 694cd8ea74b13dc00800000000000000
+      internalID: 924112343226238102
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: hero_mage_sheet_28
+      rect:
+        serializedVersion: 2
+        x: 289
+        y: 5
+        width: 72
+        height: 61
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 4d7070e5db0e107a0800000000000000
+      internalID: -6412597290467915820
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: hero_mage_sheet_29
+      rect:
+        serializedVersion: 2
+        x: 421
+        y: 0
+        width: 60
+        height: 59
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 6f99d670fce688980800000000000000
+      internalID: -8536451258218866186
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: hero_mage_sheet_30
+      rect:
+        serializedVersion: 2
+        x: 555
+        y: 0
+        width: 46
+        height: 50
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 8b86675df79289720800000000000000
+      internalID: 2853075992958101688
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    customData: 
+    physicsShape: []
+    bones: []
+    spriteID: 
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+    spriteCustomMetadata:
+      entries: []
+    nameFileIdTable:
+      hero_mage_sheet_0: 410388864010854235
+      hero_mage_sheet_1: -1978602000400029091
+      hero_mage_sheet_10: 1297852408299741643
+      hero_mage_sheet_11: -1702578166102422252
+      hero_mage_sheet_12: -7095470042013949827
+      hero_mage_sheet_13: -1097438033509281703
+      hero_mage_sheet_14: -6751457548475054792
+      hero_mage_sheet_15: 3060797394070724471
+      hero_mage_sheet_16: -4258035990511964533
+      hero_mage_sheet_17: -4640285258798659165
+      hero_mage_sheet_18: 8389101971897758360
+      hero_mage_sheet_19: -4469833321873681824
+      hero_mage_sheet_2: -4065130861030667602
+      hero_mage_sheet_20: -5231650439917842547
+      hero_mage_sheet_21: -7194586636552582605
+      hero_mage_sheet_22: -1963534329757880989
+      hero_mage_sheet_23: -8237664656603482928
+      hero_mage_sheet_24: -1649278094784512587
+      hero_mage_sheet_25: 5523268786573402632
+      hero_mage_sheet_26: 8224364424498954723
+      hero_mage_sheet_27: 924112343226238102
+      hero_mage_sheet_28: -6412597290467915820
+      hero_mage_sheet_29: -8536451258218866186
+      hero_mage_sheet_3: -9197629017613936745
+      hero_mage_sheet_30: 2853075992958101688
+      hero_mage_sheet_4: -4385285573384448887
+      hero_mage_sheet_5: 7064638362272016031
+      hero_mage_sheet_6: -6892255937430702834
+      hero_mage_sheet_7: 7666308194009559089
+      hero_mage_sheet_8: -4724842190087150764
+      hero_mage_sheet_9: 6446480399264457936
+  mipmapLimitGroupName: 
+  pSDRemoveMatte: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

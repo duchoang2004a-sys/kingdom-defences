@@ -1,0 +1,949 @@
+fileFormatVersion: 2
+guid: a14d7dba6a3228241b868d7f0c8a9674
+TextureImporter:
+  internalIDToNameTable:
+  - first:
+      213: 8622018083967761794
+    second: enemy_troll_sheet_0
+  - first:
+      213: -8179802001420757962
+    second: enemy_troll_sheet_1
+  - first:
+      213: 1487562613218808152
+    second: enemy_troll_sheet_2
+  - first:
+      213: 4985875105370066649
+    second: enemy_troll_sheet_3
+  - first:
+      213: 6353217492772185086
+    second: enemy_troll_sheet_4
+  - first:
+      213: -8502868983446343473
+    second: enemy_troll_sheet_5
+  - first:
+      213: 8207626172113460212
+    second: enemy_troll_sheet_6
+  - first:
+      213: -5737748688140406649
+    second: enemy_troll_sheet_7
+  - first:
+      213: -4171837722435928866
+    second: enemy_troll_sheet_8
+  - first:
+      213: -3543892591776735828
+    second: enemy_troll_sheet_9
+  - first:
+      213: -6778159844636633524
+    second: enemy_troll_sheet_10
+  - first:
+      213: 4473546762270343716
+    second: enemy_troll_sheet_11
+  - first:
+      213: -7218306079655968392
+    second: enemy_troll_sheet_12
+  - first:
+      213: -7549796886725280330
+    second: enemy_troll_sheet_13
+  - first:
+      213: -5120973385485940398
+    second: enemy_troll_sheet_14
+  - first:
+      213: 8359307574119252194
+    second: enemy_troll_sheet_15
+  - first:
+      213: -7860411939612029865
+    second: enemy_troll_sheet_16
+  - first:
+      213: -5269271567321535126
+    second: enemy_troll_sheet_17
+  - first:
+      213: 6724877208319795586
+    second: enemy_troll_sheet_18
+  - first:
+      213: 4239159378425357883
+    second: enemy_troll_sheet_19
+  - first:
+      213: 119113068531506212
+    second: enemy_troll_sheet_20
+  - first:
+      213: -772568375227183669
+    second: enemy_troll_sheet_21
+  - first:
+      213: -2644740312402691034
+    second: enemy_troll_sheet_22
+  - first:
+      213: 7816087239656809141
+    second: enemy_troll_sheet_23
+  - first:
+      213: 2506444605121975747
+    second: enemy_troll_sheet_24
+  - first:
+      213: 3581844872633278621
+    second: enemy_troll_sheet_25
+  - first:
+      213: 1173684622295625440
+    second: enemy_troll_sheet_26
+  - first:
+      213: -5900740885449617717
+    second: enemy_troll_sheet_27
+  - first:
+      213: -907054102450508738
+    second: enemy_troll_sheet_28
+  - first:
+      213: 6167614262482484138
+    second: enemy_troll_sheet_29
+  externalObjects: {}
+  serializedVersion: 13
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+    flipGreenChannel: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  ignoreMipmapLimit: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 1
+    aniso: 1
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 100
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  swizzle: 50462976
+  cookieLightType: 0
+  platformSettings:
+  - serializedVersion: 4
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: iOS
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: Android
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: WebGL
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: WindowsStoreApps
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: enemy_troll_sheet_0
+      rect:
+        serializedVersion: 2
+        x: 39
+        y: 623
+        width: 86
+        height: 74
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 28d74e514cf87a770800000000000000
+      internalID: 8622018083967761794
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: enemy_troll_sheet_1
+      rect:
+        serializedVersion: 2
+        x: 199
+        y: 623
+        width: 86
+        height: 74
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 634594c0b618b7e80800000000000000
+      internalID: -8179802001420757962
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: enemy_troll_sheet_2
+      rect:
+        serializedVersion: 2
+        x: 359
+        y: 627
+        width: 90
+        height: 74
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 8511f06b052e4a410800000000000000
+      internalID: 1487562613218808152
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: enemy_troll_sheet_3
+      rect:
+        serializedVersion: 2
+        x: 519
+        y: 627
+        width: 86
+        height: 74
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 9decb06fdf2613540800000000000000
+      internalID: 4985875105370066649
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: enemy_troll_sheet_4
+      rect:
+        serializedVersion: 2
+        x: 39
+        y: 503
+        width: 86
+        height: 74
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ef3eb7d16a92b2850800000000000000
+      internalID: 6353217492772185086
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: enemy_troll_sheet_5
+      rect:
+        serializedVersion: 2
+        x: 199
+        y: 507
+        width: 86
+        height: 78
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: fc07efda5bdbff980800000000000000
+      internalID: -8502868983446343473
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: enemy_troll_sheet_6
+      rect:
+        serializedVersion: 2
+        x: 359
+        y: 503
+        width: 90
+        height: 74
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 4fb9506848857e170800000000000000
+      internalID: 8207626172113460212
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: enemy_troll_sheet_7
+      rect:
+        serializedVersion: 2
+        x: 519
+        y: 503
+        width: 86
+        height: 74
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 7807de0d7fb6f50b0800000000000000
+      internalID: -5737748688140406649
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: enemy_troll_sheet_8
+      rect:
+        serializedVersion: 2
+        x: 679
+        y: 507
+        width: 82
+        height: 78
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: edcb1add1b7aa16c0800000000000000
+      internalID: -4171837722435928866
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: enemy_troll_sheet_9
+      rect:
+        serializedVersion: 2
+        x: 839
+        y: 503
+        width: 78
+        height: 74
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: cad5201d67091dec0800000000000000
+      internalID: -3543892591776735828
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: enemy_troll_sheet_10
+      rect:
+        serializedVersion: 2
+        x: 39
+        y: 383
+        width: 86
+        height: 74
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c46dd9598832fe1a0800000000000000
+      internalID: -6778159844636633524
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: enemy_troll_sheet_11
+      rect:
+        serializedVersion: 2
+        x: 195
+        y: 383
+        width: 66
+        height: 70
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 4220933141b351e30800000000000000
+      internalID: 4473546762270343716
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: enemy_troll_sheet_12
+      rect:
+        serializedVersion: 2
+        x: 355
+        y: 383
+        width: 70
+        height: 66
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 87140126ddc63db90800000000000000
+      internalID: -7218306079655968392
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: enemy_troll_sheet_13
+      rect:
+        serializedVersion: 2
+        x: 523
+        y: 383
+        width: 98
+        height: 70
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 6bdb3686bbbb93790800000000000000
+      internalID: -7549796886725280330
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: enemy_troll_sheet_14
+      rect:
+        serializedVersion: 2
+        x: 687
+        y: 363
+        width: 110
+        height: 86
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 25981e586d5aee8b0800000000000000
+      internalID: -5120973385485940398
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: enemy_troll_sheet_15
+      rect:
+        serializedVersion: 2
+        x: 843
+        y: 359
+        width: 110
+        height: 90
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 2e04c9bf2f9320470800000000000000
+      internalID: 8359307574119252194
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: enemy_troll_sheet_16
+      rect:
+        serializedVersion: 2
+        x: 39
+        y: 263
+        width: 86
+        height: 74
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 75c8f27bcf43ae290800000000000000
+      internalID: -7860411939612029865
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: enemy_troll_sheet_17
+      rect:
+        serializedVersion: 2
+        x: 199
+        y: 267
+        width: 78
+        height: 74
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a6debb46d69cfd6b0800000000000000
+      internalID: -5269271567321535126
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: enemy_troll_sheet_18
+      rect:
+        serializedVersion: 2
+        x: 359
+        y: 271
+        width: 78
+        height: 78
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 281a508e030935d50800000000000000
+      internalID: 6724877208319795586
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: enemy_troll_sheet_19
+      rect:
+        serializedVersion: 2
+        x: 519
+        y: 239
+        width: 78
+        height: 114
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b362f41aef484da30800000000000000
+      internalID: 4239159378425357883
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: enemy_troll_sheet_20
+      rect:
+        serializedVersion: 2
+        x: 663
+        y: 239
+        width: 102
+        height: 114
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 42c5de964bc27a100800000000000000
+      internalID: 119113068531506212
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: enemy_troll_sheet_21
+      rect:
+        serializedVersion: 2
+        x: 807
+        y: 239
+        width: 134
+        height: 106
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: bcd02ede7294745f0800000000000000
+      internalID: -772568375227183669
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: enemy_troll_sheet_22
+      rect:
+        serializedVersion: 2
+        x: 375
+        y: 247
+        width: 38
+        height: 22
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 62cf414c2befb4bd0800000000000000
+      internalID: -2644740312402691034
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: enemy_troll_sheet_23
+      rect:
+        serializedVersion: 2
+        x: 35
+        y: 143
+        width: 86
+        height: 74
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 5b2253ddee1587c60800000000000000
+      internalID: 7816087239656809141
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: enemy_troll_sheet_24
+      rect:
+        serializedVersion: 2
+        x: 191
+        y: 143
+        width: 86
+        height: 74
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 3c55d71b61ea8c220800000000000000
+      internalID: 2506444605121975747
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: enemy_troll_sheet_25
+      rect:
+        serializedVersion: 2
+        x: 39
+        y: 23
+        width: 86
+        height: 74
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d906cd92fe445b130800000000000000
+      internalID: 3581844872633278621
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: enemy_troll_sheet_26
+      rect:
+        serializedVersion: 2
+        x: 209
+        y: 14
+        width: 100
+        height: 77
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 0eee44e02f3c94010800000000000000
+      internalID: 1173684622295625440
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: enemy_troll_sheet_27
+      rect:
+        serializedVersion: 2
+        x: 383
+        y: 5
+        width: 98
+        height: 82
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: bcec62b9d6b5c1ea0800000000000000
+      internalID: -5900740885449617717
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: enemy_troll_sheet_28
+      rect:
+        serializedVersion: 2
+        x: 560
+        y: 0
+        width: 81
+        height: 78
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e3c606f791f7963f0800000000000000
+      internalID: -907054102450508738
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: enemy_troll_sheet_29
+      rect:
+        serializedVersion: 2
+        x: 739
+        y: 0
+        width: 62
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: aabb6ea8e74c79550800000000000000
+      internalID: 6167614262482484138
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    customData: 
+    physicsShape: []
+    bones: []
+    spriteID: 
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+    spriteCustomMetadata:
+      entries: []
+    nameFileIdTable:
+      enemy_troll_sheet_0: 8622018083967761794
+      enemy_troll_sheet_1: -8179802001420757962
+      enemy_troll_sheet_10: -6778159844636633524
+      enemy_troll_sheet_11: 4473546762270343716
+      enemy_troll_sheet_12: -7218306079655968392
+      enemy_troll_sheet_13: -7549796886725280330
+      enemy_troll_sheet_14: -5120973385485940398
+      enemy_troll_sheet_15: 8359307574119252194
+      enemy_troll_sheet_16: -7860411939612029865
+      enemy_troll_sheet_17: -5269271567321535126
+      enemy_troll_sheet_18: 6724877208319795586
+      enemy_troll_sheet_19: 4239159378425357883
+      enemy_troll_sheet_2: 1487562613218808152
+      enemy_troll_sheet_20: 119113068531506212
+      enemy_troll_sheet_21: -772568375227183669
+      enemy_troll_sheet_22: -2644740312402691034
+      enemy_troll_sheet_23: 7816087239656809141
+      enemy_troll_sheet_24: 2506444605121975747
+      enemy_troll_sheet_25: 3581844872633278621
+      enemy_troll_sheet_26: 1173684622295625440
+      enemy_troll_sheet_27: -5900740885449617717
+      enemy_troll_sheet_28: -907054102450508738
+      enemy_troll_sheet_29: 6167614262482484138
+      enemy_troll_sheet_3: 4985875105370066649
+      enemy_troll_sheet_4: 6353217492772185086
+      enemy_troll_sheet_5: -8502868983446343473
+      enemy_troll_sheet_6: 8207626172113460212
+      enemy_troll_sheet_7: -5737748688140406649
+      enemy_troll_sheet_8: -4171837722435928866
+      enemy_troll_sheet_9: -3543892591776735828
+  mipmapLimitGroupName: 
+  pSDRemoveMatte: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

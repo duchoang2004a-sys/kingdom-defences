@@ -1,0 +1,122 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "C:\\work_splace\\game\\project_cv\\Kingdom\\Assets\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\work_splace\\game\\project_cv\\Kingdom\\Assets\\_Project\\Scripts\\Buildings\\Barracks.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:_Project\\Scripts\\Buildings\\Barracks.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\work_splace\\game\\project_cv\\Kingdom\\Assets\\_Project\\Scripts\\Buildings\\Turret.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:_Project\\Scripts\\Buildings\\Turret.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\work_splace\\game\\project_cv\\Kingdom\\Assets\\_Project\\Scripts\\Buildings\\IBaseTower.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:_Project\\Scripts\\Buildings\\IBaseTower.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\work_splace\\game\\project_cv\\Kingdom\\Assets\\_Project\\Scripts\\EnemyScripts\\StatusEffectController.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:_Project\\Scripts\\EnemyScripts\\StatusEffectController.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\work_splace\\game\\project_cv\\Kingdom\\Assets\\_Project\\Scripts\\Core\\Definitions.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:_Project\\Scripts\\Core\\Definitions.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\work_splace\\game\\project_cv\\Kingdom\\Assets\\_Project\\Scripts\\Data\\LevelDefinition.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:_Project\\Scripts\\Data\\LevelDefinition.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 0,
+          "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "Barracks.cs",
+              "DocumentMoniker": "C:\\work_splace\\game\\project_cv\\Kingdom\\Assets\\_Project\\Scripts\\Buildings\\Barracks.cs",
+              "RelativeDocumentMoniker": "_Project\\Scripts\\Buildings\\Barracks.cs",
+              "ToolTip": "C:\\work_splace\\game\\project_cv\\Kingdom\\Assets\\_Project\\Scripts\\Buildings\\Barracks.cs",
+              "RelativeToolTip": "_Project\\Scripts\\Buildings\\Barracks.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAowBkAAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-10-25T16:06:35.767Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "Turret.cs",
+              "DocumentMoniker": "C:\\work_splace\\game\\project_cv\\Kingdom\\Assets\\_Project\\Scripts\\Buildings\\Turret.cs",
+              "RelativeDocumentMoniker": "_Project\\Scripts\\Buildings\\Turret.cs",
+              "ToolTip": "C:\\work_splace\\game\\project_cv\\Kingdom\\Assets\\_Project\\Scripts\\Buildings\\Turret.cs",
+              "RelativeToolTip": "_Project\\Scripts\\Buildings\\Turret.cs",
+              "ViewState": "AgIAACcAAAAAAAAAAAAAAEgAAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-10-25T16:06:08.337Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "IBaseTower.cs",
+              "DocumentMoniker": "C:\\work_splace\\game\\project_cv\\Kingdom\\Assets\\_Project\\Scripts\\Buildings\\IBaseTower.cs",
+              "RelativeDocumentMoniker": "_Project\\Scripts\\Buildings\\IBaseTower.cs",
+              "ToolTip": "C:\\work_splace\\game\\project_cv\\Kingdom\\Assets\\_Project\\Scripts\\Buildings\\IBaseTower.cs",
+              "RelativeToolTip": "_Project\\Scripts\\Buildings\\IBaseTower.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA0AAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-10-25T16:05:50.143Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "StatusEffectController.cs",
+              "DocumentMoniker": "C:\\work_splace\\game\\project_cv\\Kingdom\\Assets\\_Project\\Scripts\\EnemyScripts\\StatusEffectController.cs",
+              "RelativeDocumentMoniker": "_Project\\Scripts\\EnemyScripts\\StatusEffectController.cs",
+              "ToolTip": "C:\\work_splace\\game\\project_cv\\Kingdom\\Assets\\_Project\\Scripts\\EnemyScripts\\StatusEffectController.cs",
+              "RelativeToolTip": "_Project\\Scripts\\EnemyScripts\\StatusEffectController.cs",
+              "ViewState": "AgIAAC4AAAAAAAAAAAAowDYAAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-10-25T16:05:15.238Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "Definitions.cs",
+              "DocumentMoniker": "C:\\work_splace\\game\\project_cv\\Kingdom\\Assets\\_Project\\Scripts\\Core\\Definitions.cs",
+              "RelativeDocumentMoniker": "_Project\\Scripts\\Core\\Definitions.cs",
+              "ToolTip": "C:\\work_splace\\game\\project_cv\\Kingdom\\Assets\\_Project\\Scripts\\Core\\Definitions.cs",
+              "RelativeToolTip": "_Project\\Scripts\\Core\\Definitions.cs",
+              "ViewState": "AgIAABUAAAAAAAAAAAAAADAAAAA/AAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-10-25T16:04:49.969Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "LevelDefinition.cs",
+              "DocumentMoniker": "C:\\work_splace\\game\\project_cv\\Kingdom\\Assets\\_Project\\Scripts\\Data\\LevelDefinition.cs",
+              "RelativeDocumentMoniker": "_Project\\Scripts\\Data\\LevelDefinition.cs",
+              "ToolTip": "C:\\work_splace\\game\\project_cv\\Kingdom\\Assets\\_Project\\Scripts\\Data\\LevelDefinition.cs",
+              "RelativeToolTip": "_Project\\Scripts\\Data\\LevelDefinition.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABYAAAAbAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-10-24T06:46:39.957Z",
+              "EditorCaption": ""
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

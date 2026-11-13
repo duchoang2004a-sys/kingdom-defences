@@ -1,0 +1,1001 @@
+fileFormatVersion: 2
+guid: d0e38bbfd998c51498d6178b99537149
+TextureImporter:
+  internalIDToNameTable:
+  - first:
+      213: -2200256502885722264
+    second: enemy_goblin_archer_sheet_0
+  - first:
+      213: 22899534267410919
+    second: enemy_goblin_archer_sheet_1
+  - first:
+      213: -6558713175094687193
+    second: enemy_goblin_archer_sheet_2
+  - first:
+      213: 1762799995348804253
+    second: enemy_goblin_archer_sheet_3
+  - first:
+      213: -180899849734855029
+    second: enemy_goblin_archer_sheet_4
+  - first:
+      213: -2217412560307593566
+    second: enemy_goblin_archer_sheet_5
+  - first:
+      213: -6945911688435577293
+    second: enemy_goblin_archer_sheet_6
+  - first:
+      213: 8238142426908777827
+    second: enemy_goblin_archer_sheet_7
+  - first:
+      213: 6498302839719542834
+    second: enemy_goblin_archer_sheet_8
+  - first:
+      213: -7712266758087703535
+    second: enemy_goblin_archer_sheet_9
+  - first:
+      213: 8052048158706296765
+    second: enemy_goblin_archer_sheet_10
+  - first:
+      213: 8893588940574241430
+    second: enemy_goblin_archer_sheet_11
+  - first:
+      213: 1580297955387824308
+    second: enemy_goblin_archer_sheet_12
+  - first:
+      213: 91069128070469776
+    second: enemy_goblin_archer_sheet_13
+  - first:
+      213: 9103291830521565403
+    second: enemy_goblin_archer_sheet_14
+  - first:
+      213: -3074877163152913635
+    second: enemy_goblin_archer_sheet_15
+  - first:
+      213: 2682201530236388384
+    second: enemy_goblin_archer_sheet_16
+  - first:
+      213: 2469886841555937274
+    second: enemy_goblin_archer_sheet_17
+  - first:
+      213: 1347492308456783171
+    second: enemy_goblin_archer_sheet_18
+  - first:
+      213: 6812705486851341115
+    second: enemy_goblin_archer_sheet_19
+  - first:
+      213: -1269782036403107216
+    second: enemy_goblin_archer_sheet_20
+  - first:
+      213: -3644455705425492681
+    second: enemy_goblin_archer_sheet_21
+  - first:
+      213: 2612094003049456181
+    second: enemy_goblin_archer_sheet_22
+  - first:
+      213: 921036285492473746
+    second: enemy_goblin_archer_sheet_23
+  - first:
+      213: 4165165635452630931
+    second: enemy_goblin_archer_sheet_24
+  - first:
+      213: -4461674772332319009
+    second: enemy_goblin_archer_sheet_25
+  - first:
+      213: -8203114697007811748
+    second: enemy_goblin_archer_sheet_26
+  - first:
+      213: -3594194133639507725
+    second: enemy_goblin_archer_sheet_27
+  - first:
+      213: -7645823875458651646
+    second: enemy_goblin_archer_sheet_28
+  - first:
+      213: 2671027025431225250
+    second: enemy_goblin_archer_sheet_29
+  - first:
+      213: 225786348664444092
+    second: enemy_goblin_archer_sheet_30
+  - first:
+      213: -4046946234830442707
+    second: enemy_goblin_archer_sheet_31
+  externalObjects: {}
+  serializedVersion: 13
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+    flipGreenChannel: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  ignoreMipmapLimit: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 1
+    aniso: 1
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 100
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  swizzle: 50462976
+  cookieLightType: 0
+  platformSettings:
+  - serializedVersion: 4
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: iOS
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: Android
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: WebGL
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: WindowsStoreApps
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: enemy_goblin_archer_sheet_0
+      rect:
+        serializedVersion: 2
+        x: 29
+        y: 461
+        width: 62
+        height: 56
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 867d0ca3e5e1771e0800000000000000
+      internalID: -2200256502885722264
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: enemy_goblin_archer_sheet_1
+      rect:
+        serializedVersion: 2
+        x: 149
+        y: 461
+        width: 62
+        height: 56
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 7e9e78d410b515000800000000000000
+      internalID: 22899534267410919
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: enemy_goblin_archer_sheet_2
+      rect:
+        serializedVersion: 2
+        x: 269
+        y: 464
+        width: 62
+        height: 56
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 72a8ec6ed15caf4a0800000000000000
+      internalID: -6558713175094687193
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: enemy_goblin_archer_sheet_3
+      rect:
+        serializedVersion: 2
+        x: 389
+        y: 464
+        width: 62
+        height: 56
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d9263dc8149b67810800000000000000
+      internalID: 1762799995348804253
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: enemy_goblin_archer_sheet_4
+      rect:
+        serializedVersion: 2
+        x: 29
+        y: 371
+        width: 62
+        height: 56
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b86e1ac8b805d7df0800000000000000
+      internalID: -180899849734855029
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: enemy_goblin_archer_sheet_5
+      rect:
+        serializedVersion: 2
+        x: 149
+        y: 377
+        width: 62
+        height: 53
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 2ae5066560b2a31e0800000000000000
+      internalID: -2217412560307593566
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: enemy_goblin_archer_sheet_6
+      rect:
+        serializedVersion: 2
+        x: 269
+        y: 371
+        width: 62
+        height: 56
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 33e4091de1a2b9f90800000000000000
+      internalID: -6945911688435577293
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: enemy_goblin_archer_sheet_7
+      rect:
+        serializedVersion: 2
+        x: 389
+        y: 371
+        width: 62
+        height: 56
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 36dd8f4c3e2c35270800000000000000
+      internalID: 8238142426908777827
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: enemy_goblin_archer_sheet_8
+      rect:
+        serializedVersion: 2
+        x: 509
+        y: 377
+        width: 62
+        height: 53
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 2304564d00c9e2a50800000000000000
+      internalID: 6498302839719542834
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: enemy_goblin_archer_sheet_9
+      rect:
+        serializedVersion: 2
+        x: 629
+        y: 371
+        width: 62
+        height: 56
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 114012fae3688f490800000000000000
+      internalID: -7712266758087703535
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: enemy_goblin_archer_sheet_10
+      rect:
+        serializedVersion: 2
+        x: 29
+        y: 281
+        width: 62
+        height: 56
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: db7e606832f9ebf60800000000000000
+      internalID: 8052048158706296765
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: enemy_goblin_archer_sheet_11
+      rect:
+        serializedVersion: 2
+        x: 146
+        y: 284
+        width: 62
+        height: 53
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 692354d65006c6b70800000000000000
+      internalID: 8893588940574241430
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: enemy_goblin_archer_sheet_12
+      rect:
+        serializedVersion: 2
+        x: 266
+        y: 287
+        width: 62
+        height: 50
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 4b8da2e1e985ee510800000000000000
+      internalID: 1580297955387824308
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: enemy_goblin_archer_sheet_13
+      rect:
+        serializedVersion: 2
+        x: 392
+        y: 281
+        width: 68
+        height: 59
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 09815a4b3ea834100800000000000000
+      internalID: 91069128070469776
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: enemy_goblin_archer_sheet_14
+      rect:
+        serializedVersion: 2
+        x: 515
+        y: 281
+        width: 59
+        height: 56
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: bd014f440b3655e70800000000000000
+      internalID: 9103291830521565403
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: enemy_goblin_archer_sheet_15
+      rect:
+        serializedVersion: 2
+        x: 575
+        y: 272
+        width: 23
+        height: 59
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d1b4f42f287d355d0800000000000000
+      internalID: -3074877163152913635
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: enemy_goblin_archer_sheet_16
+      rect:
+        serializedVersion: 2
+        x: 632
+        y: 284
+        width: 56
+        height: 53
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 024cfb1b418193520800000000000000
+      internalID: 2682201530236388384
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: enemy_goblin_archer_sheet_17
+      rect:
+        serializedVersion: 2
+        x: 689
+        y: 269
+        width: 26
+        height: 26
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: af76a521ffcc64220800000000000000
+      internalID: 2469886841555937274
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: enemy_goblin_archer_sheet_18
+      rect:
+        serializedVersion: 2
+        x: 29
+        y: 191
+        width: 62
+        height: 56
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 34d332f7d1143b210800000000000000
+      internalID: 1347492308456783171
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: enemy_goblin_archer_sheet_19
+      rect:
+        serializedVersion: 2
+        x: 149
+        y: 194
+        width: 62
+        height: 56
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b3bf0278b879b8e50800000000000000
+      internalID: 6812705486851341115
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: enemy_goblin_archer_sheet_20
+      rect:
+        serializedVersion: 2
+        x: 269
+        y: 200
+        width: 62
+        height: 53
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 07a450a27f3d06ee0800000000000000
+      internalID: -1269782036403107216
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: enemy_goblin_archer_sheet_21
+      rect:
+        serializedVersion: 2
+        x: 281
+        y: 185
+        width: 29
+        height: 17
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 735c77658da4c6dc0800000000000000
+      internalID: -3644455705425492681
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: enemy_goblin_archer_sheet_22
+      rect:
+        serializedVersion: 2
+        x: 389
+        y: 179
+        width: 62
+        height: 77
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 532e0b308a5004420800000000000000
+      internalID: 2612094003049456181
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: enemy_goblin_archer_sheet_23
+      rect:
+        serializedVersion: 2
+        x: 497
+        y: 179
+        width: 77
+        height: 74
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 29f260e2f9d28cc00800000000000000
+      internalID: 921036285492473746
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: enemy_goblin_archer_sheet_24
+      rect:
+        serializedVersion: 2
+        x: 605
+        y: 179
+        width: 101
+        height: 68
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 39771d3d314adc930800000000000000
+      internalID: 4165165635452630931
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: enemy_goblin_archer_sheet_25
+      rect:
+        serializedVersion: 2
+        x: 26
+        y: 101
+        width: 62
+        height: 56
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: fde6fcbfe62f412c0800000000000000
+      internalID: -4461674772332319009
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: enemy_goblin_archer_sheet_26
+      rect:
+        serializedVersion: 2
+        x: 143
+        y: 101
+        width: 62
+        height: 56
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c53301125aea82e80800000000000000
+      internalID: -8203114697007811748
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: enemy_goblin_archer_sheet_27
+      rect:
+        serializedVersion: 2
+        x: 29
+        y: 11
+        width: 62
+        height: 56
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 3f0df927a7bde1ec0800000000000000
+      internalID: -3594194133639507725
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: enemy_goblin_archer_sheet_28
+      rect:
+        serializedVersion: 2
+        x: 158
+        y: 5
+        width: 63
+        height: 61
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 20a2610d1b394e590800000000000000
+      internalID: -7645823875458651646
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: enemy_goblin_archer_sheet_29
+      rect:
+        serializedVersion: 2
+        x: 289
+        y: 0
+        width: 60
+        height: 62
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 2a3eb4c8de4611520800000000000000
+      internalID: 2671027025431225250
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: enemy_goblin_archer_sheet_30
+      rect:
+        serializedVersion: 2
+        x: 421
+        y: 0
+        width: 58
+        height: 55
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: cb4d643ec77222300800000000000000
+      internalID: 225786348664444092
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: enemy_goblin_archer_sheet_31
+      rect:
+        serializedVersion: 2
+        x: 555
+        y: 0
+        width: 46
+        height: 46
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d2fa3df47db56d7c0800000000000000
+      internalID: -4046946234830442707
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    customData: 
+    physicsShape: []
+    bones: []
+    spriteID: 
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+    spriteCustomMetadata:
+      entries: []
+    nameFileIdTable:
+      enemy_goblin_archer_sheet_0: -2200256502885722264
+      enemy_goblin_archer_sheet_1: 22899534267410919
+      enemy_goblin_archer_sheet_10: 8052048158706296765
+      enemy_goblin_archer_sheet_11: 8893588940574241430
+      enemy_goblin_archer_sheet_12: 1580297955387824308
+      enemy_goblin_archer_sheet_13: 91069128070469776
+      enemy_goblin_archer_sheet_14: 9103291830521565403
+      enemy_goblin_archer_sheet_15: -3074877163152913635
+      enemy_goblin_archer_sheet_16: 2682201530236388384
+      enemy_goblin_archer_sheet_17: 2469886841555937274
+      enemy_goblin_archer_sheet_18: 1347492308456783171
+      enemy_goblin_archer_sheet_19: 6812705486851341115
+      enemy_goblin_archer_sheet_2: -6558713175094687193
+      enemy_goblin_archer_sheet_20: -1269782036403107216
+      enemy_goblin_archer_sheet_21: -3644455705425492681
+      enemy_goblin_archer_sheet_22: 2612094003049456181
+      enemy_goblin_archer_sheet_23: 921036285492473746
+      enemy_goblin_archer_sheet_24: 4165165635452630931
+      enemy_goblin_archer_sheet_25: -4461674772332319009
+      enemy_goblin_archer_sheet_26: -8203114697007811748
+      enemy_goblin_archer_sheet_27: -3594194133639507725
+      enemy_goblin_archer_sheet_28: -7645823875458651646
+      enemy_goblin_archer_sheet_29: 2671027025431225250
+      enemy_goblin_archer_sheet_3: 1762799995348804253
+      enemy_goblin_archer_sheet_30: 225786348664444092
+      enemy_goblin_archer_sheet_31: -4046946234830442707
+      enemy_goblin_archer_sheet_4: -180899849734855029
+      enemy_goblin_archer_sheet_5: -2217412560307593566
+      enemy_goblin_archer_sheet_6: -6945911688435577293
+      enemy_goblin_archer_sheet_7: 8238142426908777827
+      enemy_goblin_archer_sheet_8: 6498302839719542834
+      enemy_goblin_archer_sheet_9: -7712266758087703535
+  mipmapLimitGroupName: 
+  pSDRemoveMatte: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

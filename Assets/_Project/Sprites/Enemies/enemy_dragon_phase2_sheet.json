@@ -1,0 +1,19 @@
+{
+ "frame_size": [
+  198,
+  132
+ ],
+ "rows": {
+  "fly": 4,
+  "breath": 5,
+  "hurt": 2,
+  "die": 6
+ },
+ "order": [
+  "fly",
+  "breath",
+  "hurt",
+  "die"
+ ],
+ "note": "Phase1 normal, phase2 rage, phase3 final/flaming. Dragon faces right."
+}

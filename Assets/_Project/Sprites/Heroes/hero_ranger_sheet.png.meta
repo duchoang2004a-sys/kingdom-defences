@@ -1,0 +1,1027 @@
+fileFormatVersion: 2
+guid: 194b102e4cf82c04ca23284bb8b6ca5e
+TextureImporter:
+  internalIDToNameTable:
+  - first:
+      213: -7868594803492491795
+    second: hero_ranger_sheet_0
+  - first:
+      213: 9127345756278559169
+    second: hero_ranger_sheet_1
+  - first:
+      213: -2629663297961973975
+    second: hero_ranger_sheet_2
+  - first:
+      213: -3324281442411792935
+    second: hero_ranger_sheet_3
+  - first:
+      213: 3912728166077149056
+    second: hero_ranger_sheet_4
+  - first:
+      213: -912435510104986372
+    second: hero_ranger_sheet_5
+  - first:
+      213: 3061997370572285057
+    second: hero_ranger_sheet_6
+  - first:
+      213: 4718212635260233047
+    second: hero_ranger_sheet_7
+  - first:
+      213: 5411490974902856141
+    second: hero_ranger_sheet_8
+  - first:
+      213: 8186935751969379373
+    second: hero_ranger_sheet_9
+  - first:
+      213: 5229700493676498144
+    second: hero_ranger_sheet_10
+  - first:
+      213: 8273193824604132992
+    second: hero_ranger_sheet_11
+  - first:
+      213: -8875079614304199018
+    second: hero_ranger_sheet_12
+  - first:
+      213: -2253436455619534621
+    second: hero_ranger_sheet_13
+  - first:
+      213: 6114651265697319298
+    second: hero_ranger_sheet_14
+  - first:
+      213: -822191355458670955
+    second: hero_ranger_sheet_15
+  - first:
+      213: 6829975874117123633
+    second: hero_ranger_sheet_16
+  - first:
+      213: -5335514414403784755
+    second: hero_ranger_sheet_17
+  - first:
+      213: -5423429308970965643
+    second: hero_ranger_sheet_18
+  - first:
+      213: 6172504332264411786
+    second: hero_ranger_sheet_19
+  - first:
+      213: -2223485768049617487
+    second: hero_ranger_sheet_20
+  - first:
+      213: -748237079179571121
+    second: hero_ranger_sheet_21
+  - first:
+      213: -1685830045120403220
+    second: hero_ranger_sheet_22
+  - first:
+      213: 4485019092664280784
+    second: hero_ranger_sheet_23
+  - first:
+      213: 5583780981590998323
+    second: hero_ranger_sheet_24
+  - first:
+      213: 7263246374971683455
+    second: hero_ranger_sheet_25
+  - first:
+      213: 4999909439664892729
+    second: hero_ranger_sheet_26
+  - first:
+      213: 8003018796767411753
+    second: hero_ranger_sheet_27
+  - first:
+      213: -3829353395936168674
+    second: hero_ranger_sheet_28
+  - first:
+      213: 4380673091421373679
+    second: hero_ranger_sheet_29
+  - first:
+      213: -5222194988295602360
+    second: hero_ranger_sheet_30
+  - first:
+      213: 6565882340801102505
+    second: hero_ranger_sheet_31
+  - first:
+      213: 4773194055655346774
+    second: hero_ranger_sheet_32
+  externalObjects: {}
+  serializedVersion: 13
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+    flipGreenChannel: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  ignoreMipmapLimit: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 1
+    aniso: 1
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 100
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  swizzle: 50462976
+  cookieLightType: 0
+  platformSettings:
+  - serializedVersion: 4
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: iOS
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: Android
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: WebGL
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: WindowsStoreApps
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: hero_ranger_sheet_0
+      rect:
+        serializedVersion: 2
+        x: 29
+        y: 461
+        width: 62
+        height: 56
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ded685047b22dc290800000000000000
+      internalID: -7868594803492491795
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: hero_ranger_sheet_1
+      rect:
+        serializedVersion: 2
+        x: 149
+        y: 461
+        width: 62
+        height: 56
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 1c117294b98daae70800000000000000
+      internalID: 9127345756278559169
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: hero_ranger_sheet_2
+      rect:
+        serializedVersion: 2
+        x: 269
+        y: 464
+        width: 62
+        height: 56
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 927281eb92f818bd0800000000000000
+      internalID: -2629663297961973975
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: hero_ranger_sheet_3
+      rect:
+        serializedVersion: 2
+        x: 389
+        y: 464
+        width: 62
+        height: 56
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 9d53f9314a7cdd1d0800000000000000
+      internalID: -3324281442411792935
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: hero_ranger_sheet_4
+      rect:
+        serializedVersion: 2
+        x: 29
+        y: 371
+        width: 62
+        height: 56
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 08fa1b9598dcc4630800000000000000
+      internalID: 3912728166077149056
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: hero_ranger_sheet_5
+      rect:
+        serializedVersion: 2
+        x: 149
+        y: 377
+        width: 62
+        height: 53
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: cfc6db3ecb06653f0800000000000000
+      internalID: -912435510104986372
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: hero_ranger_sheet_6
+      rect:
+        serializedVersion: 2
+        x: 269
+        y: 371
+        width: 62
+        height: 56
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 1842428a2666e7a20800000000000000
+      internalID: 3061997370572285057
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: hero_ranger_sheet_7
+      rect:
+        serializedVersion: 2
+        x: 389
+        y: 371
+        width: 62
+        height: 56
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 7552273c4657a7140800000000000000
+      internalID: 4718212635260233047
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: hero_ranger_sheet_8
+      rect:
+        serializedVersion: 2
+        x: 509
+        y: 377
+        width: 62
+        height: 53
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: dc92150de5a791b40800000000000000
+      internalID: 5411490974902856141
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: hero_ranger_sheet_9
+      rect:
+        serializedVersion: 2
+        x: 629
+        y: 371
+        width: 62
+        height: 56
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d24941fa0b6dd9170800000000000000
+      internalID: 8186935751969379373
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: hero_ranger_sheet_10
+      rect:
+        serializedVersion: 2
+        x: 29
+        y: 281
+        width: 62
+        height: 56
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 0ecc54f04e0a39840800000000000000
+      internalID: 5229700493676498144
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: hero_ranger_sheet_11
+      rect:
+        serializedVersion: 2
+        x: 146
+        y: 284
+        width: 62
+        height: 53
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 0861c7143f940d270800000000000000
+      internalID: 8273193824604132992
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: hero_ranger_sheet_12
+      rect:
+        serializedVersion: 2
+        x: 266
+        y: 287
+        width: 62
+        height: 50
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 69e561cec1265d480800000000000000
+      internalID: -8875079614304199018
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: hero_ranger_sheet_13
+      rect:
+        serializedVersion: 2
+        x: 392
+        y: 281
+        width: 68
+        height: 59
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 3e0e1ea9b7f2ab0e0800000000000000
+      internalID: -2253436455619534621
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: hero_ranger_sheet_14
+      rect:
+        serializedVersion: 2
+        x: 515
+        y: 281
+        width: 59
+        height: 56
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 2890849edea9bd450800000000000000
+      internalID: 6114651265697319298
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: hero_ranger_sheet_15
+      rect:
+        serializedVersion: 2
+        x: 575
+        y: 272
+        width: 23
+        height: 59
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 59e2d70815df694f0800000000000000
+      internalID: -822191355458670955
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: hero_ranger_sheet_16
+      rect:
+        serializedVersion: 2
+        x: 632
+        y: 284
+        width: 56
+        height: 53
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 13e3d39eed2f8ce50800000000000000
+      internalID: 6829975874117123633
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: hero_ranger_sheet_17
+      rect:
+        serializedVersion: 2
+        x: 689
+        y: 269
+        width: 26
+        height: 26
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: dcf6c7ba8e174f5b0800000000000000
+      internalID: -5335514414403784755
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: hero_ranger_sheet_18
+      rect:
+        serializedVersion: 2
+        x: 29
+        y: 191
+        width: 62
+        height: 56
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 575e75e27cb1cb4b0800000000000000
+      internalID: -5423429308970965643
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: hero_ranger_sheet_19
+      rect:
+        serializedVersion: 2
+        x: 149
+        y: 194
+        width: 62
+        height: 56
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a821e23acf329a550800000000000000
+      internalID: 6172504332264411786
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: hero_ranger_sheet_20
+      rect:
+        serializedVersion: 2
+        x: 269
+        y: 200
+        width: 62
+        height: 53
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 1b5144879779421e0800000000000000
+      internalID: -2223485768049617487
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: hero_ranger_sheet_21
+      rect:
+        serializedVersion: 2
+        x: 389
+        y: 203
+        width: 62
+        height: 53
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f40d9bf375abd95f0800000000000000
+      internalID: -748237079179571121
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: hero_ranger_sheet_22
+      rect:
+        serializedVersion: 2
+        x: 497
+        y: 179
+        width: 77
+        height: 74
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ce8eae0818aba98e0800000000000000
+      internalID: -1685830045120403220
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: hero_ranger_sheet_23
+      rect:
+        serializedVersion: 2
+        x: 605
+        y: 179
+        width: 101
+        height: 68
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 0d669152a1dfd3e30800000000000000
+      internalID: 4485019092664280784
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: hero_ranger_sheet_24
+      rect:
+        serializedVersion: 2
+        x: 281
+        y: 179
+        width: 29
+        height: 14
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 33d3057f7339d7d40800000000000000
+      internalID: 5583780981590998323
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: hero_ranger_sheet_25
+      rect:
+        serializedVersion: 2
+        x: 389
+        y: 179
+        width: 53
+        height: 20
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f72b450881c3cc460800000000000000
+      internalID: 7263246374971683455
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: hero_ranger_sheet_26
+      rect:
+        serializedVersion: 2
+        x: 26
+        y: 101
+        width: 62
+        height: 56
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 93b295c052f336540800000000000000
+      internalID: 4999909439664892729
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: hero_ranger_sheet_27
+      rect:
+        serializedVersion: 2
+        x: 143
+        y: 101
+        width: 62
+        height: 56
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 92e7810a13f601f60800000000000000
+      internalID: 8003018796767411753
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: hero_ranger_sheet_28
+      rect:
+        serializedVersion: 2
+        x: 29
+        y: 11
+        width: 62
+        height: 56
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e15f9cb00676bdac0800000000000000
+      internalID: -3829353395936168674
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: hero_ranger_sheet_29
+      rect:
+        serializedVersion: 2
+        x: 158
+        y: 5
+        width: 63
+        height: 61
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: fe4884387f64bcc30800000000000000
+      internalID: 4380673091421373679
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: hero_ranger_sheet_30
+      rect:
+        serializedVersion: 2
+        x: 289
+        y: 0
+        width: 60
+        height: 62
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 84fb0d693590787b0800000000000000
+      internalID: -5222194988295602360
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: hero_ranger_sheet_31
+      rect:
+        serializedVersion: 2
+        x: 421
+        y: 0
+        width: 58
+        height: 55
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 9a2c5709333be1b50800000000000000
+      internalID: 6565882340801102505
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: hero_ranger_sheet_32
+      rect:
+        serializedVersion: 2
+        x: 555
+        y: 0
+        width: 46
+        height: 46
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 652d75344bacd3240800000000000000
+      internalID: 4773194055655346774
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    customData: 
+    physicsShape: []
+    bones: []
+    spriteID: 
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+    spriteCustomMetadata:
+      entries: []
+    nameFileIdTable:
+      hero_ranger_sheet_0: -7868594803492491795
+      hero_ranger_sheet_1: 9127345756278559169
+      hero_ranger_sheet_10: 5229700493676498144
+      hero_ranger_sheet_11: 8273193824604132992
+      hero_ranger_sheet_12: -8875079614304199018
+      hero_ranger_sheet_13: -2253436455619534621
+      hero_ranger_sheet_14: 6114651265697319298
+      hero_ranger_sheet_15: -822191355458670955
+      hero_ranger_sheet_16: 6829975874117123633
+      hero_ranger_sheet_17: -5335514414403784755
+      hero_ranger_sheet_18: -5423429308970965643
+      hero_ranger_sheet_19: 6172504332264411786
+      hero_ranger_sheet_2: -2629663297961973975
+      hero_ranger_sheet_20: -2223485768049617487
+      hero_ranger_sheet_21: -748237079179571121
+      hero_ranger_sheet_22: -1685830045120403220
+      hero_ranger_sheet_23: 4485019092664280784
+      hero_ranger_sheet_24: 5583780981590998323
+      hero_ranger_sheet_25: 7263246374971683455
+      hero_ranger_sheet_26: 4999909439664892729
+      hero_ranger_sheet_27: 8003018796767411753
+      hero_ranger_sheet_28: -3829353395936168674
+      hero_ranger_sheet_29: 4380673091421373679
+      hero_ranger_sheet_3: -3324281442411792935
+      hero_ranger_sheet_30: -5222194988295602360
+      hero_ranger_sheet_31: 6565882340801102505
+      hero_ranger_sheet_32: 4773194055655346774
+      hero_ranger_sheet_4: 3912728166077149056
+      hero_ranger_sheet_5: -912435510104986372
+      hero_ranger_sheet_6: 3061997370572285057
+      hero_ranger_sheet_7: 4718212635260233047
+      hero_ranger_sheet_8: 5411490974902856141
+      hero_ranger_sheet_9: 8186935751969379373
+  mipmapLimitGroupName: 
+  pSDRemoveMatte: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

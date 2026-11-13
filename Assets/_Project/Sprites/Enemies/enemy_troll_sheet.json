@@ -1,0 +1,35 @@
+{
+ "frame_size": [
+  160,
+  120
+ ],
+ "pixels_per_logical": 4,
+ "rows": {
+  "idle": 4,
+  "walk": 6,
+  "attack": 6,
+  "skill": 6,
+  "hurt": 2,
+  "die": 5
+ },
+ "order": [
+  "idle",
+  "walk",
+  "attack",
+  "skill",
+  "hurt",
+  "die"
+ ],
+ "suggest_fps": {
+  "idle": 6,
+  "walk": 10,
+  "attack": 14,
+  "skill": 10,
+  "hurt": 10,
+  "die": 8
+ },
+ "pivot_px": [
+  80,
+  96
+ ]
+}
