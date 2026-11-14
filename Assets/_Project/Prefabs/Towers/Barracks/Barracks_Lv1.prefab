@@ -154,7 +154,7 @@ Transform:
   serializedVersion: 2
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
   m_LocalPosition: {x: 0, y: 0, z: 0}
-  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_LocalScale: {x: 0.7, y: 0.7, z: 0.7}
   m_ConstrainProportionsScale: 0
   m_Children:
   - {fileID: 4398345095444753527}
@@ -330,6 +330,9 @@ MonoBehaviour:
   currentLevel: 0
   soldierPrefab: {fileID: 8846778091142175558, guid: 30b533ee0029bfc48a200e592b78da9a, type: 3}
   rallyPoint: {fileID: 0}
+  soldierDamage: 10
+  damagePerLevel: 4
+  soldierRegen: 1.5
   plot: {fileID: 0}
   creationTime: 0
 --- !u!114 &4665824202480336415

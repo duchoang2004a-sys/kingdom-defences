@@ -207,7 +207,7 @@ public class Turret : MonoBehaviour, IBaseTower
             {
                 sr.sprite = newSpr;
             }
-            transform.localScale = Vector3.one * (1.0f + currentLevel * 0.12f);
+            transform.localScale = Vector3.one * (1.0f + currentLevel * 0.12f) * GameScale.Tower;
         }
 
         TowerBuildEffect buildFx = GetComponent<TowerBuildEffect>();

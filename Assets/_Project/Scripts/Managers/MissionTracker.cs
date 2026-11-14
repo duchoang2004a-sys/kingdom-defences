@@ -178,84 +178,129 @@ public class MissionTracker : MonoBehaviour
         OnMissionProgressUpdated?.Invoke(missionData);
     }
 
+    /// <summary>HUD nhiệm vụ phải nằm cùng canvas với thanh trên (Canvas_UI); không có mới lấy canvas bất kỳ.</summary>
+    private static Canvas FindHudCanvas()
+    {
+        Canvas[] all = UnityEngine.Object.FindObjectsByType<Canvas>(FindObjectsSortMode.None);
+        for (int i = 0; i < all.Length; i++)
+        {
+            if (all[i] != null && all[i].name == "Canvas_UI") return all[i];
+        }
+        return UnityEngine.Object.FindAnyObjectByType<Canvas>();
+    }
+
     private void EnsureMissionHUD()
     {
-        Canvas canvas = UnityEngine.Object.FindAnyObjectByType<Canvas>();
+        Canvas canvas = FindHudCanvas();
         if (canvas == null) return;
 
         Transform existing = canvas.transform.Find("MissionHUD_Banner");
         if (existing != null)
         {
-            missionTitleText = existing.Find("Title")?.GetComponent<TextMeshProUGUI>();
-            missionProgressText = existing.Find("Progress")?.GetComponent<TextMeshProUGUI>();
-            secondaryMissionsText = existing.Find("Secondary")?.GetComponent<TextMeshProUGUI>();
-            castleTierText = existing.Find("CastleTier")?.GetComponent<TextMeshProUGUI>();
+            missionTitleText = existing.Find("Panel/Title")?.GetComponent<TextMeshProUGUI>();
+            missionProgressText = existing.Find("Panel/Progress")?.GetComponent<TextMeshProUGUI>();
+            secondaryMissionsText = existing.Find("Panel/Secondary")?.GetComponent<TextMeshProUGUI>();
+            castleTierText = existing.Find("Panel/CastleTier")?.GetComponent<TextMeshProUGUI>();
             return;
         }
 
-        // Tạo Banner Nhiệm vụ ở mép trên giữa màn hình
+        // v2 (SESSION_20261113_B): thu gọn thành icon quyển sách nhiệm vụ ở góc trái; bấm để mở/đóng danh sách điều kiện thắng.
         GameObject bannerObj = new GameObject("MissionHUD_Banner");
         bannerObj.transform.SetParent(canvas.transform, false);
 
         RectTransform rt = bannerObj.AddComponent<RectTransform>();
-        rt.anchorMin = new Vector2(0.5f, 1f);
-        rt.anchorMax = new Vector2(0.5f, 1f);
-        rt.pivot = new Vector2(0.5f, 1f);
-        rt.anchoredPosition = new Vector2(0f, -8f);
-        rt.sizeDelta = new Vector2(560f, 78f);
+        rt.anchorMin = new Vector2(0f, 1f);
+        rt.anchorMax = new Vector2(0f, 1f);
+        rt.pivot = new Vector2(0f, 1f);
+        rt.anchoredPosition = new Vector2(10f, -104f);   // ngay dưới thanh trên (TopBar cao 96) - trước đây -70 đè lên nút Home
+        rt.sizeDelta = new Vector2(52f, 52f);
 
-        Image bg = bannerObj.AddComponent<Image>();
-        bg.color = new Color(0.10f, 0.13f, 0.20f, 0.92f);
+        Image bookImg = bannerObj.AddComponent<Image>();
+        Sprite book = HudIcons.Get("icon_mission_book");
+        bookImg.sprite = book;
+        bookImg.preserveAspect = true;
+        bookImg.color = book != null ? Color.white : new Color(0.55f, 0.4f, 0.2f, 0.95f);
+        Button bookBtn = bannerObj.AddComponent<Button>();
+        bookBtn.targetGraphic = bookImg;
+
+        // Panel danh sách (mở sang phải icon)
+        GameObject panel = new GameObject("Panel", typeof(RectTransform));
+        panel.transform.SetParent(bannerObj.transform, false);
+        RectTransform pr = panel.GetComponent<RectTransform>();
+        pr.anchorMin = new Vector2(1f, 1f);
+        pr.anchorMax = new Vector2(1f, 1f);
+        pr.pivot = new Vector2(0f, 1f);
+        pr.anchoredPosition = new Vector2(8f, 0f);
+        pr.sizeDelta = new Vector2(360f, 176f);
+        Image pbg = panel.AddComponent<Image>();
+        pbg.color = new Color(0.10f, 0.13f, 0.20f, 0.94f);
+        Outline pol = panel.AddComponent<Outline>();
+        pol.effectColor = new Color(0.85f, 0.7f, 0.25f, 0.7f);
+        pol.effectDistance = new Vector2(1.5f, -1.5f);
 
         // Title
-        GameObject titleObj = new GameObject("Title");
-        titleObj.transform.SetParent(bannerObj.transform, false);
+        GameObject titleObj = new GameObject("Title", typeof(RectTransform));
+        titleObj.transform.SetParent(panel.transform, false);
         missionTitleText = titleObj.AddComponent<TextMeshProUGUI>();
-        missionTitleText.fontSize = 13;
+        missionTitleText.fontSize = 14;
         missionTitleText.fontStyle = FontStyles.Bold;
-        missionTitleText.alignment = TextAlignmentOptions.Center;
+        missionTitleText.alignment = TextAlignmentOptions.MidlineLeft;
         missionTitleText.color = new Color(1f, 0.85f, 0.3f);
+        missionTitleText.raycastTarget = false;
         RectTransform tRt = titleObj.GetComponent<RectTransform>();
-        tRt.anchorMin = new Vector2(0.02f, 0.65f);
-        tRt.anchorMax = new Vector2(0.68f, 0.98f);
+        tRt.anchorMin = new Vector2(0.03f, 0.82f);
+        tRt.anchorMax = new Vector2(0.97f, 0.98f);
         tRt.sizeDelta = Vector2.zero;
 
         // Progress
-        GameObject progObj = new GameObject("Progress");
-        progObj.transform.SetParent(bannerObj.transform, false);
+        GameObject progObj = new GameObject("Progress", typeof(RectTransform));
+        progObj.transform.SetParent(panel.transform, false);
         missionProgressText = progObj.AddComponent<TextMeshProUGUI>();
-        missionProgressText.fontSize = 11;
-        missionProgressText.alignment = TextAlignmentOptions.Center;
+        missionProgressText.fontSize = 12;
+        missionProgressText.alignment = TextAlignmentOptions.MidlineLeft;
         missionProgressText.color = Color.white;
+        missionProgressText.raycastTarget = false;
         RectTransform pRt = progObj.GetComponent<RectTransform>();
-        pRt.anchorMin = new Vector2(0.02f, 0.38f);
-        pRt.anchorMax = new Vector2(0.68f, 0.64f);
+        pRt.anchorMin = new Vector2(0.03f, 0.66f);
+        pRt.anchorMax = new Vector2(0.97f, 0.82f);
         pRt.sizeDelta = Vector2.zero;
 
-        // Secondary Missions
-        GameObject secObj = new GameObject("Secondary");
-        secObj.transform.SetParent(bannerObj.transform, false);
+        // Secondary Missions: mỗi điều kiện 1 dòng, dấu tích ở CUỐI dòng
+        GameObject secObj = new GameObject("Secondary", typeof(RectTransform));
+        secObj.transform.SetParent(panel.transform, false);
         secondaryMissionsText = secObj.AddComponent<TextMeshProUGUI>();
-        secondaryMissionsText.fontSize = 10;
-        secondaryMissionsText.alignment = TextAlignmentOptions.Center;
-        secondaryMissionsText.color = new Color(0.85f, 0.85f, 0.85f);
+        secondaryMissionsText.fontSize = 12;
+        secondaryMissionsText.alignment = TextAlignmentOptions.TopLeft;
+        secondaryMissionsText.color = new Color(0.9f, 0.9f, 0.9f);
+        secondaryMissionsText.raycastTarget = false;
         RectTransform sRt = secObj.GetComponent<RectTransform>();
-        sRt.anchorMin = new Vector2(0.02f, 0.04f);
-        sRt.anchorMax = new Vector2(0.68f, 0.36f);
+        sRt.anchorMin = new Vector2(0.03f, 0.20f);
+        sRt.anchorMax = new Vector2(0.97f, 0.66f);
         sRt.sizeDelta = Vector2.zero;
 
         // Castle Tier Badge
-        GameObject tierObj = new GameObject("CastleTier");
-        tierObj.transform.SetParent(bannerObj.transform, false);
+        GameObject tierObj = new GameObject("CastleTier", typeof(RectTransform));
+        tierObj.transform.SetParent(panel.transform, false);
         castleTierText = tierObj.AddComponent<TextMeshProUGUI>();
         castleTierText.fontSize = 11;
         castleTierText.fontStyle = FontStyles.Bold;
-        castleTierText.alignment = TextAlignmentOptions.Center;
+        castleTierText.alignment = TextAlignmentOptions.MidlineLeft;
         castleTierText.color = new Color(0.4f, 0.9f, 1f);
+        castleTierText.raycastTarget = false;
         RectTransform tierRt = tierObj.GetComponent<RectTransform>();
-        tierRt.anchorMin = new Vector2(0.70f, 0.08f);
-        tierRt.anchorMax = new Vector2(0.98f, 0.92f);
+        tierRt.anchorMin = new Vector2(0.03f, 0.02f);
+        tierRt.anchorMax = new Vector2(0.97f, 0.20f);
         tierRt.sizeDelta = Vector2.zero;
+
+        // Mở sẵn vài giây đầu để người chơi thấy điều kiện thắng, sau đó tự thu lại
+        bookBtn.onClick.AddListener(() => panel.SetActive(!panel.activeSelf));
+        StartCoroutine(AutoCloseMissionPanel(panel, 8f));
+    }
+
+    private System.Collections.IEnumerator AutoCloseMissionPanel(GameObject panel, float seconds)
+    {
+        yield return new WaitForSecondsRealtime(seconds);
+        if (panel != null) panel.SetActive(false);
     }
 
     private void Update()
@@ -322,7 +367,7 @@ public class MissionTracker : MonoBehaviour
 
         if (missionTitleText != null)
         {
-            missionTitleText.text = $"🎯 MỤC TIÊU CHÍNH: {missionData.missionTitle}";
+            missionTitleText.text = $"MỤC TIÊU CHÍNH: {missionData.missionTitle}";
         }
 
         if (missionProgressText != null)
@@ -360,10 +405,10 @@ public class MissionTracker : MonoBehaviour
             foreach (var sub in missionData.secondaryMissions)
             {
                 if (sub == null) continue;
-                string mark = sub.isCompleted ? "<color=#55ff55>[✓]</color>" : "<color=#ffaa33>[ ]</color>";
-                subStatusList.Add($"{mark} {sub.description}");
+                string mark = sub.isCompleted ? "<color=#55ff55><b>[v]</b></color>" : "<color=#ffaa33>[ ]</color>";
+                subStatusList.Add($"- {sub.description}  {mark}");
             }
-            secondaryMissionsText.text = string.Join("  |  ", subStatusList);
+            secondaryMissionsText.text = string.Join("\n", subStatusList);
         }
 
         if (castleTierText != null)
@@ -374,11 +419,11 @@ public class MissionTracker : MonoBehaviour
             if (tier > 0)
             {
                 string regenStr = tier == 3 ? "+4% HP/5s" : (tier == 2 ? "+3% HP/5s" : "+2% HP/5s");
-                castleTierText.text = $"🏰 Lâu Đài Bậc {tier}\n<size=9>(Cấp Avg: {avgLvl:F1} | {regenStr})</size>";
+                castleTierText.text = $"Lâu Đài Bậc {tier}\n<size=9>(Cấp Avg: {avgLvl:F1} | {regenStr})</size>";
             }
             else
             {
-                castleTierText.text = "🏰 Lâu Đài Bậc 0\n<size=9>(Xây 3 tháp cùng cấp)</size>";
+                castleTierText.text = "Lâu Đài Bậc 0\n<size=9>(Xây 3 tháp cùng cấp)</size>";
             }
         }
     }

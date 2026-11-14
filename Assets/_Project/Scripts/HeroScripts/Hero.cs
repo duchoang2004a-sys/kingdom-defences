@@ -70,6 +70,8 @@ public class Hero : MonoBehaviour, IBlocker
 
     public float Skill1CooldownRemaining => Mathf.Max(0f, skill1Cooldown - (Time.time - lastSkill1Time));
     public float Skill2CooldownRemaining => Mathf.Max(0f, skill2Cooldown - (Time.time - lastSkill2Time));
+    /// <summary>Thời gian còn lại tới đòn đánh thường kế tiếp (HUD hiển thị hồi chiêu đánh thường).</summary>
+    public float AttackCooldownRemaining => Mathf.Max(0f, attackCooldown - (Time.time - lastAttackTime));
 
     private HeroRangeVisualizer rangeVisualizer;
 

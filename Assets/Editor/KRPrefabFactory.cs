@@ -419,7 +419,7 @@ public static class KRPrefabFactory
 
         GameObject vis = new GameObject("Visual");
         vis.transform.SetParent(root.transform, false);
-        vis.transform.localScale = Vector3.one * 1.0f;
+        vis.transform.localScale = Vector3.one * 1.0f * GameScale.Soldier;
         SpriteRenderer sr = vis.AddComponent<SpriteRenderer>();
         List<Sprite> idle = Frames(prefix, "idle");
         sr.sprite = idle.Count > 0 ? idle[0] : null;
@@ -460,6 +460,7 @@ public static class KRPrefabFactory
 
             GameObject vis = new GameObject("Visual");
             vis.transform.SetParent(root.transform, false);
+            // GameScale.Hero được áp ĐÚNG MỘT LẦN lúc chạy lên root (HeroController.EnsureHero) -> không nhân ở đây nữa (trước đây thu nhỏ 2 lần).
             vis.transform.localScale = Vector3.one * 1.25f;
             SpriteRenderer sr = vis.AddComponent<SpriteRenderer>();
             List<Sprite> idle = Frames(prefix, "idle");
@@ -627,7 +628,7 @@ public static class KRPrefabFactory
         Back(sAtk, sWalk); Back(sHurt, sWalk);
 
         GameObject go = new GameObject(s.prefab);
-        go.transform.localScale = Vector3.one * s.scale;
+        go.transform.localScale = Vector3.one * s.scale * (s.boss ? GameScale.Boss : GameScale.Enemy);
         SpriteRenderer sr = go.AddComponent<SpriteRenderer>();
         sr.sprite = walk.Count > 0 ? walk[0] : null;
         sr.sortingOrder = 5;
@@ -708,7 +709,7 @@ public static class KRPrefabFactory
         Back(sBr, sF1); Back(sHurt, sF1);
 
         GameObject go = new GameObject(name);
-        go.transform.localScale = Vector3.one * 1.35f;
+        go.transform.localScale = Vector3.one * 1.35f * GameScale.Boss;
         SpriteRenderer sr = go.AddComponent<SpriteRenderer>();
         List<Sprite> f1 = Frames(p1, "fly");
         sr.sprite = f1.Count > 0 ? f1[0] : null;
@@ -847,6 +848,7 @@ public static class KRPrefabFactory
             for (int lvl = 1; lvl <= 3; lvl++)
             {
                 GameObject go = new GameObject(pname + "_Lv" + lvl);
+                go.transform.localScale = Vector3.one * GameScale.Tower;
                 SpriteRenderer sr = go.AddComponent<SpriteRenderer>();
                 sr.sprite = Spr("tower_" + key + "_L" + lvl + ".png");     // THÂN tháp (không có vũ khí)
                 sr.sortingOrder = 10;

@@ -24,7 +24,7 @@ public static class GameScale
     public const float EngageRange = 0.34f;      // quái thường chỉ bị chặn khi cùng làn với blocker
     public const float BossEngageRange = 0.7f;   // boss to bằng cả đường: luôn bị chặn
     public const float DodgeLookAhead = 1.4f;    // nhìn trước bao xa để lách
-    public const float DodgeChance = 0.75f;      // xác suất quái "thông minh" đổi làn khi gặp vật cản
+    public const float DodgeChance = 0.5f;       // xác suất quái "thông minh" đổi làn khi gặp vật cản (0,75 làm Barracks cấp 1 chỉ chặn ~15% quái)
     public const float LaneSwitchSpeed = 1.0f;   // tốc độ trượt ngang giữa các làn (đơn vị/giây)
 
     // Khung nhìn: ảnh map 1280x720 @100 PPU = 12.8 x 7.2 đơn vị -> orthographicSize 3.6 vừa khít, không lộ viền đen

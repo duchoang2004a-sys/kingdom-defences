@@ -145,6 +145,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::HeroController
   hero: {fileID: 7017675065226800530}
+  pickRadius: 0.9
 --- !u!1 &6730316598293384266
 GameObject:
   m_ObjectHideFlags: 0

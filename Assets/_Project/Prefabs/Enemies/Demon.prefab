@@ -34,7 +34,7 @@ Transform:
   serializedVersion: 2
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
   m_LocalPosition: {x: 0, y: 0, z: 0}
-  m_LocalScale: {x: 1.45, y: 1.45, z: 1.45}
+  m_LocalScale: {x: 0.725, y: 0.725, z: 0.725}
   m_ConstrainProportionsScale: 0
   m_Children:
   - {fileID: 5352060674492253916}
@@ -241,6 +241,7 @@ MonoBehaviour:
   rb: {fileID: 0}
   minSpeedMultiplier: 0.85
   maxSpeedMultiplier: 1.15
+  smartLaneDodge: 1
 --- !u!114 &3351779338838926723
 MonoBehaviour:
   m_ObjectHideFlags: 0

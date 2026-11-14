@@ -24,7 +24,7 @@ public class HeroCameraController : MonoBehaviour
     public float zoomSpeed = 2.5f;
 
     [Header("Vùng tile phủ kín (nửa kích thước, đơn vị world)")]
-    public Vector2 coverHalfSize = new Vector2(13.0f, 7.2f);
+    public Vector2 coverHalfSize = new Vector2(7.1f, 4.35f);   // tile thật phủ ±7,2 x ±4,4 (trừ lề an toàn)
     public float dragSpeed = 1.2f;
 
     private Camera cam;
@@ -38,6 +38,8 @@ public class HeroCameraController : MonoBehaviour
     private void Awake()
     {
         main = this;
+        // Scene sinh bằng bản cũ đã lưu (13, 7.2) vào component -> luôn kẹp về vùng tile thật
+        coverHalfSize = new Vector2(Mathf.Min(coverHalfSize.x, 7.1f), Mathf.Min(coverHalfSize.y, 4.35f));
         cam = GetComponent<Camera>();
         if (cam == null) cam = Camera.main;
 

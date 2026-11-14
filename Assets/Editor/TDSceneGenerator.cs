@@ -227,7 +227,7 @@ public class TDSceneGenerator : EditorWindow
             camObj.AddComponent<AudioListener>();
         }
         cam.orthographic = true;
-        cam.orthographicSize = 3.6f;   // 12.8 x 7.2 đơn vị = ảnh map 1280x720 @100 PPU
+        cam.orthographicSize = GameScale.ViewOrthoSize;   // 12.8 x 7.2 đơn vị = ảnh map 1280x720 @100 PPU
         cam.transform.position = new Vector3(0f, 0f, -10f);
         cam.clearFlags = CameraClearFlags.SolidColor;
         cam.backgroundColor = new Color(0.07f, 0.07f, 0.11f, 1f);
@@ -392,6 +392,7 @@ public class TDSceneGenerator : EditorWindow
 
             GameObject visual = new GameObject("PlotVisual");
             visual.transform.SetParent(plot.transform, false);
+            visual.transform.localScale = Vector3.one * GameScale.Plot;
             SpriteRenderer sr = visual.AddComponent<SpriteRenderer>();
             sr.sprite = padSprite;
             sr.sortingOrder = 5;
