@@ -34,16 +34,16 @@ public class BuildManager : MonoBehaviour
     private void CreateDefaultTowerTemplates()
     {
         // 1. Tạo Template Đạn (Bullet Templates)
-        GameObject arrowBullet = CreateBulletTemplate("ArrowBulletTemplate", BulletType.Arrow, new Color(1f, 0.85f, 0.2f), 15f, 12f, 0f);
-        GameObject cannonBullet = CreateBulletTemplate("CannonBulletTemplate", BulletType.Cannonball, new Color(0.2f, 0.2f, 0.25f), 9f, 30f, 2.2f);
-        GameObject mageBullet = CreateBulletTemplate("MageBulletTemplate", BulletType.MageBolt, new Color(0.4f, 0.85f, 1f), 12f, 22f, 0f);
+        GameObject arrowBullet = CreateBulletTemplate("ArrowBulletTemplate", BulletType.Arrow, new Color(1f, 0.85f, 0.2f), 15f * GameScale.ProjectileSpeed, 12f, 0f);
+        GameObject cannonBullet = CreateBulletTemplate("CannonBulletTemplate", BulletType.Cannonball, new Color(0.2f, 0.2f, 0.25f), 9f * GameScale.ProjectileSpeed, 30f, 2.2f * GameScale.RangeFactor);
+        GameObject mageBullet = CreateBulletTemplate("MageBulletTemplate", BulletType.MageBolt, new Color(0.4f, 0.85f, 1f), 12f * GameScale.ProjectileSpeed, 22f, 0f);
 
         // 2. Tạo 5 Tháp Cấp 1 Tiêu Chuẩn (Cung, Pháo, Pháp Sư, Trại Lính, Băng)
-        GameObject archerObj = CreateTurretTemplate("ArcherTower_Lv1", "Tháp Cung", 100, new Color(0.2f, 0.65f, 0.35f), arrowBullet, 12f, 3.6f, 1.6f, "Cung");
-        GameObject mageObj = CreateTurretTemplate("MageTower_Lv1", "Pháp Sư", 100, new Color(0.55f, 0.25f, 0.85f), mageBullet, 22f, 3.4f, 0.95f, "Pháp Sư");
-        GameObject cannonObj = CreateTurretTemplate("CannonTower_Lv1", "Tháp Pháo", 125, new Color(0.85f, 0.35f, 0.15f), cannonBullet, 30f, 3.2f, 0.65f, "Pháo");
+        GameObject archerObj = CreateTurretTemplate("ArcherTower_Lv1", "Tháp Cung", 100, new Color(0.2f, 0.65f, 0.35f), arrowBullet, 12f, 3.6f * GameScale.RangeFactor, 1.6f, "Cung");
+        GameObject mageObj = CreateTurretTemplate("MageTower_Lv1", "Pháp Sư", 100, new Color(0.55f, 0.25f, 0.85f), mageBullet, 22f, 3.4f * GameScale.RangeFactor, 0.95f, "Pháp Sư");
+        GameObject cannonObj = CreateTurretTemplate("CannonTower_Lv1", "Tháp Pháo", 125, new Color(0.85f, 0.35f, 0.15f), cannonBullet, 30f, 3.2f * GameScale.RangeFactor, 0.65f, "Pháo");
         GameObject barracksObj = CreateBarracksTemplate("Barracks_Lv1", "Trại Lính", 70);
-        GameObject iceObj = CreateTurretTemplate("IceTower_Lv1", "Tháp Băng", 110, new Color(0.2f, 0.75f, 1f), mageBullet, 8f, 3.2f, 0.8f, "Băng");
+        GameObject iceObj = CreateTurretTemplate("IceTower_Lv1", "Tháp Băng", 110, new Color(0.2f, 0.75f, 1f), mageBullet, 8f, 3.2f * GameScale.RangeFactor, 0.8f, "Băng");
 
         Sprite sprArcher = LoadIconSprite("Assets/_Project/Sprites/UI/Skills/icon_tower_archer.png");
         Sprite sprMage = LoadIconSprite("Assets/_Project/Sprites/UI/Skills/icon_tower_mage.png");
@@ -174,27 +174,27 @@ public class BuildManager : MonoBehaviour
         {
             turret.upgrades = new TowerUpgrade[]
             {
-                new TowerUpgrade { levelName = "Cấp 1: Cung Thủ", cost = 0,   damage = 12f, range = 3.6f, fireRate = 1.6f, bulletsPerShot = 1 },
-                new TowerUpgrade { levelName = "Cấp 2: Bắn Chuẩn", cost = 75,  damage = 22f, range = 4.2f, fireRate = 2.0f, bulletsPerShot = 1 },
-                new TowerUpgrade { levelName = "Cấp 3: Song Tiễn", cost = 140, damage = 35f, range = 4.8f, fireRate = 2.4f, bulletsPerShot = 2 } // Bắn 2 mũi tên
+                new TowerUpgrade { levelName = "Cấp 1: Cung Thủ", cost = 0,   damage = 12f, range = 3.6f * GameScale.RangeFactor, fireRate = 1.6f, bulletsPerShot = 1 },
+                new TowerUpgrade { levelName = "Cấp 2: Bắn Chuẩn", cost = 75,  damage = 22f, range = 4.2f * GameScale.RangeFactor, fireRate = 2.0f, bulletsPerShot = 1 },
+                new TowerUpgrade { levelName = "Cấp 3: Song Tiễn", cost = 140, damage = 35f, range = 4.8f * GameScale.RangeFactor, fireRate = 2.4f, bulletsPerShot = 2 } // Bắn 2 mũi tên
             };
         }
         else if (type == "Pháo")
         {
             turret.upgrades = new TowerUpgrade[]
             {
-                new TowerUpgrade { levelName = "Cấp 1: Tháp Pháo", cost = 0,   damage = 30f, range = 3.2f, fireRate = 0.65f, aoeRadius = 2.0f },
-                new TowerUpgrade { levelName = "Cấp 2: Đại Bác",   cost = 90,  damage = 55f, range = 3.8f, fireRate = 0.8f,  aoeRadius = 2.6f },
-                new TowerUpgrade { levelName = "Cấp 3: Siêu Nổ",   cost = 160, damage = 95f, range = 4.4f, fireRate = 0.95f, aoeRadius = 3.8f, bulletScale = 1.5f } // Siêu nổ rộng
+                new TowerUpgrade { levelName = "Cấp 1: Tháp Pháo", cost = 0,   damage = 30f, range = 3.2f * GameScale.RangeFactor, fireRate = 0.65f, aoeRadius = 2.0f * GameScale.RangeFactor },
+                new TowerUpgrade { levelName = "Cấp 2: Đại Bác",   cost = 90,  damage = 55f, range = 3.8f * GameScale.RangeFactor, fireRate = 0.8f,  aoeRadius = 2.6f * GameScale.RangeFactor },
+                new TowerUpgrade { levelName = "Cấp 3: Siêu Nổ",   cost = 160, damage = 95f, range = 4.4f * GameScale.RangeFactor, fireRate = 0.95f, aoeRadius = 3.8f * GameScale.RangeFactor, bulletScale = 1.5f } // Siêu nổ rộng
             };
         }
         else // Pháp Sư
         {
             turret.upgrades = new TowerUpgrade[]
             {
-                new TowerUpgrade { levelName = "Cấp 1: Pháp Sư",   cost = 0,   damage = 22f, range = 3.4f, fireRate = 0.95f, slowDuration = 0f },
-                new TowerUpgrade { levelName = "Cấp 2: Sấm Sét",   cost = 80,  damage = 40f, range = 4.0f, fireRate = 1.25f, slowDuration = 1.0f },
-                new TowerUpgrade { levelName = "Cấp 3: Băng Hàn",  cost = 150, damage = 65f, range = 4.6f, fireRate = 1.5f,  slowDuration = 2.5f } // Làm chậm / đóng băng
+                new TowerUpgrade { levelName = "Cấp 1: Pháp Sư",   cost = 0,   damage = 22f, range = 3.4f * GameScale.RangeFactor, fireRate = 0.95f, slowDuration = 0f },
+                new TowerUpgrade { levelName = "Cấp 2: Sấm Sét",   cost = 80,  damage = 40f, range = 4.0f * GameScale.RangeFactor, fireRate = 1.25f, slowDuration = 1.0f },
+                new TowerUpgrade { levelName = "Cấp 3: Băng Hàn",  cost = 150, damage = 65f, range = 4.6f * GameScale.RangeFactor, fireRate = 1.5f,  slowDuration = 2.5f } // Làm chậm / đóng băng
             };
         }
 

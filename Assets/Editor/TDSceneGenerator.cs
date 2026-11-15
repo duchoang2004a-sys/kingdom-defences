@@ -173,9 +173,10 @@ public class TDSceneGenerator : EditorWindow
             Scene scene = EditorSceneManager.NewScene(NewSceneSetup.DefaultGameObjects, NewSceneMode.Single);
 
             SetupCamera();
-            BuildBackgroundFallback(n);
+            BuildBackgroundFallback(n, map);
             Tilemap ground = BuildTilemaps(map);
             BuildProps(map);
+            BuildAmbience(map);
             BuildOverlay(n, map);
 
             LevelPaths paths = BuildWaypoints(map);
@@ -235,7 +236,7 @@ public class TDSceneGenerator : EditorWindow
     }
 
     /// <summary>Ảnh nền cả map đặt SAU tilemap: chỉ lộ ra nếu thiếu tile (lưới an toàn).</summary>
-    private static void BuildBackgroundFallback(int n)
+    private static void BuildBackgroundFallback(int n, KRMap map)
     {
         Sprite bg = KRAssetFinder.LoadSprite("level_" + n.ToString("D2") + "_background.png");
         if (bg == null) return;
@@ -243,6 +244,24 @@ public class TDSceneGenerator : EditorWindow
         SpriteRenderer sr = go.AddComponent<SpriteRenderer>();
         sr.sprite = bg;
         sr.sortingOrder = -100;
+
+        // v3: ảnh nền cũ 1280x720 phải được kéo giãn đúng khung map (imageW x imageH @100 PPU). MapBounds / camera lấy khung
+        // map từ chính sprite này, nếu để nguyên 12.8x7.2 camera sẽ bị khoá zoom vào giữa map 19.2x10.8.
+        Vector2 size = bg.bounds.size;
+        float fw = map != null && map.imageW > 0 ? map.imageW / 100f : 19.2f;
+        float fh = map != null && map.imageH > 0 ? map.imageH / 100f : 10.8f;
+        if (size.x > 0.01f && size.y > 0.01f) go.transform.localScale = new Vector3(fw / size.x, fh / size.y, 1f);
+        sr.color = new Color(0.45f, 0.45f, 0.5f, 1f);   // tối đi để không "nhầm" với layout đường cũ nếu lộ ra
+    }
+
+    /// <summary>Hiệu ứng không gian theo chủ đề màn (tuyết rơi, lá/cánh hoa bay theo gió, mưa, bụi, tối...).</summary>
+    private static void BuildAmbience(KRMap map)
+    {
+        GameObject go = new GameObject("AmbientEffects");
+        AmbientEffects fx = go.AddComponent<AmbientEffects>();
+        fx.kind = string.IsNullOrEmpty(map.ambience) ? "none" : map.ambience;
+        fx.halfWidth = (map.imageW > 0 ? map.imageW : 1920) / 200f;
+        fx.halfHeight = (map.imageH > 0 ? map.imageH : 1080) / 200f;
     }
 
     // ------------------------------------------------------------------ Tilemap isometric
@@ -318,6 +337,9 @@ public class TDSceneGenerator : EditorWindow
             GameObject go = new GameObject("Prop_" + p.sprite);
             go.transform.SetParent(parent.transform, false);
             go.transform.position = new Vector3(p.x, p.y, 0f);       // sprite có pivot góc trên-trái
+            // v3: lâu đài thu nhỏ GameScale.Castle (trước đây để nguyên 3.2x3.3 đơn vị nên to như cả đoạn đường và bị nhầm là đường đi);
+            // prop khác thu nhỏ GameScale.Prop. gen_maps_v4.py tính toạ độ góc trên-trái theo đúng các hệ số này.
+            go.transform.localScale = Vector3.one * (p.sprite.StartsWith("castle_") ? GameScale.Castle : GameScale.Prop);
             SpriteRenderer sr = go.AddComponent<SpriteRenderer>();
             sr.sprite = sp;
             sr.sortingOrder = p.sprite.StartsWith("castle_") ? 15 : 3;
@@ -404,7 +426,7 @@ public class TDSceneGenerator : EditorWindow
         GameObject castle = new GameObject("Castle_Destination_Marker");
         castle.transform.position = pos;
         BoxCollider2D col = castle.AddComponent<BoxCollider2D>();
-        col.size = new Vector2(1.1f, 1.1f);
+        col.size = new Vector2(0.9f, 0.9f);
         col.isTrigger = true;
         CastleManager cm = castle.AddComponent<CastleManager>();
         cm.maxHealth = 20f;

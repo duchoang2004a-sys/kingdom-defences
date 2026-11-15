@@ -77,7 +77,7 @@ public class LevelManager : MonoBehaviour
         if (Camera.main != null)
         {
             Camera.main.orthographic = true;
-            Camera.main.orthographicSize = 3.6f;
+            Camera.main.orthographicSize = GameScale.ViewOrthoSize;
             Camera.main.transform.position = new Vector3(0, 0, -10f);
         }
     }

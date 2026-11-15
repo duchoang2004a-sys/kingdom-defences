@@ -45,6 +45,7 @@ public class KRMap
     public List<string> enemies = new List<string>();
     public string boss;
     public string tip;
+    public string ambience;   // v3: hiệu ứng không gian theo màn: leaves | petals | dust | rain | dark | snow | embers | none
 
     // Lịch boss: loại ("troll_king", "shaman", "golem_ice", "demon_lord", "dragon"), wave xuất hiện, HP
     public List<string> bossTypes = new List<string>();

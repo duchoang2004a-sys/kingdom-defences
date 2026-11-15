@@ -124,7 +124,7 @@ Transform:
   serializedVersion: 2
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
   m_LocalPosition: {x: 0, y: 0, z: 0}
-  m_LocalScale: {x: 0.7, y: 0.7, z: 0.7}
+  m_LocalScale: {x: 0.55, y: 0.55, z: 0.55}
   m_ConstrainProportionsScale: 0
   m_Children:
   - {fileID: 7141817968255747166}
@@ -261,11 +261,11 @@ MonoBehaviour:
   - levelName: "C\u1EA5p 1"
     cost: 125
     damage: 30
-    range: 3.2
+    range: 1.7600001
     fireRate: 0.65
     bulletsPerShot: 1
-    bulletScale: 1
-    aoeRadius: 2
+    bulletScale: 0.7
+    aoeRadius: 1.1
     slowDuration: 0
     soldierCount: 2
     soldierHP: 120
@@ -274,11 +274,11 @@ MonoBehaviour:
   - levelName: "C\u1EA5p 2"
     cost: 90
     damage: 55
-    range: 3.8
+    range: 2.09
     fireRate: 0.8
     bulletsPerShot: 1
-    bulletScale: 1
-    aoeRadius: 2.6
+    bulletScale: 0.7
+    aoeRadius: 1.43
     slowDuration: 0
     soldierCount: 2
     soldierHP: 120
@@ -287,11 +287,11 @@ MonoBehaviour:
   - levelName: "C\u1EA5p 3"
     cost: 160
     damage: 95
-    range: 4.4
+    range: 2.42
     fireRate: 0.95
     bulletsPerShot: 1
-    bulletScale: 1.5
-    aoeRadius: 3.8
+    bulletScale: 1.05
+    aoeRadius: 2.09
     slowDuration: 0
     soldierCount: 2
     soldierHP: 120
@@ -301,7 +301,7 @@ MonoBehaviour:
   shootPoint: {fileID: 3833072982497230078}
   bulletPrefab: {fileID: 28246466543757492, guid: 05e933ace9ec9e6439cf98e1ab73f955, type: 3}
   damage: 30
-  targetingRange: 3.2
+  targetingRange: 1.7600001
   BulletsPerSecond: 0.65
   BulletPrefab: {fileID: 28246466543757492, guid: 05e933ace9ec9e6439cf98e1ab73f955, type: 3}
   FiringPoint: {fileID: 3833072982497230078}

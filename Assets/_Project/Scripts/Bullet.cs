@@ -21,11 +21,11 @@ public class Bullet : MonoBehaviour
     public float armorPenetration = 0f;
 
     [Header("AoE Splash (Cannon Tower)")]
-    public float aoeRadius = 2.0f;
+    public float aoeRadius = 2.0f * GameScale.RangeFactor;
 
     [Header("Chain Lightning (Mage Tower)")]
     public int maxChainTargets = 3;
-    public float chainRadius = 2.0f;
+    public float chainRadius = 2.0f * GameScale.RangeFactor;
     public float slowDuration = 0f;
     public float slowFactor = 0.5f;
 
@@ -35,7 +35,7 @@ public class Bullet : MonoBehaviour
 
     [Header("Targeting & Retargeting")]
     public LayerMask enemyMask;
-    public float retargetSearchRadius = 7.0f;
+    public float retargetSearchRadius = 7.0f * GameScale.RangeFactor;
 
     private Transform target;
     private bool hasHit = false;
@@ -115,7 +115,7 @@ public class Bullet : MonoBehaviour
             float angle = Mathf.Atan2(direction.y, direction.x) * Mathf.Rad2Deg;
             transform.rotation = Quaternion.Euler(0, 0, angle);
 
-            if (Vector2.Distance(transform.position, target.position) < 0.25f)
+            if (Vector2.Distance(transform.position, target.position) < 0.18f)
             {
                 HitTarget(target.gameObject);
             }
@@ -167,10 +167,10 @@ public class Bullet : MonoBehaviour
     private void HitTarget(GameObject obj)
     {
         EnemyHealth primaryHealth = obj.GetComponent<EnemyHealth>() ?? obj.GetComponentInParent<EnemyHealth>();
-        if (primaryHealth == null && enemyMask != default)
-        {
-            if ((enemyMask.value & (1 << obj.layer)) == 0) return;
-        }
+
+        // v3: CHỈ quái mới tiêu thụ đạn. Trước đây prefab đạn có enemyMask = ~0 (mọi layer) nên viên đạn vừa sinh ra đã
+        // chạm trigger của chính Plot/tháp/lâu đài và nổ tại chỗ -> người chơi không thấy đạn bay, chỉ thấy hiệu ứng nổ.
+        if (primaryHealth == null) return;
 
         hasHit = true;
 

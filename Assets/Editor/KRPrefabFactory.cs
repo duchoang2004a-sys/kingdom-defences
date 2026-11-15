@@ -42,10 +42,10 @@ public static class KRPrefabFactory
         GameObject hit = BuildAnimVfx("HitSparkVFX", "fx_hit_spark", 18f, 0.3f, 0.8f, false);
         GameObject boom = BuildAnimVfx("ExplosionVFX", "fx_explosion", 14f, 0.55f, 1.7f, true);
         GameObject lightning = BuildLightning();
-        GameObject arrow = BuildBullet("ArrowBullet", BulletType.Arrow, "proj_arrow", null, 15f, 12f, 0f, 1, 0f, hit, null, 1f);
-        GameObject cball = BuildBullet("CannonBullet", BulletType.Cannonball, "proj_cannonball", null, 9f, 25f, 2.2f, 1, 0f, boom, null, 1f);
-        GameObject magic = BuildBullet("MageBullet", BulletType.MageBolt, null, "proj_magic", 11f, 18f, 0f, 3, 1.5f, hit, lightning, 1f);
-        GameObject ice = BuildBullet("IceBullet", BulletType.MageBolt, null, "proj_ice_shard", 10f, 8f, 0f, 1, 2f, hit, null, 1f);
+        GameObject arrow = BuildBullet("ArrowBullet", BulletType.Arrow, "proj_arrow", null, 15f * GameScale.ProjectileSpeed, 12f, 0f, 1, 0f, hit, null, GameScale.Projectile);
+        GameObject cball = BuildBullet("CannonBullet", BulletType.Cannonball, "proj_cannonball", null, 9f * GameScale.ProjectileSpeed, 25f, 2.2f * GameScale.RangeFactor, 1, 0f, boom, null, GameScale.Projectile);
+        GameObject magic = BuildBullet("MageBullet", BulletType.MageBolt, null, "proj_magic", 11f * GameScale.ProjectileSpeed, 18f, 0f, 3, 1.5f, hit, lightning, GameScale.Projectile);
+        GameObject ice = BuildBullet("IceBullet", BulletType.MageBolt, null, "proj_ice_shard", 10f * GameScale.ProjectileSpeed, 8f, 0f, 1, 2f, hit, null, GameScale.Projectile);
 
         GameObject soldier = BuildSoldier();
         enemies += BuildEnemies();
@@ -281,9 +281,10 @@ public static class KRPrefabFactory
         b.bulletType = type;
         b.bulletSpeed = speed;
         b.bulletDamage = dmg;
-        b.aoeRadius = aoe > 0f ? aoe : 2.0f;
+        b.aoeRadius = aoe > 0f ? aoe : 2.0f * GameScale.RangeFactor;
         b.maxChainTargets = chain;
-        b.chainRadius = 2.0f;
+        b.chainRadius = 2.0f * GameScale.RangeFactor;
+        b.retargetSearchRadius = 7.0f * GameScale.RangeFactor;
         b.slowDuration = slow;
         b.impactVfxPrefab = impact;
         b.lightningVfxPrefab = lightning;
@@ -298,7 +299,7 @@ public static class KRPrefabFactory
         TrailRenderer tr = go.AddComponent<TrailRenderer>();
         tr.material = TrailMaterial();
         tr.time = tt;
-        tr.startWidth = tw;
+        tr.startWidth = tw * GameScale.Projectile;
         tr.endWidth = 0f;
         tr.startColor = tc;
         tr.endColor = new Color(tc.r, tc.g, tc.b, 0f);
@@ -755,15 +756,16 @@ public static class KRPrefabFactory
     private static TowerUpgrade U(string n, int cost, float dmg, float range, float rate, int bullets = 1, float aoe = 0f, float slow = 0f, float bscale = 1f)
     {
         TowerUpgrade u = new TowerUpgrade();
-        u.levelName = n; u.cost = cost; u.damage = dmg; u.range = range; u.fireRate = rate;
-        u.bulletsPerShot = bullets; u.aoeRadius = aoe; u.slowDuration = slow; u.bulletScale = bscale;
+        // v3: tầm bắn / vùng nổ nhân RangeFactor (map 19.2x10.8, đường hẹp 1.2), đạn nhân Projectile để vừa tỉ lệ mới
+        u.levelName = n; u.cost = cost; u.damage = dmg; u.range = range * GameScale.RangeFactor; u.fireRate = rate;
+        u.bulletsPerShot = bullets; u.aoeRadius = aoe * GameScale.RangeFactor; u.slowDuration = slow; u.bulletScale = bscale * GameScale.Projectile;
         return u;
     }
 
     private static TowerUpgrade UB(string n, int cost, int count, float hp, float armor, float respawn)
     {
         TowerUpgrade u = new TowerUpgrade();
-        u.levelName = n; u.cost = cost; u.damage = 0f; u.range = 3.2f; u.fireRate = 1f;
+        u.levelName = n; u.cost = cost; u.damage = 0f; u.range = 3.2f * GameScale.RangeFactor; u.fireRate = 1f;
         u.soldierCount = count; u.soldierHP = hp; u.soldierArmor = armor; u.soldierRespawnTime = respawn;
         return u;
     }

@@ -31,7 +31,7 @@ Transform:
   serializedVersion: 2
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
   m_LocalPosition: {x: 0, y: 0, z: 0}
-  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_LocalScale: {x: 0.7, y: 0.7, z: 0.7}
   m_ConstrainProportionsScale: 0
   m_Children: []
   m_Father: {fileID: 0}
@@ -172,12 +172,12 @@ MonoBehaviour:
   m_EditorClassIdentifier: Assembly-CSharp::Bullet
   bulletType: 2
   rb: {fileID: 0}
-  bulletSpeed: 10
+  bulletSpeed: 5
   bulletDamage: 8
   armorPenetration: 0
-  aoeRadius: 2
+  aoeRadius: 1.1
   maxChainTargets: 1
-  chainRadius: 2
+  chainRadius: 1.1
   slowDuration: 2
   slowFactor: 0.5
   impactVfxPrefab: {fileID: 4034647203097584061, guid: 2ac8d8e45e4f3d6459e1be37288a6999, type: 3}
@@ -185,7 +185,7 @@ MonoBehaviour:
   enemyMask:
     serializedVersion: 2
     m_Bits: 4294967295
-  retargetSearchRadius: 7
+  retargetSearchRadius: 3.8500001
 --- !u!96 &6995076744855662596
 TrailRenderer:
   serializedVersion: 4
@@ -245,7 +245,7 @@ TrailRenderer:
       m_Curve:
       - serializedVersion: 3
         time: 0
-        value: 0.11
+        value: 0.077
         inSlope: 0
         outSlope: 0
         tangentMode: 0

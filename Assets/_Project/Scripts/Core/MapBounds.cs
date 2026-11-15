@@ -11,8 +11,8 @@ public static class MapBounds
     private static Rect rect;
     private static int cachedFrame = -1;
 
-    // Mặc định = ảnh map 1280x720 @100 PPU
-    private static readonly Rect Default = new Rect(-6.4f, -3.6f, 12.8f, 7.2f);
+    // Mặc định = ảnh map 1920x1080 @100 PPU (v3)
+    private static readonly Rect Default = new Rect(-9.6f, -5.4f, 19.2f, 10.8f);
 
     public static void Invalidate() { cached = false; }
 
