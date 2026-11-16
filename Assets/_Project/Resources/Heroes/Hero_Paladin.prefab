@@ -132,6 +132,7 @@ MonoBehaviour:
   isDead: 0
   skill1Cooldown: 10
   skill2Cooldown: 20
+  autoCastSkills: 1
 --- !u!114 &1379035190963752156
 MonoBehaviour:
   m_ObjectHideFlags: 0

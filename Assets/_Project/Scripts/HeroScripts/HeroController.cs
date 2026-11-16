@@ -166,13 +166,13 @@ public class HeroController : MonoBehaviour
 
     public void PrepareSkill1()
     {
-        currentMode = HeroCommandMode.Skill1;
-        if (hero != null) hero.SetSelected(true);
+        // SESSION_20261115_G: bấm icon = tung chiêu ngay (Hero tự chọn quái / cụm quái hợp lý), không còn chế độ click chọn điểm
+        if (hero != null) hero.CastSkillNow(1);
     }
 
     public void PrepareSkill2()
     {
-        currentMode = HeroCommandMode.Skill2;
-        if (hero != null) hero.SetSelected(true);
+        // SESSION_20261115_G: bấm icon = tung chiêu ngay (Hero tự chọn quái / cụm quái hợp lý), không còn chế độ click chọn điểm
+        if (hero != null) hero.CastSkillNow(2);
     }
 }

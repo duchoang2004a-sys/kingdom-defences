@@ -24,7 +24,7 @@ public class HeroCameraController : MonoBehaviour
     public float zoomSpeed = 2.5f;
 
     [Header("Vùng tile phủ kín (nửa kích thước, đơn vị world)")]
-    public Vector2 coverHalfSize = new Vector2(7.1f, 4.35f);   // tile thật phủ ±7,2 x ±4,4 (trừ lề an toàn)
+    public Vector2 coverHalfSize = new Vector2(GameScale.MapHalfWidth, GameScale.MapHalfHeight);   // ảnh map 1920x1080 = ±9,6 x ±5,4
     public float dragSpeed = 1.2f;
 
     private Camera cam;
@@ -38,14 +38,17 @@ public class HeroCameraController : MonoBehaviour
     private void Awake()
     {
         main = this;
-        // Scene sinh bằng bản cũ đã lưu (13, 7.2) vào component -> luôn kẹp về vùng tile thật
-        coverHalfSize = new Vector2(Mathf.Min(coverHalfSize.x, 7.1f), Mathf.Min(coverHalfSize.y, 4.35f));
+        // Scene sinh bằng bản cũ đã lưu vùng phủ cũ (7,1 x 4,35) vào component: vùng đó làm camera bị ép zoom-in ~3,99 (map quá to,
+        // rìa trên bị thanh HUD che). Luôn dùng khung thật của ảnh map 1920x1080.
+        coverHalfSize = new Vector2(GameScale.MapHalfWidth, GameScale.MapHalfHeight);
         cam = GetComponent<Camera>();
         if (cam == null) cam = Camera.main;
 
         if (cam != null)
         {
-            fitSize = cam.orthographicSize > 0.1f ? cam.orthographicSize : GameScale.ViewOrthoSize;
+            // Cỡ toàn cảnh cố định theo GameScale (scene cũ có thể đã lưu cỡ camera khác)
+            fitSize = GameScale.ViewOrthoSize;
+            cam.orthographicSize = fitSize;
             targetOrthoSize = fitSize;
         }
     }
@@ -63,10 +66,8 @@ public class HeroCameraController : MonoBehaviour
 
     private float MaxOrtho()
     {
-        float aspect = cam != null && cam.aspect > 0.1f ? cam.aspect : 16f / 9f;
-        float byCoverW = coverHalfSize.x / aspect;   // không để nửa chiều rộng khung nhìn vượt vùng phủ
-        float byCoverH = coverHalfSize.y;
-        return Mathf.Max(MinOrtho(), Mathf.Min(fitSize * maxZoomFactor, Mathf.Min(byCoverW, byCoverH)));
+        // Toàn cảnh (fitSize) đã có sẵn lề quanh map + chỗ cho thanh HUD trên: không cho zoom-out xa hơn nữa
+        return Mathf.Max(MinOrtho(), fitSize);
     }
 
     private void LateUpdate()
@@ -125,7 +126,7 @@ public class HeroCameraController : MonoBehaviour
     private System.Collections.IEnumerator SmoothResetRoutine()
     {
         Vector3 startPos = transform.position;
-        Vector3 targetPos = new Vector3(0, 0, transform.position.z);
+        Vector3 targetPos = ClampPosition(new Vector3(0, 0, transform.position.z), targetOrthoSize);
         float elapsed = 0f;
         float dur = 0.4f;
 
@@ -206,11 +207,24 @@ public class HeroCameraController : MonoBehaviour
 
     private Vector3 ClampPosition(Vector3 pos)
     {
+        return ClampPosition(pos, cam.orthographicSize);
+    }
+
+    private Vector3 ClampPosition(Vector3 pos, float ortho)
+    {
         float aspect = cam.aspect > 0.1f ? cam.aspect : 16f / 9f;
-        float halfH = cam.orthographicSize;
+        float halfH = ortho;
         float halfW = halfH * aspect;
-        float limitX = Mathf.Max(0f, coverHalfSize.x - halfW);
-        float limitY = Mathf.Max(0f, coverHalfSize.y - halfH);
-        return new Vector3(Mathf.Clamp(pos.x, -limitX, limitX), Mathf.Clamp(pos.y, -limitY, limitY), pos.z);
+        float f = GameScale.TopHudFraction;
+
+        float limitX = coverHalfSize.x - halfW;
+        float x = limitX >= 0f ? Mathf.Clamp(pos.x, -limitX, limitX) : 0f;
+
+        // Vùng nhìn được DƯỚI thanh HUD trên là [c - halfH, c + halfH - 2*halfH*f] (c = tâm camera theo y)
+        float yLo = -coverHalfSize.y + halfH;
+        float yHi = coverHalfSize.y - halfH + 2f * halfH * f;
+        // Khung nhìn lớn hơn map: đặt map vừa khít dưới thanh HUD; ngược lại cho kéo/bám trong phạm vi map
+        float y = yLo <= yHi ? Mathf.Clamp(pos.y, yLo, yHi) : halfH * f;
+        return new Vector3(x, y, pos.z);
     }
 }

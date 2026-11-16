@@ -27,6 +27,17 @@ public class SpellManager : MonoBehaviour
     public bool CanCastReinforcements => Time.time - lastReinforcementTime >= reinforcementCooldown;
     public bool IsTargeting => currentState != SpellState.None;
 
+    // v3 (SESSION_20261115_E): bán kính ảnh hưởng nhân GameScale.RangeFactor như mọi tầm/vùng nổ khác (số gốc 5 áp cho map 12.8x7.2).
+    // Vòng hiện theo chuột và lúc thả dùng CÙNG một bán kính này nên vòng nhìn thấy = vùng sát thương thật.
+    public float MeteorRadius => meteorRadius * GameScale.RangeFactor;
+    public float ReinforcementRadius => 0.8f;   // 2 hiệp sĩ xuất hiện ở ±0.4 quanh điểm click
+
+    private GameObject aimRing;
+    private LineRenderer aimLine;
+    private RangeIndicator aimIndicator;
+    private float aimRadius = -1f;
+    private SpellState aimState = SpellState.None;
+
     public enum SpellState { None, CastingMeteor, CastingReinforcements }
     public SpellState currentState = SpellState.None;
 
@@ -51,6 +62,8 @@ public class SpellManager : MonoBehaviour
         {
             GlobalFreezeRemaining -= Time.deltaTime;
         }
+
+        UpdateAimRing();
 
         if (GameInput.GetMouseButtonDown(0))
         {
@@ -86,6 +99,58 @@ public class SpellManager : MonoBehaviour
         }
     }
 
+    // ------------------------------------------------------------------ vòng ảnh hưởng khi chọn vị trí (v3)
+
+    /// <summary>Đang chọn vị trí (Thiên thạch / Tiếp viện): vòng tròn bán kính ảnh hưởng đi theo chuột trên bản đồ.</summary>
+    private void UpdateAimRing()
+    {
+        if (currentState == SpellState.None)
+        {
+            if (aimRing != null && aimRing.activeSelf) aimRing.SetActive(false);
+            aimState = SpellState.None;
+            return;
+        }
+        if (Camera.main == null) return;
+
+        float r = currentState == SpellState.CastingMeteor ? MeteorRadius : ReinforcementRadius;
+        if (aimRing == null)
+        {
+            aimRing = MakeRing(Vector2.zero, r, new Color(1f, 0.6f, 0.2f, 0.95f), 0f);
+            aimLine = aimRing.GetComponent<LineRenderer>();
+            aimIndicator = aimRing.GetComponent<RangeIndicator>();
+            aimRadius = r;
+            aimState = SpellState.None;
+        }
+
+        if (aimState != currentState || !Mathf.Approximately(aimRadius, r))
+        {
+            Color c = currentState == SpellState.CastingMeteor ? new Color(1f, 0.6f, 0.2f, 0.95f) : new Color(0.3f, 0.8f, 1f, 0.95f);
+            if (aimLine != null) { aimLine.startColor = c; aimLine.endColor = c; }
+            if (aimIndicator != null) aimIndicator.DrawCircle(r);
+            aimRadius = r;
+            aimState = currentState;
+        }
+
+        Vector2 mp = (Vector2)Camera.main.ScreenToWorldPoint(GameInput.MousePosition);
+        aimRing.transform.position = new Vector3(mp.x, mp.y, 0f);
+        if (!aimRing.activeSelf) aimRing.SetActive(true);
+    }
+
+    /// <summary>Tạo vòng tròn (LineRenderer + RangeIndicator có sẵn). life &gt; 0: tự hủy sau life giây.</summary>
+    private GameObject MakeRing(Vector2 pos, float radius, Color color, float life)
+    {
+        GameObject go = new GameObject("SpellRing");
+        go.transform.position = new Vector3(pos.x, pos.y, 0f);
+        LineRenderer lr = go.AddComponent<LineRenderer>();
+        RangeIndicator ri = go.AddComponent<RangeIndicator>();
+        lr.sortingOrder = 200;
+        lr.startColor = color;
+        lr.endColor = color;
+        ri.DrawCircle(radius);
+        if (life > 0f) Destroy(go, life);
+        return go;
+    }
+
     public void PrepareMeteor()
     {
         if (meteorUses > 0)
@@ -98,6 +163,8 @@ public class SpellManager : MonoBehaviour
     private IEnumerator CastMeteor(Vector2 targetPos)
     {
         Debug.Log("[Spell] Thiên thạch Meteor đang rơi... 1s delay!");
+        // v3: vòng cảnh báo đúng vùng sát thương tại điểm vừa click, tồn tại tới khi thiên thạch giáng xuống
+        MakeRing(targetPos, MeteorRadius, new Color(1f, 0.35f, 0.1f, 0.95f), meteorDelay + 0.4f);
         yield return new WaitForSeconds(meteorDelay);
 
         var enemies = EnemyRegistry.ActiveEnemies;
@@ -107,7 +174,7 @@ public class SpellManager : MonoBehaviour
             EnemyHealth eh = enemies[i];
             if (eh == null || !eh.gameObject.activeInHierarchy || eh.CurrentHealth <= 0) continue;
 
-            if (Vector2.Distance(targetPos, eh.transform.position) <= meteorRadius)
+            if (Vector2.Distance(targetPos, eh.transform.position) <= MeteorRadius)
             {
                 DamageInfo dmg = new DamageInfo(meteorDamage, DamageType.Explosive, gameObject);
                 eh.TakeDamage(dmg);

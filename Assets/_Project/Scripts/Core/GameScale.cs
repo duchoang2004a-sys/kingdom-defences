@@ -14,7 +14,9 @@ public static class GameScale
     public const float Boss = 0.6f;
     public const float Hero = 0.55f;
     public const float Soldier = 0.5f;
-    public const float Tower = 0.55f;
+    // Tỉ lệ thật (đo từ sprite): pad lúc chưa xây ~0,31x0,20 đơn vị; Goblin ~0,29x0,26. Trước đây Tower 0,55 -> tháp cấp 1 chỉ ~0,20x0,22:
+    // nhỏ hơn pad, nhỏ hơn quái, nhỏ hơn cả viên đạn. Tower 1,2 -> cấp 1 ~0,45x0,48 (to hơn pad ~1,5 lần, ~1,8 lần quái), cấp 3 ~0,85.
+    public const float Tower = 1.2f;
     public const float Plot = 0.65f;
     public const float Castle = 0.42f;
     public const float Prop = 0.5f;              // cổng quái, sọ, hàng rào... (prop trang trí, không phải lâu đài)
@@ -33,13 +35,21 @@ public static class GameScale
     // Tầm bắn / vùng nổ / chuỗi sét nhân với RangeFactor so với số liệu gốc (3.2-4.8 trên map 12.8x7.2).
     // 0.55 => tháp cấp 1 phủ ~1.8-2.0 đơn vị: chỉ bao 1-2 đoạn đường gần nó, không còn phủ cả map.
     public const float RangeFactor = 0.55f;
-    public const float Projectile = 0.7f;        // kích thước đạn so với sprite gốc
+    public const float Projectile = 0.4f;        // kích thước đạn so với sprite gốc (0,7 cũ làm đạn đại bác ~0,29 = to hơn cả thân tháp; 0,4 -> ~0,17, nhỏ hơn đầu tháp)
     public const float ProjectileSpeed = 0.5f;   // tốc độ đạn (đơn vị/giây) so với số liệu gốc: bay chậm đủ để thấy
 
-    // Khung nhìn: ảnh map 1920x1080 @100 PPU = 19.2 x 10.8 đơn vị -> orthographicSize 5.4 vừa khít, không lộ viền đen
-    public const float ViewOrthoSize = 5.4f;
-    public const float ViewHalfWidth = 9.6f;     // = ViewOrthoSize * 16/9
-    public const float ViewHalfHeight = 5.4f;
+    // Khung nhìn: ảnh map 1920x1080 @100 PPU = 19.2 x 10.8 đơn vị. v4: camera lùi ra 6.0 (map co ~10%) và đẩy map xuống dưới
+    // thanh HUD trên (TopHudFraction) => đường đi / trụ / quái ở rìa trên không còn bị thanh HUD che. Phần dư quanh map là
+    // màu nền camera (đã đặt tối, cùng tông HUD).
+    public const float ViewOrthoSize = 6.0f;
+    public const float ViewHalfWidth = 10.667f;  // = ViewOrthoSize * 16/9
+    public const float ViewHalfHeight = 6.0f;
+    public const float TopHudFraction = 0.09f;   // thanh HUD trên chiếm ~9% chiều cao màn hình
+    public const float MapHalfWidth = 9.6f;      // nửa kích thước ảnh map (đơn vị world)
+    public const float MapHalfHeight = 5.4f;
+
+    /// <summary>Tâm camera (trục y) để toàn bộ map nằm dưới thanh HUD trên khi camera ở cỡ ortho cho trước.</summary>
+    public static float OverviewCameraY(float ortho) { return ortho * TopHudFraction; }
 
     private static readonly HashSet<int> applied = new HashSet<int>();
 

@@ -6,6 +6,8 @@ using UnityEngine;
 /// Quản lý binh lính tiếp viện (Reinforcements / Barracks Soldier):
 /// Xuất hiện chặn đường 1 quái vật, đấu kiếm tay đôi, tồn tại trong 30 giây hoặc đến khi tử trận.
 /// Triển khai IBlocker chuẩn Kingdom Rush.
+/// v3 (SESSION_20261115_E): lính Barracks có tầm nhìn - Barracks phân công quái (SetTarget), lính chủ động lao tới và tự đổi làn để chặn;
+/// nhiều lính có thể cùng đánh một quái. Lính tiếp viện triệu hồi bằng vật phẩm (không có Barracks) giữ hành vi cũ.
 /// </summary>
 public class ReinforcementSoldier : MonoBehaviour, IBlocker
 {
@@ -37,6 +39,17 @@ public class ReinforcementSoldier : MonoBehaviour, IBlocker
 
     public void SetBarracks(Barracks barracks) => parentBarracks = barracks;
     public void SetRallyPosition(Vector2 pos) => rallyPosition = pos;
+
+    // ---- v3 (SESSION_20261115_E): tầm nhìn - quái do Barracks phân công trong vòng tròn LayerMask
+    [Header("Tầm nhìn / lao tới mục tiêu (v3)")]
+    [Tooltip("Tốc độ lao tới quái được phân công (đơn vị/giây); lính tự đổi sang làn của quái để chặn.")]
+    public float chaseSpeed = 2.6f;
+    private EnemyMovement assignedTarget;
+
+    public EnemyMovement AssignedTarget => assignedTarget;
+    public EnemyMovement EngagedEnemy => engagedEnemy;
+    public bool IsEngaged => engagedEnemy != null;
+    public void SetTarget(EnemyMovement enemy) => assignedTarget = enemy;
 
     private void Awake()
     {
@@ -87,19 +100,44 @@ public class ReinforcementSoldier : MonoBehaviour, IBlocker
             engagedEnemy = null;
         }
 
-        // Đấu tay đôi với quái đang chặn
-        if (engagedEnemy != null)
+        // v3: quái được Barracks phân công đã chết / biến mất thì bỏ (lần quét kế tiếp sẽ phân công lại)
+        if (assignedTarget != null && !IsEnemyValid(assignedTarget))
         {
-            if (spriteRenderer != null)
+            assignedTarget = null;
+        }
+
+        // Đối thủ = quái đang đấu tay đôi với mình; chưa có thì quái được Barracks phân công trong tầm nhìn
+        EnemyMovement fightTarget = engagedEnemy != null ? engagedEnemy : assignedTarget;
+        if (fightTarget != null)
+        {
+            Vector2 myPos = transform.position;
+            Vector2 tp = fightTarget.transform.position;
+            float dist = Vector2.Distance(myPos, tp);
+
+            if (spriteRenderer != null && Mathf.Abs(tp.x - myPos.x) > 0.02f)
             {
-                spriteRenderer.flipX = engagedEnemy.transform.position.x < transform.position.x;
+                spriteRenderer.flipX = tp.x < myPos.x;
             }
 
-            if (Time.time - lastAttackTime >= attackCooldown)
+            // Chưa bị quái bắt vào đấu tay đôi -> chủ động lao tới quái (tự đổi sang làn của quái) rồi dừng sát quái.
+            // Dừng ở khoảng cách < EngageRange để quái nhận lính làm blocker và dừng lại đấu với lính.
+            if (engagedEnemy == null && dist > GameScale.EngageRange * 0.8f)
+            {
+                transform.position = Vector2.MoveTowards(myPos, tp, chaseSpeed * Time.deltaTime);
+                if (animator != null) animator.SetFloat("Speed", 1f);
+            }
+            else if (animator != null)
+            {
+                animator.SetFloat("Speed", 0f);
+            }
+
+            // Đánh khi đang đấu tay đôi (như cũ) hoặc khi đã áp sát quái được phân công (nhiều lính cùng đánh 1 quái)
+            bool canHit = engagedEnemy != null || dist <= GameScale.EngageRange * 1.6f;
+            if (canHit && Time.time - lastAttackTime >= attackCooldown)
             {
                 if (animator != null) animator.SetTrigger("Attack");
 
-                EnemyHealth eh = engagedEnemy.GetComponent<EnemyHealth>();
+                EnemyHealth eh = fightTarget.GetComponent<EnemyHealth>();
                 if (eh != null && eh.CurrentHealth > 0)
                 {
                     DamageInfo dmg = new DamageInfo(attackDamage, DamageType.Physical, gameObject);
@@ -127,6 +165,13 @@ public class ReinforcementSoldier : MonoBehaviour, IBlocker
                 if (animator != null) animator.SetFloat("Speed", 0f);
             }
         }
+    }
+
+    private static bool IsEnemyValid(EnemyMovement enemy)
+    {
+        if (enemy == null || !enemy.gameObject.activeInHierarchy) return false;
+        EnemyHealth eh = enemy.GetComponent<EnemyHealth>();
+        return eh != null && eh.CurrentHealth > 0f && !eh.IsDestroyed;
     }
 
     private void HandleRegen()

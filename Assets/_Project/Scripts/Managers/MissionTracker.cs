@@ -144,6 +144,7 @@ public class MissionTracker : MonoBehaviour
         totalEnemiesKilled++;
         EvaluateSecondaryObjectives();
         UpdateHUDBanner();
+        CheckWinCondition();   // nhát diệt cuối cùng có thể là điều kiện thắng: kiểm ngay, không đợi khung hình sau
         OnMissionProgressUpdated?.Invoke(missionData);
     }
 
@@ -393,7 +394,7 @@ public class MissionTracker : MonoBehaviour
 
                 default: // SurviveWaves
                     int currW = LevelManager.main != null ? LevelManager.main.currWave : 1;
-                    missionProgressText.text = $"Tiến độ Wave: <color=#77ccff>{currW} / {(int)missionData.targetValue}</color>";
+                    missionProgressText.text = $"Tiến độ Wave: <color=#77ccff>{currW} / {GetWaveGoal()}</color>";
                     break;
             }
         }
@@ -429,11 +430,26 @@ public class MissionTracker : MonoBehaviour
     }
 
     /// <summary>
+    /// Số wave cần đạt cho nhiệm vụ SurviveWaves: lấy theo tổng wave thật của màn (cùng nguồn với chữ "Wave x/y" trên HUD),
+    /// tránh lệch kiểu HUD "Wave 5/6" nhưng nhiệm vụ ghi 5/5 rồi thắng sớm / không bao giờ thắng.
+    /// </summary>
+    private int GetWaveGoal()
+    {
+        if (LevelManager.main != null && LevelManager.main.TotalWaves > 0) return LevelManager.main.TotalWaves;
+        return missionData != null ? Mathf.Max(1, (int)missionData.targetValue) : 1;
+    }
+
+    /// <summary>
     /// Hàm kiểm tra điều kiện hoàn thành màn chơi
     /// </summary>
     public bool CheckWinCondition()
     {
-        if (isMissionCompleted) return true;
+        if (isMissionCompleted)
+        {
+            // Tự chữa: nếu lần trước bị ngắt giữa chừng (ngoại lệ) khiến chưa thắng thì gọi lại WinGame (WinGame tự chặn gọi lặp)
+            if (LevelManager.main != null && !LevelManager.main.hasWon) LevelManager.main.WinGame();
+            return true;
+        }
 
         EnsureMissionData();
         if (missionData == null) return false;
@@ -458,7 +474,13 @@ public class MissionTracker : MonoBehaviour
 
             case MissionType.SurviveWaves:
                 int currWave = LevelManager.main != null ? LevelManager.main.currWave : 1;
-                if (currWave >= (int)missionData.targetValue) primaryCompleted = true;
+                int waveGoal = GetWaveGoal();
+                EnemySpawner waveSpawner = EnemySpawner.main;
+                // Thắng khi đã tới wave cuối VÀ quái đã dọn sạch (đúng lúc EnemySpawner.EndWave gọi WinGame).
+                // Không có spawner thì chỉ cần đạt số wave.
+                bool waveFieldClear = waveSpawner == null ||
+                    (!waveSpawner.isPreparingWave && !waveSpawner.IsSpawning && waveSpawner.EnemiesAlive <= 0);
+                if (currWave >= waveGoal && waveFieldClear) primaryCompleted = true;
                 break;
         }
 
@@ -467,8 +489,11 @@ public class MissionTracker : MonoBehaviour
             isMissionCompleted = true;
             Debug.Log($"<color=green>[MissionTracker]</color> Nhiệm vụ chính '{missionData.missionTitle}' đã hoàn thành!");
 
-            OnMissionCompleted?.Invoke(missionData);
-            EvaluateStarsAndSave();
+            // Mỗi bước bọc riêng: một subscriber/bộ lưu lỗi không được chặn dialog chiến thắng
+            try { OnMissionCompleted?.Invoke(missionData); }
+            catch (Exception ex) { Debug.LogException(ex); }
+            try { EvaluateStarsAndSave(); }
+            catch (Exception ex) { Debug.LogException(ex); }
 
             if (LevelManager.main != null)
             {

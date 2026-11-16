@@ -146,7 +146,7 @@ Transform:
   serializedVersion: 2
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
   m_LocalPosition: {x: 0, y: 0, z: 0}
-  m_LocalScale: {x: 0.55, y: 0.55, z: 0.55}
+  m_LocalScale: {x: 1.2, y: 1.2, z: 1.2}
   m_ConstrainProportionsScale: 0
   m_Children:
   - {fileID: 9136838288479208576}
@@ -286,7 +286,7 @@ MonoBehaviour:
     range: 1.8700001
     fireRate: 0.95
     bulletsPerShot: 1
-    bulletScale: 0.7
+    bulletScale: 0.4
     aoeRadius: 0
     slowDuration: 0
     soldierCount: 2
@@ -299,7 +299,7 @@ MonoBehaviour:
     range: 2.2
     fireRate: 1.25
     bulletsPerShot: 1
-    bulletScale: 0.7
+    bulletScale: 0.4
     aoeRadius: 0
     slowDuration: 1
     soldierCount: 2
@@ -312,7 +312,7 @@ MonoBehaviour:
     range: 2.53
     fireRate: 1.5
     bulletsPerShot: 1
-    bulletScale: 0.7
+    bulletScale: 0.4
     aoeRadius: 0
     slowDuration: 2.5
     soldierCount: 2

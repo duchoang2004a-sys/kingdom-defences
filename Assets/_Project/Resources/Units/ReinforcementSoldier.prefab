@@ -326,3 +326,4 @@ MonoBehaviour:
   regenRate: 0
   animator: {fileID: 1451746047030216679}
   spriteRenderer: {fileID: 5343486316252196075}
+  chaseSpeed: 2.6

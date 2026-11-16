@@ -52,6 +52,12 @@ public class LevelManager : MonoBehaviour
     public int livesCount;
     public int enemiesKilled = 0;
 
+    [Header("Kết quả màn chơi")]
+    [Tooltip("Đã thắng màn này (chặn WinGame bị gọi lặp, chặn Game Over đè lên Win)")]
+    public bool hasWon = false;
+    [Tooltip("Số sao (1-3) của lần thắng gần nhất - GameWinScreen đọc để hiện đánh giá")]
+    public int lastCupsEarned = 0;
+
     private void Awake()
     {
         if (main != null && main != this)
@@ -78,7 +84,10 @@ public class LevelManager : MonoBehaviour
         {
             Camera.main.orthographic = true;
             Camera.main.orthographicSize = GameScale.ViewOrthoSize;
-            Camera.main.transform.position = new Vector3(0, 0, -10f);
+            // Map nằm dưới thanh HUD trên: dịch tâm camera lên một đoạn (xem GameScale.TopHudFraction)
+            Camera.main.transform.position = new Vector3(0, GameScale.OverviewCameraY(GameScale.ViewOrthoSize), -10f);
+            Camera.main.clearFlags = CameraClearFlags.SolidColor;
+            Camera.main.backgroundColor = new Color(0.07f, 0.07f, 0.11f, 1f);
         }
     }
 
@@ -246,6 +255,18 @@ public class LevelManager : MonoBehaviour
         enemiesKilled++;
     }
 
+    // Bộ đếm kill trên HUD (StatsUI) trước đây không bao giờ tăng vì không ai gọi RegisterEnemyKilled:
+    // nghe sự kiện quái chết để đếm đúng.
+    private void OnEnable()
+    {
+        EnemySpawner.onEnemyKilled.AddListener(RegisterEnemyKilled);
+    }
+
+    private void OnDisable()
+    {
+        EnemySpawner.onEnemyKilled.RemoveListener(RegisterEnemyKilled);
+    }
+
     public void AddGold(int amount)
     {
         IncreaseCurrency(amount);
@@ -312,6 +333,7 @@ public class LevelManager : MonoBehaviour
 
     public void EndGame()
     {
+        if (hasWon) return;   // đã thắng thì không cho Game Over đè lên dialog chiến thắng
         Debug.Log("Game Over");
         Time.timeScale = 0f;
         OnGameOver?.Invoke();
@@ -346,38 +368,45 @@ public class LevelManager : MonoBehaviour
 
     public void WinGame()
     {
+        if (hasWon) return;   // WinGame có thể bị gọi từ MissionTracker, EnemySpawner, MissionDirector: chỉ xử lý 1 lần
+        hasWon = true;
+
         Debug.Log("You Win!");
         Time.timeScale = 0f;
-        OnGameWin?.Invoke();
 
+        // Tính sao TRƯỚC khi phát sự kiện để GameWinScreen có đủ dữ liệu
         int cupsEarned = 1;
-        if (MissionTracker.main != null)
+        try
         {
-            cupsEarned = MissionTracker.main.EvaluateStarsAndSave();
-        }
-        else if (SaveManager.instance != null)
-        {
-            if (livesCount == startingLives) cupsEarned = 3;
-            else if (livesCount >= Mathf.Max(1, startingLives / 2)) cupsEarned = 2;
-            SaveManager.instance.SaveLevelProgress(levelNumber, cupsEarned);
-        }
-
-        // Đảm bảo hiển thị màn hình Game Win
-        GameWinScreen gws = UnityEngine.Object.FindAnyObjectByType<GameWinScreen>();
-        if (gws == null)
-        {
-            Canvas canvas = UnityEngine.Object.FindAnyObjectByType<Canvas>();
-            if (canvas != null)
+            if (MissionTracker.main != null)
             {
-                GameObject winObj = new GameObject("GameWinScreen");
-                winObj.transform.SetParent(canvas.transform, false);
-                gws = winObj.AddComponent<GameWinScreen>();
+                cupsEarned = MissionTracker.main.EvaluateStarsAndSave();
+            }
+            else if (SaveManager.instance != null)
+            {
+                if (livesCount == startingLives) cupsEarned = 3;
+                else if (livesCount >= Mathf.Max(1, startingLives / 2)) cupsEarned = 2;
+                SaveManager.instance.SaveLevelProgress(levelNumber, cupsEarned);
             }
         }
-        if (gws != null)
+        catch (Exception ex) { Debug.LogException(ex); }
+        lastCupsEarned = Mathf.Clamp(cupsEarned, 1, 3);
+
+        try { OnGameWin?.Invoke(); }
+        catch (Exception ex) { Debug.LogException(ex); }
+
+        // Đảm bảo luôn có màn hình Game Win (tự dựng giao diện + sao lúc chạy); lỗi ở bước trước không được chặn bước này
+        try
         {
+            GameWinScreen gws = UnityEngine.Object.FindAnyObjectByType<GameWinScreen>();
+            if (gws == null)
+            {
+                GameObject winObj = new GameObject("GameWinScreen");
+                gws = winObj.AddComponent<GameWinScreen>();
+            }
             gws.ToggleGameWinPanel();
         }
+        catch (Exception ex) { Debug.LogException(ex); }
     }
 
     public void SetWave(int wave)

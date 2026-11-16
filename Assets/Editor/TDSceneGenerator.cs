@@ -228,8 +228,9 @@ public class TDSceneGenerator : EditorWindow
             camObj.AddComponent<AudioListener>();
         }
         cam.orthographic = true;
-        cam.orthographicSize = GameScale.ViewOrthoSize;   // 12.8 x 7.2 đơn vị = ảnh map 1280x720 @100 PPU
-        cam.transform.position = new Vector3(0f, 0f, -10f);
+        cam.orthographicSize = GameScale.ViewOrthoSize;   // khung nhìn 21,3 x 12 đơn vị (map 1920x1080 @100 PPU = 19,2 x 10,8 + lề)
+        // v5: cùng vị trí với LevelManager lúc chạy (map nằm dưới thanh HUD trên và trên các HUD dưới) => scene sinh ra không bị giật khi vào game
+        cam.transform.position = new Vector3(0f, GameScale.OverviewCameraY(GameScale.ViewOrthoSize), -10f);
         cam.clearFlags = CameraClearFlags.SolidColor;
         cam.backgroundColor = new Color(0.07f, 0.07f, 0.11f, 1f);
         return cam;

@@ -392,10 +392,8 @@ public class EnemyMovement : MonoBehaviour
 
         EnemyHealth.onEnemyDestroy.Invoke();
 
-        if (EnemySpawner.onEnemyKilled != null)
-        {
-            EnemySpawner.onEnemyKilled.Invoke();
-        }
+        // Quái lọt về lâu đài KHÔNG phải quái bị diệt: không phát onEnemyKilled
+        // (trước đây nhiệm vụ "Diệt N kẻ địch" bị tính cả quái lọt).
 
         if (ObjectPool.instance != null)
         {

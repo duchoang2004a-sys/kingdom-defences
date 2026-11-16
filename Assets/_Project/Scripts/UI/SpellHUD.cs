@@ -9,6 +9,8 @@ using UnityEngine.UI;
 ///  2) STICKER CHIÊU TƯỚNG (mép phải màn hình, icon nhỏ dọc): Đánh thường, Chiêu 1 (Q), Chiêu 2 (W), Kỹ năng đặc biệt
 ///     (E - Tiếp viện), mỗi ô có lớp phủ hồi chiêu + số giây. Chỉ hiện khi đã có tướng ra trận.
 /// Giữ các trường public cũ (skillQButton...) để tương thích.
+/// v3 (SESSION_20261115_E): thanh item chia 2 nhóm - CHỦ ĐỘNG (bấm là dùng ngay: Băng, Hồi máu, các loại Dầu cho tháp) và
+/// CHỌN VỊ TRÍ (Thiên thạch: bấm icon -> vòng ảnh hưởng đi theo chuột -> click bản đồ để thả). Ô đang chọn vị trí được viền sáng.
 /// </summary>
 public class SpellHUD : MonoBehaviour
 {
@@ -36,12 +38,15 @@ public class SpellHUD : MonoBehaviour
         public float lastCd;
         public bool hasAction;
         public Color baseColor = Color.white;
+        public Outline outline;
+        public Color baseOutline;
     }
 
     private Slot meteor, freeze, heal, oilDmg, oilRate, oilPoison, oilBoss;
     private Slot basic, q, w, e;
     private RectTransform itemBar;
     private RectTransform heroSticker;
+    private TextMeshProUGUI aimHint;
     private bool built;
     private static int healUses = 2;
 
@@ -77,7 +82,9 @@ public class SpellHUD : MonoBehaviour
         old = canvas.transform.Find("HeroSkillSticker");
         if (old != null) Destroy(old.gameObject);
 
-        // ---------------- Thanh item (dưới giữa)
+        // ---------------- Thanh item (dưới giữa) - v3 chia 2 nhóm
+        //   CHỦ ĐỘNG   : bấm là dùng ngay (Băng, Hồi máu, Dầu Sát thương / Tốc bắn / Độc cho tháp, Dầu xóa cấp Boss)
+        //   CHỌN VỊ TRÍ: bấm icon -> vòng ảnh hưởng đi theo chuột -> click một điểm trên bản đồ để thả (Thiên thạch)
         GameObject bar = new GameObject("SpellBar", typeof(RectTransform));
         bar.transform.SetParent(canvas.transform, false);
         itemBar = bar.GetComponent<RectTransform>();
@@ -85,22 +92,45 @@ public class SpellHUD : MonoBehaviour
         itemBar.anchorMax = new Vector2(0.5f, 0f);
         itemBar.pivot = new Vector2(0.5f, 0f);
         itemBar.anchoredPosition = new Vector2(0f, 12f);
-        itemBar.sizeDelta = new Vector2(7 * 66f, 66f);
 
-        float size = 60f, step = 66f, x0 = -3f * step;
-        meteor = MakeSlot(itemBar, "Meteor", "icon_spell_meteor", "THIÊN\nTHẠCH", new Color(0.9f, 0.4f, 0.15f), x0 + 0 * step, size, "x2",
-            () => { if (SpellManager.main != null) SpellManager.main.PrepareMeteor(); });
-        freeze = MakeSlot(itemBar, "Freeze", "icon_spell_freeze", "BĂNG", new Color(0.4f, 0.75f, 1f), x0 + 1 * step, size, "x1",
+        const int instantCount = 6;
+        const int targetedCount = 1;
+        float size = 60f, step = 66f, gap = 30f;
+        float total = (instantCount + targetedCount) * step + gap;
+        itemBar.sizeDelta = new Vector2(total, 66f);
+        float x0 = -total * 0.5f + step * 0.5f;           // tâm ô đầu của nhóm chủ động
+        float xT = x0 + instantCount * step + gap;        // tâm ô đầu của nhóm chọn vị trí
+        Color orange = new Color(1f, 0.6f, 0.2f, 0.9f);
+
+        freeze = MakeSlot(itemBar, "Freeze", "icon_spell_freeze", "BĂNG", new Color(0.4f, 0.75f, 1f), x0 + 0 * step, size, "x1",
             () => { if (SpellManager.main != null) SpellManager.main.UseFreeze(); });
-        heal = MakeSlot(itemBar, "HealCastle", "icon_heart", "HỒI\nMÁU", new Color(0.9f, 0.25f, 0.35f), x0 + 2 * step, size, "x2", UseHealCastle);
-        oilDmg = MakeSlot(itemBar, "OilDamage", "item_potion_red", "DẦU\nST", new Color(0.85f, 0.2f, 0.2f), x0 + 3 * step, size, "x0",
+        heal = MakeSlot(itemBar, "HealCastle", "icon_heart", "HỒI\nMÁU", new Color(0.9f, 0.25f, 0.35f), x0 + 1 * step, size, "x2", UseHealCastle);
+        oilDmg = MakeSlot(itemBar, "OilDamage", "item_potion_red", "DẦU\nST", new Color(0.85f, 0.2f, 0.2f), x0 + 2 * step, size, "x0",
             () => { EnsureOil(); if (ConsumableOilManager.main != null) ConsumableOilManager.main.UseDamageOil(); });
-        oilRate = MakeSlot(itemBar, "OilFireRate", "item_potion_blue", "DẦU\nBẮN", new Color(0.25f, 0.5f, 0.95f), x0 + 4 * step, size, "x0",
+        oilRate = MakeSlot(itemBar, "OilFireRate", "item_potion_blue", "DẦU\nBẮN", new Color(0.25f, 0.5f, 0.95f), x0 + 3 * step, size, "x0",
             () => { EnsureOil(); if (ConsumableOilManager.main != null) ConsumableOilManager.main.UseFireRateOil(); });
-        oilPoison = MakeSlot(itemBar, "OilPoison", "item_potion_green", "DẦU\nĐỘC", new Color(0.25f, 0.75f, 0.35f), x0 + 5 * step, size, "x0",
+        oilPoison = MakeSlot(itemBar, "OilPoison", "item_potion_green", "DẦU\nĐỘC", new Color(0.25f, 0.75f, 0.35f), x0 + 4 * step, size, "x0",
             () => { EnsureOil(); if (ConsumableOilManager.main != null) ConsumableOilManager.main.UsePoisonOil(); });
-        oilBoss = MakeSlot(itemBar, "OilBoss", "icon_skull_kills", "DẦU\nBOSS", new Color(0.6f, 0.3f, 0.75f), x0 + 6 * step, size, "x0",
+        oilBoss = MakeSlot(itemBar, "OilBoss", "icon_skull_kills", "DẦU\nBOSS", new Color(0.6f, 0.3f, 0.75f), x0 + 5 * step, size, "x0",
             () => { EnsureOil(); if (ConsumableOilManager.main != null) ConsumableOilManager.main.UseBossLevelReductionOil(); });
+
+        meteor = MakeSlot(itemBar, "Meteor", "icon_spell_meteor", "THIÊN\nTHẠCH", new Color(0.9f, 0.4f, 0.15f), xT, size, "x2",
+            () => { if (SpellManager.main != null) SpellManager.main.PrepareMeteor(); });
+        meteor.outline.effectColor = orange;
+        meteor.baseOutline = orange;
+
+        MakeGroupCaption(itemBar, "CHỦ ĐỘNG · bấm là dùng", x0 + (instantCount - 1) * step * 0.5f, new Color(1f, 0.93f, 0.55f));
+        MakeGroupCaption(itemBar, "CHỌN VỊ TRÍ", xT + (targetedCount - 1) * step * 0.5f, orange);
+
+        aimHint = NewText(itemBar, "AimHint", "", 16f, new Color(1f, 0.95f, 0.5f), TextAlignmentOptions.Center);
+        aimHint.fontStyle = FontStyles.Bold;
+        RectTransform hr = aimHint.rectTransform;
+        hr.anchorMin = new Vector2(0.5f, 1f);
+        hr.anchorMax = new Vector2(0.5f, 1f);
+        hr.pivot = new Vector2(0.5f, 0f);
+        hr.anchoredPosition = new Vector2(0f, 22f);
+        hr.sizeDelta = new Vector2(620f, 22f);
+        aimHint.gameObject.SetActive(false);
 
         meteorButton = meteor.button; meteorBadge = meteor.badge;
         freezeButton = freeze.button; freezeBadge = freeze.badge;
@@ -128,6 +158,20 @@ public class SpellHUD : MonoBehaviour
         skillWButton = w.button; skillWBadge = w.badge;
         skillEButton = e.button; skillEBadge = e.badge;
         heroSticker.gameObject.SetActive(false);
+    }
+
+    /// <summary>Nhãn nhóm nhỏ phía trên thanh item.</summary>
+    private TextMeshProUGUI MakeGroupCaption(Transform parent, string text, float x, Color color)
+    {
+        TextMeshProUGUI t = NewText(parent, "Caption", text, 13f, color, TextAlignmentOptions.Center);
+        t.fontStyle = FontStyles.Bold;
+        RectTransform r = t.rectTransform;
+        r.anchorMin = new Vector2(0.5f, 1f);
+        r.anchorMax = new Vector2(0.5f, 1f);
+        r.pivot = new Vector2(0.5f, 0f);
+        r.anchoredPosition = new Vector2(x, 2f);
+        r.sizeDelta = new Vector2(260f, 16f);
+        return t;
     }
 
     private void EnsureOil()
@@ -181,6 +225,8 @@ public class SpellHUD : MonoBehaviour
         Outline ol = holder.AddComponent<Outline>();
         ol.effectColor = new Color(0.85f, 0.7f, 0.25f, 0.65f);
         ol.effectDistance = new Vector2(1f, -1f);
+        s.outline = ol;
+        s.baseOutline = ol.effectColor;
         s.button = holder.AddComponent<Button>();
         s.button.targetGraphic = bg;
         s.hasAction = onClick != null;
@@ -294,6 +340,28 @@ public class SpellHUD : MonoBehaviour
         UpdateOil(oilRate, sm != null ? sm.FireRateOils : 0, om != null ? om.fireRateOilRemaining : 0f);
         UpdateOil(oilPoison, sm != null ? sm.PoisonOils : 0, om != null ? om.poisonOilRemaining : 0f);
         UpdateOil(oilBoss, sm != null ? sm.BossReduceOils : 0, 0f);
+
+        // v3: đang chọn vị trí -> viền sáng ô đang dùng + dòng hướng dẫn phía trên thanh item
+        SpellManager spm = SpellManager.main;
+        bool aiming = spm != null && spm.IsTargeting;
+        bool aimMeteor = aiming && spm.currentState == SpellManager.SpellState.CastingMeteor;
+        bool aimReinf = aiming && spm.currentState == SpellManager.SpellState.CastingReinforcements;
+        HighlightSlot(meteor, aimMeteor);
+        HighlightSlot(e, aimReinf);
+        if (aimHint != null)
+        {
+            if (aimHint.gameObject.activeSelf != aiming) aimHint.gameObject.SetActive(aiming);
+            if (aiming) aimHint.text = aimMeteor
+                ? "THIÊN THẠCH: click vị trí trên bản đồ để thả · chuột phải để hủy"
+                : "TIẾP VIỆN: click lên đường để gọi hiệp sĩ · chuột phải để hủy";
+        }
+    }
+
+    private static void HighlightSlot(Slot s, bool on)
+    {
+        if (s == null || s.outline == null) return;
+        s.outline.effectColor = on ? new Color(1f, 1f, 0.45f, 1f) : s.baseOutline;
+        s.outline.effectDistance = on ? new Vector2(3f, -3f) : new Vector2(1f, -1f);
     }
 
     private static Color Tint(Slot s, float f)

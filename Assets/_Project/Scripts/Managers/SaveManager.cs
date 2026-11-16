@@ -58,6 +58,20 @@ public class SaveManager : MonoBehaviour
     [Header("Hero Progression")]
     public string selectedHeroId = "Knight";
 
+    [Header("TEST MODE (tạm thời - đặt false khi phát hành)")]
+    [Tooltip("BẬT = mở khóa TẤT CẢ màn chơi và TẤT CẢ tướng để test. Không ghi đè dữ liệu tiến độ đã lưu.")]
+    public bool unlockEverythingForTesting = true;
+
+    /// <summary>
+    /// Công tắc public dùng chung: true = mọi thứ đang khóa (màn chơi, chọn tướng) đều được mở để test.
+    /// Đọc/ghi được từ bất kỳ script nào: SaveManager.UnlockEverything = false;
+    /// </summary>
+    public static bool UnlockEverything
+    {
+        get { return instance != null ? instance.unlockEverythingForTesting : true; }
+        set { if (instance != null) instance.unlockEverythingForTesting = value; }
+    }
+
     private const int MaxTrackedLevels = 20;
 
     private void Awake()
@@ -185,6 +199,7 @@ public class SaveManager : MonoBehaviour
 
     public bool IsLevelUnlocked(int levelNumber)
     {
+        if (unlockEverythingForTesting) return true;
         if (levelNumber <= 1) return true;
         return levelNumber <= highestUnlockedLevel;
     }
@@ -227,6 +242,7 @@ public class SaveManager : MonoBehaviour
 
     public bool IsHeroUnlocked(string heroId, int requiredCups = 0)
     {
+        if (unlockEverythingForTesting) return true;
         if (string.IsNullOrEmpty(heroId) || heroId == "Knight") return true;
         if (PlayerPrefs.GetInt($"Hero_{heroId}_Unlocked", 0) == 1) return true;
         return totalCups >= requiredCups;

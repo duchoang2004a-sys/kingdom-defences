@@ -62,7 +62,7 @@ Transform:
   serializedVersion: 2
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
   m_LocalPosition: {x: 0, y: 0, z: 0}
-  m_LocalScale: {x: 0.55, y: 0.55, z: 0.55}
+  m_LocalScale: {x: 1.2, y: 1.2, z: 1.2}
   m_ConstrainProportionsScale: 0
   m_Children:
   - {fileID: 840272653305642606}
@@ -241,6 +241,11 @@ MonoBehaviour:
   soldierDamage: 10
   damagePerLevel: 4
   soldierRegen: 1.5
+  sightRadius: 0
+  enemyMask:
+    serializedVersion: 2
+    m_Bits: 4294967295
+  scanInterval: 0.2
   plot: {fileID: 0}
   creationTime: 0
 --- !u!114 &382467996670313752
