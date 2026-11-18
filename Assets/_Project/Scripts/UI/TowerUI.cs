@@ -385,6 +385,7 @@ public class TowerUI : MonoBehaviour
         }
 
         currentPlot.RemoveTower();
+        ObjectiveTracker.NotifyTowerSold();
         Hide();
     }
 }

@@ -13,357 +13,357 @@ MonoBehaviour:
   m_Name: UISpriteLibrary
   m_EditorClassIdentifier: Assembly-CSharp::UISpriteLibrary
   entries:
+  - key: btn_check
+    sprite: {fileID: 21300000, guid: ebf87bdfa7fc1d84aac0ba5877c569ce, type: 3}
+  - key: hud_btn_continue_48
+    sprite: {fileID: 21300000, guid: bf8b246376eb66843ba6437ddf18e21c, type: 3}
+  - key: hud_btn_continue_64
+    sprite: {fileID: 21300000, guid: 17094f388f443f04a8b6ea842e57169a, type: 3}
+  - key: hud_btn_ff_48
+    sprite: {fileID: 21300000, guid: d271c1ebf94485c46860381ecb095280, type: 3}
+  - key: hud_btn_ff_64
+    sprite: {fileID: 21300000, guid: c1ae7305efdf5204690c604283fac0e6, type: 3}
+  - key: hud_btn_home_48
+    sprite: {fileID: 21300000, guid: 8f15d94a73f379d42b99940c3b7eb583, type: 3}
+  - key: hud_btn_home_64
+    sprite: {fileID: 21300000, guid: 56ad5f002bd169f47b3878a43a4eaaa3, type: 3}
+  - key: hud_btn_info_48
+    sprite: {fileID: 21300000, guid: 4e137bdce5216534b99b1c99fee8b227, type: 3}
+  - key: hud_btn_info_64
+    sprite: {fileID: 21300000, guid: 43b2d8f00215c86429d5eae36803fbf2, type: 3}
+  - key: tower_range_indicator
+    sprite: {fileID: 21300000, guid: 1595ca7fbf434994c828ff2cd2d57bd9, type: 3}
+  - key: hud_btn_music_48
+    sprite: {fileID: 21300000, guid: a73a894b81d1fd34697111450f1455a8, type: 3}
+  - key: hud_btn_pause_48
+    sprite: {fileID: 21300000, guid: 188b5fb98c837be40928828dc6a69af8, type: 3}
+  - key: hud_btn_pause_64
+    sprite: {fileID: 21300000, guid: de2ba23de7424bd49bacb3908c4a555b, type: 3}
+  - key: hud_btn_retry_48
+    sprite: {fileID: 21300000, guid: 12088ce4c5b17ce48b92a63dba2268bb, type: 3}
+  - key: hud_btn_retry_64
+    sprite: {fileID: 21300000, guid: c37d9283ae92c814da101bde2a0cef96, type: 3}
+  - key: hud_btn_settings_48
+    sprite: {fileID: 21300000, guid: 00fa8d3d65d70e245862f3cd3e3d46d8, type: 3}
+  - key: hud_btn_settings_64
+    sprite: {fileID: 21300000, guid: 3fb847afdcb414d47a6d62351cafc38f, type: 3}
+  - key: hud_btn_shop_48
+    sprite: {fileID: 21300000, guid: de55baf519f014245aabb8d65d1e7b70, type: 3}
+  - key: hud_btn_shop_64
+    sprite: {fileID: 21300000, guid: 9cfa3d313c90f334c94dde9562563b1d, type: 3}
+  - key: hud_btn_music_64
+    sprite: {fileID: 21300000, guid: 3916b170926d6b44e897e15eec5b945b, type: 3}
+  - key: hud_btn_sound_48
+    sprite: {fileID: 21300000, guid: 962d627663696c2429352df6d2af1670, type: 3}
+  - key: stars_3
+    sprite: {fileID: 21300000, guid: 63ca594695006db44a29723cc8958d11, type: 3}
+  - key: stars_1
+    sprite: {fileID: 21300000, guid: c7f85edfef1cb114b89b0883127949f2, type: 3}
+  - key: bar_hp_hero_bg
+    sprite: {fileID: 21300000, guid: 30b10831744d42a45b4d2fb980a0be62, type: 3}
+  - key: bar_hp_hero_fill
+    sprite: {fileID: 21300000, guid: 9dea6cdec879eca40940bad21d2d5951, type: 3}
+  - key: bar_mana_bg
+    sprite: {fileID: 21300000, guid: a5357a4379d67ac4db95d9c3502dd5ed, type: 3}
+  - key: bar_mana_fill
+    sprite: {fileID: 21300000, guid: 02d61577a83180846b5dc3d3f4102a0d, type: 3}
+  - key: bar_mini_enemy_bg
+    sprite: {fileID: 21300000, guid: 8c57df3e68a89f84ea3635140238c306, type: 3}
+  - key: bar_mini_enemy_fill
+    sprite: {fileID: 21300000, guid: a929eea0246705d42904c8c57d794191, type: 3}
+  - key: bar_wave_progress_bg
+    sprite: {fileID: 21300000, guid: adaaf7bf8707a5a4595681c91e391b30, type: 3}
+  - key: bar_wave_progress_fill
+    sprite: {fileID: 21300000, guid: 1d0cc239aa382b54d925bc796f127592, type: 3}
+  - key: stars_2
+    sprite: {fileID: 21300000, guid: f43cb161ac9141c499d1c8c07c7250ef, type: 3}
+  - key: build_pad
+    sprite: {fileID: 21300000, guid: 591ba2dc0de920a468fdd9e2cf058fb3, type: 3}
+  - key: icon_coin_spin_sheet
+    sprite: {fileID: 21300000, guid: 89c49a259ffb9b845a9b108599179c76, type: 3}
+  - key: icon_heart
+    sprite: {fileID: 21300000, guid: fe70ff7b2950b904b9712fe62f3870a0, type: 3}
+  - key: icon_heart_empty
+    sprite: {fileID: 21300000, guid: 8e11c596d3cf568418ecc1a809b67f66, type: 3}
+  - key: icon_skull_kills
+    sprite: {fileID: 21300000, guid: b4fa1b0a6bda4884ead10302f09b8370, type: 3}
+  - key: icon_wave_flag
+    sprite: {fileID: 21300000, guid: 4bf61a5b209919b439121acf6e3d970c, type: 3}
+  - key: star_empty
+    sprite: {fileID: 21300000, guid: 19ee4e065ef563140b5b929210e2b40e, type: 3}
+  - key: star_full
+    sprite: {fileID: 21300000, guid: 4892a0d774ebbb94db41875dca7030b2, type: 3}
+  - key: stars_0
+    sprite: {fileID: 21300000, guid: ee68892bf0456e2409f073f655893678, type: 3}
+  - key: icon_coin
+    sprite: {fileID: 21300000, guid: 5ad8961b406376a47b2ad5beee886267, type: 3}
+  - key: hud_btn_sound_64
+    sprite: {fileID: 21300000, guid: 274c439c7d2817042b6b45ce019b2149, type: 3}
+  - key: hud_chip_bg
+    sprite: {fileID: 21300000, guid: 1d4870d1a93f1eb408d506722ac06815, type: 3}
+  - key: hud_title_pill
+    sprite: {fileID: 21300000, guid: 177b5ec90daeb7944b70da653aa9c7f9, type: 3}
+  - key: panel_purple_9slice
+    sprite: {fileID: 21300000, guid: 8e672f749d69ad04a83843ff10388e85, type: 3}
+  - key: ribbon_title_green
+    sprite: {fileID: 21300000, guid: 96194ab52a478b14782ef186515d93b2, type: 3}
+  - key: ribbon_title_orange
+    sprite: {fileID: 21300000, guid: ab401e73a9e85d1498a01255b6538837, type: 3}
+  - key: ribbon_title_red
+    sprite: {fileID: 21300000, guid: 58a8937b0d74dda40973a58123a7c7fb, type: 3}
+  - key: portrait_hero_barbarian
+    sprite: {fileID: 21300000, guid: 62d229fc41ae8d94e9fc99244094a915, type: 3}
   - key: portrait_hero_knight
-    sprite: {fileID: 21300000, guid: aed996b44f0903248b1afd8ab99b49a9, type: 3}
-  - key: btn_prev_pressed
-    sprite: {fileID: 21300000, guid: 12579b6547bced64ead0a2e654ddbd3f, type: 3}
-  - key: btn_prev
-    sprite: {fileID: 21300000, guid: 931eb11147927c141967868bb9813fe3, type: 3}
-  - key: btn_plus_pressed
-    sprite: {fileID: 21300000, guid: 781233ed9910731418f971012228cf1a, type: 3}
-  - key: btn_plus
-    sprite: {fileID: 21300000, guid: 7110044d8b70ce54185b8df33ad81c1a, type: 3}
-  - key: btn_play_pressed
-    sprite: {fileID: 21300000, guid: 2f6d8546cf064a544a31e949b5af29ea, type: 3}
-  - key: btn_play
-    sprite: {fileID: 21300000, guid: 953e94fe34c58dd4d90cd527ba589790, type: 3}
-  - key: btn_pause_pressed
-    sprite: {fileID: 21300000, guid: 4afb220e11cdb15408514d25e08db814, type: 3}
+    sprite: {fileID: 21300000, guid: 51015694cb2f52b4dae6f7c2b559c451, type: 3}
+  - key: portrait_hero_mage
+    sprite: {fileID: 21300000, guid: 494c6928b7f84a345b28159c14d056a4, type: 3}
+  - key: portrait_hero_paladin
+    sprite: {fileID: 21300000, guid: b709de56c1df28349b8417ae5ae88e42, type: 3}
+  - key: panel_light_9slice
+    sprite: {fileID: 21300000, guid: dfa7fb389156fcf49a50fb899a82ddf5, type: 3}
+  - key: portrait_hero_ranger
+    sprite: {fileID: 21300000, guid: 78ecffa068051bc488a4266ffae4289e, type: 3}
+  - key: icon_skill_hero1_strike
+    sprite: {fileID: 21300000, guid: cf214b543b172624e9c8d62d8a158ff4, type: 3}
+  - key: icon_skill_hero2_aura
+    sprite: {fileID: 21300000, guid: 7f604ab5c67c6f74d9118c738c9d4143, type: 3}
+  - key: icon_spell_freeze
+    sprite: {fileID: 21300000, guid: 720b0a53cb6cda0409feab977ec7a450, type: 3}
+  - key: icon_spell_meteor
+    sprite: {fileID: 21300000, guid: aa117ff1be45bd74eb5581d5e87e37ba, type: 3}
+  - key: icon_tower_archer
+    sprite: {fileID: 21300000, guid: 05e598c6d8fe2c4499cd2adb35e4acf6, type: 3}
+  - key: icon_tower_barracks
+    sprite: {fileID: 21300000, guid: 4274a684632210549a6135d2fa80421e, type: 3}
+  - key: icon_tower_cannon
+    sprite: {fileID: 21300000, guid: 193c15854c116b14697cdf0fbb0bd548, type: 3}
+  - key: icon_tower_ice
+    sprite: {fileID: 21300000, guid: b9a7001ccb3e2e246adb7dc7e7d66d2a, type: 3}
+  - key: icon_reinforcements
+    sprite: {fileID: 21300000, guid: 75c9a369481475a448b7b5e812f9ac04, type: 3}
+  - key: panel_dark_9slice
+    sprite: {fileID: 21300000, guid: 9caa133d3846b804ea50ee0c8c0ee10e, type: 3}
+  - key: main_menu_decor_background_1920x1080
+    sprite: {fileID: 21300000, guid: 797c1ffbe922f0549bb5d3f987c080e7, type: 3}
+  - key: logo_title
+    sprite: {fileID: 21300000, guid: 43319e6508b80ac4bbbbffc2e473365b, type: 3}
+  - key: hud_topbar_bg
+    sprite: {fileID: 21300000, guid: c8ac9e7d9d172c248b8b564d875f6d6a, type: 3}
+  - key: hud_wave_chip_bg
+    sprite: {fileID: 21300000, guid: 605563a6db70b054bab8d8175ab43eab, type: 3}
+  - key: level_01_thumb
+    sprite: {fileID: 21300000, guid: 09f5ea646caa0da45ba7776390a4d618, type: 3}
+  - key: level_02_thumb
+    sprite: {fileID: 21300000, guid: 88ec73b6c75ce7b46a64b548e776fdd8, type: 3}
+  - key: level_03_thumb
+    sprite: {fileID: 21300000, guid: 8a7702b83c297c1428581819b9e1e561, type: 3}
+  - key: level_04_thumb
+    sprite: {fileID: 21300000, guid: a6c2017bf8ea7074da68cfd809ca9de7, type: 3}
+  - key: level_05_thumb
+    sprite: {fileID: 21300000, guid: c851438d62734e94794cbf96ba0f1fe6, type: 3}
+  - key: level_06_thumb
+    sprite: {fileID: 21300000, guid: 3a68279dd99844646bbbf75869b080e1, type: 3}
+  - key: level_07_thumb
+    sprite: {fileID: 21300000, guid: c5ed1800c7d0df542a52b218068dfe0a, type: 3}
+  - key: level_08_thumb
+    sprite: {fileID: 21300000, guid: cd0342e217bc86a438f6a32ab1523c2b, type: 3}
+  - key: level_09_thumb
+    sprite: {fileID: 21300000, guid: 71cb7190430a8d142b68cf5c971c48e4, type: 3}
+  - key: level_10_thumb
+    sprite: {fileID: 21300000, guid: 6c583c6fc743ecb48a5e26f380171898, type: 3}
+  - key: level_select_map
+    sprite: {fileID: 21300000, guid: 96c1180ac3ff30d48b7f37f08786fde0, type: 3}
+  - key: node_boss
+    sprite: {fileID: 21300000, guid: 7003630ece65f0546bd0c3a2d4328378, type: 3}
+  - key: node_complete
+    sprite: {fileID: 21300000, guid: 672a00b1727281648bf29e32a1ae89ec, type: 3}
+  - key: node_locked
+    sprite: {fileID: 21300000, guid: f79461f8b28539e42bbb2b86993e6dd6, type: 3}
+  - key: node_open
+    sprite: {fileID: 21300000, guid: d274fd9979c53b748aeee98e9a43aa3a, type: 3}
+  - key: app_icon_512
+    sprite: {fileID: 21300000, guid: 5c8ee825ea43bcc42a5b3860065ddb8d, type: 3}
+  - key: emblem_crest
+    sprite: {fileID: 21300000, guid: fb21936e346e1ce4dab023e6e7b69a7d, type: 3}
+  - key: bar_hp_enemy_fill
+    sprite: {fileID: 21300000, guid: 4efc08e3bbaeec14f84a386989909576, type: 3}
+  - key: icon_tower_mage
+    sprite: {fileID: 21300000, guid: d3b328cd19d8fae419edc104f660b82c, type: 3}
+  - key: bar_hp_enemy_bg
+    sprite: {fileID: 21300000, guid: 1a67dcde39e317046a066da6707e257c, type: 3}
+  - key: tag_purple
+    sprite: {fileID: 21300000, guid: 68e04d3dadb5c2c4ebfd8fe5265b3b2b, type: 3}
   - key: btn_pause
     sprite: {fileID: 21300000, guid: c7ace1dc7dcf0454a91c93cca7e085be, type: 3}
+  - key: btn_pause_pressed
+    sprite: {fileID: 21300000, guid: 4afb220e11cdb15408514d25e08db814, type: 3}
+  - key: btn_play
+    sprite: {fileID: 21300000, guid: 953e94fe34c58dd4d90cd527ba589790, type: 3}
+  - key: btn_play_pressed
+    sprite: {fileID: 21300000, guid: 2f6d8546cf064a544a31e949b5af29ea, type: 3}
+  - key: btn_plus
+    sprite: {fileID: 21300000, guid: 7110044d8b70ce54185b8df33ad81c1a, type: 3}
+  - key: btn_plus_pressed
+    sprite: {fileID: 21300000, guid: 781233ed9910731418f971012228cf1a, type: 3}
+  - key: btn_prev
+    sprite: {fileID: 21300000, guid: 931eb11147927c141967868bb9813fe3, type: 3}
+  - key: btn_prev_pressed
+    sprite: {fileID: 21300000, guid: 12579b6547bced64ead0a2e654ddbd3f, type: 3}
   - key: btn_next_pressed
     sprite: {fileID: 21300000, guid: 4d47d2943443eb04d8828498e495f457, type: 3}
-  - key: btn_next
-    sprite: {fileID: 21300000, guid: d2fd608794a47bf448ededbcb4a7fcd0, type: 3}
-  - key: btn_music_pressed
-    sprite: {fileID: 21300000, guid: f427af4430ea6a14b98f891dd38b1d92, type: 3}
   - key: btn_retry
     sprite: {fileID: 21300000, guid: beb65ff2f3fec554ba4cd8146d885884, type: 3}
-  - key: btn_music_off
-    sprite: {fileID: 21300000, guid: 970b4a4ca6a2a8a449579d97c5834f36, type: 3}
-  - key: btn_minus_pressed
-    sprite: {fileID: 21300000, guid: 6036160ea780eb14ca3adc28148fa149, type: 3}
-  - key: btn_minus
-    sprite: {fileID: 21300000, guid: 12bce0de64b9c6f4988ad9f51b53380f, type: 3}
-  - key: btn_lock_pressed
-    sprite: {fileID: 21300000, guid: f562b69ed8e29c04d9ed705a9e88d35a, type: 3}
-  - key: btn_lock
-    sprite: {fileID: 21300000, guid: 90ffb0703a728094a8d1c8582fff1a0b, type: 3}
-  - key: btn_info_pressed
-    sprite: {fileID: 21300000, guid: b8cab47c075c9e5438627672dce1b66f, type: 3}
-  - key: btn_info
-    sprite: {fileID: 21300000, guid: 2a46e2be40dfc274291ae004f0904b1f, type: 3}
-  - key: btn_home_pressed
-    sprite: {fileID: 21300000, guid: a61c35495b9693c418552dfed036964b, type: 3}
-  - key: btn_home
-    sprite: {fileID: 21300000, guid: 91c279b51afa9204690b5c1da9c58925, type: 3}
-  - key: btn_help_pressed
-    sprite: {fileID: 21300000, guid: 27fcc61f056967847b9e4646afb6c84c, type: 3}
-  - key: btn_help
-    sprite: {fileID: 21300000, guid: b0b8d1edc03bf5d4e9946b9ae49a6c96, type: 3}
-  - key: btn_ff_pressed
-    sprite: {fileID: 21300000, guid: 9d146cc26a2c64748bdd9283d8a3d26a, type: 3}
-  - key: btn_music
-    sprite: {fileID: 21300000, guid: d7f9da775d1001d4fbea49768d9d2087, type: 3}
-  - key: btn_retry_pressed
-    sprite: {fileID: 21300000, guid: aa9761ba784eec1469adfb0ed1896b13, type: 3}
   - key: btn_settings
     sprite: {fileID: 21300000, guid: dfd9f86a38f2faa45ba4e951103c4555, type: 3}
   - key: btn_settings_pressed
     sprite: {fileID: 21300000, guid: 2641aea1774da4e4a844d67ff503b3de, type: 3}
-  - key: icon_gem
-    sprite: {fileID: 21300000, guid: 5afc2f6174c774f478b9ce627038028a, type: 3}
-  - key: card_hero_selected
-    sprite: {fileID: 21300000, guid: 64980f18c4b73fb44a5b9ef41ea42969, type: 3}
-  - key: card_hero_locked
-    sprite: {fileID: 21300000, guid: 8744ea3b182f9b74283efb9bce252037, type: 3}
-  - key: card_hero_bg
-    sprite: {fileID: 21300000, guid: bc6bebcf75810384eb17dbde1df8f461, type: 3}
-  - key: badge_circle
-    sprite: {fileID: 21300000, guid: d922cf9071302e040b4c5f2d112fab06, type: 3}
-  - key: btn_wide_red_pressed
-    sprite: {fileID: 21300000, guid: bbef543c68a3f6443a022669e5cb4080, type: 3}
-  - key: btn_wide_red
-    sprite: {fileID: 21300000, guid: 5b84f4a989fd90e4a87d0430386d793c, type: 3}
-  - key: btn_wide_orange_pressed
-    sprite: {fileID: 21300000, guid: 98c1baab588bde44f8ac417ebaed3ef6, type: 3}
-  - key: btn_wide_orange
-    sprite: {fileID: 21300000, guid: 1e8d838e912c08049ba344945e8d0b95, type: 3}
-  - key: btn_wide_lavender_pressed
-    sprite: {fileID: 21300000, guid: d0dc6ab2933aea7459745c11a12d088e, type: 3}
-  - key: btn_wide_lavender
-    sprite: {fileID: 21300000, guid: ebcd87f3d8385a44fa7676045344cbd3, type: 3}
-  - key: btn_wide_green_pressed
-    sprite: {fileID: 21300000, guid: 05b2e926a16f3c14497a0f89aea3c32f, type: 3}
-  - key: btn_wide_green
-    sprite: {fileID: 21300000, guid: 0e5074b26ad5e4847b094060d716a996, type: 3}
-  - key: btn_wide_disabled
-    sprite: {fileID: 21300000, guid: 33f1ed209fa6f9945a31745e8f3ba6e3, type: 3}
-  - key: btn_unlock_pressed
-    sprite: {fileID: 21300000, guid: 62c8d74fdbf2d17499f11d5c678e72b0, type: 3}
-  - key: btn_unlock
-    sprite: {fileID: 21300000, guid: 3421fbfdf51e44b47a0cf814f9a63fa8, type: 3}
-  - key: btn_trophy_pressed
-    sprite: {fileID: 21300000, guid: 908bd88542ad24349854e786782da212, type: 3}
-  - key: btn_trophy
-    sprite: {fileID: 21300000, guid: f6147dbfca2e0aa4d87f75731e963e56, type: 3}
-  - key: btn_star_pressed
-    sprite: {fileID: 21300000, guid: 60f6daa49f5d84d4fb3803e1713d6328, type: 3}
-  - key: btn_star
-    sprite: {fileID: 21300000, guid: 4974c76568dbe404e8ee9a1ff94d5c14, type: 3}
-  - key: btn_sound_pressed
-    sprite: {fileID: 21300000, guid: 566c61d91246fc34d95b5ddc69d0a195, type: 3}
-  - key: btn_sound_off
-    sprite: {fileID: 21300000, guid: ebe720bd3e1d1094bac29a52251f57cb, type: 3}
-  - key: btn_sound
-    sprite: {fileID: 21300000, guid: 563f2f592f88885469a4955ffabe528c, type: 3}
-  - key: btn_shop_pressed
-    sprite: {fileID: 21300000, guid: 6460ef22b9d15584baaa4d8c9a6ccf4a, type: 3}
   - key: btn_shop
     sprite: {fileID: 21300000, guid: c361bb3865e11e940b2fa1ec89bd9906, type: 3}
-  - key: btn_ff
-    sprite: {fileID: 21300000, guid: a46806340e688434fa34a7451453e686, type: 3}
-  - key: icon_lock_white
-    sprite: {fileID: 21300000, guid: dcd338f845928d04193ff1dd492783a1, type: 3}
-  - key: btn_exit_pressed
-    sprite: {fileID: 21300000, guid: 95f5f713c2c33af45b6d99bf2329bc00, type: 3}
-  - key: btn_close_pressed
-    sprite: {fileID: 21300000, guid: 0a83175dfa56f704c84fc0baa1269d30, type: 3}
-  - key: node_open
-    sprite: {fileID: 21300000, guid: d5fb29d5499980d4a962b45f49fb738a, type: 3}
-  - key: node_locked
-    sprite: {fileID: 21300000, guid: 5558edbd359355d468cefde80ea552cc, type: 3}
-  - key: node_complete
-    sprite: {fileID: 21300000, guid: 4cccaf216e3d73d43947141bab513df1, type: 3}
-  - key: node_boss
-    sprite: {fileID: 21300000, guid: 7bc6a378fc9423d49aea87ded353c35c, type: 3}
-  - key: level_select_map
-    sprite: {fileID: 21300000, guid: 314997b6933932e49874c144e94147f8, type: 3}
-  - key: level_10_thumb
-    sprite: {fileID: 21300000, guid: a4d53d2cf2c6c984c81b7e0410c0dd09, type: 3}
-  - key: level_09_thumb
-    sprite: {fileID: 21300000, guid: e9fde300b49777e46ab8afb90aa37f87, type: 3}
-  - key: level_08_thumb
-    sprite: {fileID: 21300000, guid: bcefd584d58b25e41b8c702e670c47ff, type: 3}
-  - key: level_07_thumb
-    sprite: {fileID: 21300000, guid: 6d32a73818381fe409314e5673e74546, type: 3}
-  - key: level_06_thumb
-    sprite: {fileID: 21300000, guid: f74cd5ef26cbb064b9862908f90b5af4, type: 3}
-  - key: level_05_thumb
-    sprite: {fileID: 21300000, guid: d6d6e79725efe574d92e1a6f6fea2096, type: 3}
-  - key: app_icon_512
-    sprite: {fileID: 21300000, guid: 9a77f7a8fd811b6429af163cb79c226c, type: 3}
-  - key: level_04_thumb
-    sprite: {fileID: 21300000, guid: 7d78539fbfac0594395d50e72db7399c, type: 3}
-  - key: level_02_thumb
-    sprite: {fileID: 21300000, guid: 2e1ad4f33d2304948bcf35b48cce383f, type: 3}
-  - key: level_01_thumb
-    sprite: {fileID: 21300000, guid: 83f2feb70fabe004d807b6624b9d4206, type: 3}
-  - key: hud_wave_chip_bg
-    sprite: {fileID: 21300000, guid: 904557aecd8a42e4e95beeacf3e8a7f9, type: 3}
-  - key: hud_topbar_bg
-    sprite: {fileID: 21300000, guid: ae52a7fcfb6199b4db8fb030f696f7b2, type: 3}
-  - key: hud_title_pill
-    sprite: {fileID: 21300000, guid: 3d129a84ccc5f6347aa500560c932aed, type: 3}
-  - key: hud_chip_bg
-    sprite: {fileID: 21300000, guid: 60575faeccfdd054ebbd29f6cda966ec, type: 3}
-  - key: hud_btn_sound_64
-    sprite: {fileID: 21300000, guid: 2dd17c124543e6f4bb22e6403b3f3358, type: 3}
-  - key: hud_btn_sound_48
-    sprite: {fileID: 21300000, guid: 65b5c975f67478947b30e30f7bbbbd6c, type: 3}
-  - key: hud_btn_shop_64
-    sprite: {fileID: 21300000, guid: cb73a7afe59e26c4a96a78d805138634, type: 3}
-  - key: hud_btn_shop_48
-    sprite: {fileID: 21300000, guid: 0ecb3f35fc321264da0883994e829a61, type: 3}
-  - key: hud_btn_settings_64
-    sprite: {fileID: 21300000, guid: 43a2018f01f62da4b8f005569f2b323d, type: 3}
-  - key: level_03_thumb
-    sprite: {fileID: 21300000, guid: 619d276792c978b48b9581e7f32d9905, type: 3}
-  - key: emblem_crest
-    sprite: {fileID: 21300000, guid: 18333ff698433ad41b5b653396671d53, type: 3}
-  - key: logo_title
-    sprite: {fileID: 21300000, guid: e968fb3f5b06d5f4e843d7c7d654a5d0, type: 3}
-  - key: main_menu_decor_background_1920x1080
-    sprite: {fileID: 21300000, guid: b8cd15e54fcf24f4b893d6f1cfad650c, type: 3}
-  - key: btn_close
-    sprite: {fileID: 21300000, guid: 43a9a87e84499cb41a7ca6d3dcc5c06c, type: 3}
+  - key: btn_shop_pressed
+    sprite: {fileID: 21300000, guid: 6460ef22b9d15584baaa4d8c9a6ccf4a, type: 3}
+  - key: btn_sound
+    sprite: {fileID: 21300000, guid: 563f2f592f88885469a4955ffabe528c, type: 3}
+  - key: btn_sound_off
+    sprite: {fileID: 21300000, guid: ebe720bd3e1d1094bac29a52251f57cb, type: 3}
+  - key: btn_sound_pressed
+    sprite: {fileID: 21300000, guid: 566c61d91246fc34d95b5ddc69d0a195, type: 3}
+  - key: btn_star
+    sprite: {fileID: 21300000, guid: 4974c76568dbe404e8ee9a1ff94d5c14, type: 3}
+  - key: btn_retry_pressed
+    sprite: {fileID: 21300000, guid: aa9761ba784eec1469adfb0ed1896b13, type: 3}
+  - key: btn_star_pressed
+    sprite: {fileID: 21300000, guid: 60f6daa49f5d84d4fb3803e1713d6328, type: 3}
+  - key: btn_next
+    sprite: {fileID: 21300000, guid: d2fd608794a47bf448ededbcb4a7fcd0, type: 3}
+  - key: btn_music_off
+    sprite: {fileID: 21300000, guid: 970b4a4ca6a2a8a449579d97c5834f36, type: 3}
   - key: btn_check_pressed
     sprite: {fileID: 21300000, guid: d32a4a84439460047bc862f174b2c9ae, type: 3}
-  - key: btn_check
-    sprite: {fileID: 21300000, guid: ebf87bdfa7fc1d84aac0ba5877c569ce, type: 3}
-  - key: skill_cooldown_overlay
-    sprite: {fileID: 21300000, guid: 88b2c8159711b824eb4661edf8751110, type: 3}
-  - key: icon_tower_mage
-    sprite: {fileID: 21300000, guid: 27fdda8320368834dbc19815e01834a2, type: 3}
-  - key: icon_tower_ice
-    sprite: {fileID: 21300000, guid: c89c59f24a87fca46a07eee0c9e95b3d, type: 3}
-  - key: icon_tower_cannon
-    sprite: {fileID: 21300000, guid: 2082c440299871e439e40e4fbfae90fb, type: 3}
-  - key: icon_tower_barracks
-    sprite: {fileID: 21300000, guid: e597de3fa656eee45949b46785550fa7, type: 3}
-  - key: icon_tower_archer
-    sprite: {fileID: 21300000, guid: d9b8a9ca2f4fd814eb3b75af7a7fd69b, type: 3}
-  - key: icon_spell_meteor
-    sprite: {fileID: 21300000, guid: e8c70996147541344ae6228ee623f562, type: 3}
-  - key: icon_spell_freeze
-    sprite: {fileID: 21300000, guid: 44b6287491ea94f4da7fcffb771e71ed, type: 3}
-  - key: icon_skill_hero2_aura
-    sprite: {fileID: 21300000, guid: b828b4ce516ec864abd3e9221eb21b32, type: 3}
-  - key: icon_skill_hero1_strike
-    sprite: {fileID: 21300000, guid: 0566f402cfc75d34c955aaf71c458d8a, type: 3}
-  - key: icon_reinforcements
-    sprite: {fileID: 21300000, guid: 3834506d208d8bb4084bd7b83050b0e6, type: 3}
-  - key: portrait_hero_ranger
-    sprite: {fileID: 21300000, guid: 22ab549b6a36ed245b87e4da481fc196, type: 3}
-  - key: portrait_hero_paladin
-    sprite: {fileID: 21300000, guid: 974913b2af2f87745996e25955ad44ca, type: 3}
-  - key: portrait_hero_mage
-    sprite: {fileID: 21300000, guid: 5a75e24f887fb7b4ca387434abb6e4a4, type: 3}
-  - key: portrait_hero_barbarian
-    sprite: {fileID: 21300000, guid: 5db901b4f5257fb419e1c808161856c9, type: 3}
-  - key: ribbon_title_red
-    sprite: {fileID: 21300000, guid: ebe387c13caa75c48bef9c237765ae51, type: 3}
-  - key: ribbon_title_orange
-    sprite: {fileID: 21300000, guid: f552827cdd153644cae791928ebba75e, type: 3}
-  - key: ribbon_title_green
-    sprite: {fileID: 21300000, guid: eefab52b0fb8b2c4193774331a6103e9, type: 3}
-  - key: panel_purple_9slice
-    sprite: {fileID: 21300000, guid: 1f6f476f63367514d841aba04bd7e46d, type: 3}
-  - key: panel_light_9slice
-    sprite: {fileID: 21300000, guid: f5a0908164e30d540a90ed21027df408, type: 3}
-  - key: panel_dark_9slice
-    sprite: {fileID: 21300000, guid: 914c3cc7cc3df124a838a8fa9cf03aa8, type: 3}
+  - key: btn_close
+    sprite: {fileID: 21300000, guid: 43a9a87e84499cb41a7ca6d3dcc5c06c, type: 3}
+  - key: btn_close_pressed
+    sprite: {fileID: 21300000, guid: 0a83175dfa56f704c84fc0baa1269d30, type: 3}
   - key: btn_exit
     sprite: {fileID: 21300000, guid: dd472e1570f03714a87eb69853e86cca, type: 3}
-  - key: item_chest_gold
-    sprite: {fileID: 21300000, guid: bed454af8a0f0eb439f4d56ec60f46fb, type: 3}
-  - key: item_potion_blue
-    sprite: {fileID: 21300000, guid: c18ce046d9d34df4aa74caefe720ff67, type: 3}
-  - key: item_potion_green
-    sprite: {fileID: 21300000, guid: 7799b97f948130b47987e992a888ba3d, type: 3}
-  - key: hud_btn_settings_48
-    sprite: {fileID: 21300000, guid: 00fa8d3d65d70e245862f3cd3e3d46d8, type: 3}
-  - key: hud_btn_retry_64
-    sprite: {fileID: 21300000, guid: c37d9283ae92c814da101bde2a0cef96, type: 3}
-  - key: hud_btn_retry_48
-    sprite: {fileID: 21300000, guid: 12088ce4c5b17ce48b92a63dba2268bb, type: 3}
-  - key: hud_btn_pause_64
-    sprite: {fileID: 21300000, guid: de2ba23de7424bd49bacb3908c4a555b, type: 3}
-  - key: hud_btn_pause_48
-    sprite: {fileID: 21300000, guid: 188b5fb98c837be40928828dc6a69af8, type: 3}
-  - key: hud_btn_music_64
-    sprite: {fileID: 21300000, guid: 3916b170926d6b44e897e15eec5b945b, type: 3}
-  - key: hud_btn_music_48
-    sprite: {fileID: 21300000, guid: a73a894b81d1fd34697111450f1455a8, type: 3}
-  - key: hud_btn_info_64
-    sprite: {fileID: 21300000, guid: 43b2d8f00215c86429d5eae36803fbf2, type: 3}
-  - key: hud_btn_info_48
-    sprite: {fileID: 21300000, guid: 4e137bdce5216534b99b1c99fee8b227, type: 3}
-  - key: bar_hp_enemy_bg
-    sprite: {fileID: 21300000, guid: 1a67dcde39e317046a066da6707e257c, type: 3}
-  - key: tag_red
-    sprite: {fileID: 21300000, guid: c1059dd753778a943bc4b26a6cea0cf2, type: 3}
-  - key: tag_purple
-    sprite: {fileID: 21300000, guid: 68e04d3dadb5c2c4ebfd8fe5265b3b2b, type: 3}
-  - key: tag_green
-    sprite: {fileID: 21300000, guid: 74a5164076fe48244bdd0a5c142bec5f, type: 3}
-  - key: tag_gold
-    sprite: {fileID: 21300000, guid: 864b272d0c4436d4ca3cbb4f4588085c, type: 3}
-  - key: stat_speed
-    sprite: {fileID: 21300000, guid: 6a2adde6d2f6fcd40b9bf20b928a6579, type: 3}
-  - key: stat_range
-    sprite: {fileID: 21300000, guid: 67317b628677e0543b3f76827f866277, type: 3}
-  - key: stat_hp
-    sprite: {fileID: 21300000, guid: 31fdb7194ec910a4dbd8b842dd6e8cfa, type: 3}
-  - key: stat_dmg
-    sprite: {fileID: 21300000, guid: 46a3f3d69d4747346be1e6652808d478, type: 3}
-  - key: shop_tab_active
-    sprite: {fileID: 21300000, guid: 6400b2020c7313e418b2cb4e850f0849, type: 3}
-  - key: shop_tab
-    sprite: {fileID: 21300000, guid: f7c8bb69aca84e04ea1dc30b0d40a841, type: 3}
-  - key: shop_card_selected
-    sprite: {fileID: 21300000, guid: 85164dddd9f180e428dc7560631f1a18, type: 3}
-  - key: shop_card_owned
-    sprite: {fileID: 21300000, guid: 9f489f6863ea06f4a8d962788d300b9e, type: 3}
-  - key: shop_card_bg
-    sprite: {fileID: 21300000, guid: e79b1492103cbe44f931765f5dfc333a, type: 3}
-  - key: lvl_btn_open
-    sprite: {fileID: 21300000, guid: fda799c99d81b1e4184c14eeec8d5467, type: 3}
-  - key: lvl_btn_locked
-    sprite: {fileID: 21300000, guid: 6bc9f8369643f8d4a90d26f69a1ef694, type: 3}
-  - key: lvl_btn_done
-    sprite: {fileID: 21300000, guid: 08c63976dc0d7bb42b9db55f00ac7513, type: 3}
-  - key: lvl_btn_boss
-    sprite: {fileID: 21300000, guid: 15708fe901e6ba5408c67eaf5cfc8dc8, type: 3}
-  - key: lvl_badge_gray
-    sprite: {fileID: 21300000, guid: 07644f80d1919e74fa99b903a1a35297, type: 3}
-  - key: lvl_badge_gold
-    sprite: {fileID: 21300000, guid: c5a524500699aa14eacbf8fdef9b474a, type: 3}
+  - key: btn_exit_pressed
+    sprite: {fileID: 21300000, guid: 95f5f713c2c33af45b6d99bf2329bc00, type: 3}
+  - key: btn_ff
+    sprite: {fileID: 21300000, guid: a46806340e688434fa34a7451453e686, type: 3}
+  - key: btn_ff_pressed
+    sprite: {fileID: 21300000, guid: 9d146cc26a2c64748bdd9283d8a3d26a, type: 3}
+  - key: btn_help
+    sprite: {fileID: 21300000, guid: b0b8d1edc03bf5d4e9946b9ae49a6c96, type: 3}
+  - key: btn_music_pressed
+    sprite: {fileID: 21300000, guid: f427af4430ea6a14b98f891dd38b1d92, type: 3}
+  - key: btn_help_pressed
+    sprite: {fileID: 21300000, guid: 27fcc61f056967847b9e4646afb6c84c, type: 3}
+  - key: btn_home_pressed
+    sprite: {fileID: 21300000, guid: a61c35495b9693c418552dfed036964b, type: 3}
+  - key: btn_info
+    sprite: {fileID: 21300000, guid: 2a46e2be40dfc274291ae004f0904b1f, type: 3}
+  - key: btn_info_pressed
+    sprite: {fileID: 21300000, guid: b8cab47c075c9e5438627672dce1b66f, type: 3}
+  - key: btn_lock
+    sprite: {fileID: 21300000, guid: 90ffb0703a728094a8d1c8582fff1a0b, type: 3}
+  - key: btn_lock_pressed
+    sprite: {fileID: 21300000, guid: f562b69ed8e29c04d9ed705a9e88d35a, type: 3}
+  - key: btn_minus
+    sprite: {fileID: 21300000, guid: 12bce0de64b9c6f4988ad9f51b53380f, type: 3}
+  - key: btn_minus_pressed
+    sprite: {fileID: 21300000, guid: 6036160ea780eb14ca3adc28148fa149, type: 3}
+  - key: btn_music
+    sprite: {fileID: 21300000, guid: d7f9da775d1001d4fbea49768d9d2087, type: 3}
+  - key: btn_home
+    sprite: {fileID: 21300000, guid: 91c279b51afa9204690b5c1da9c58925, type: 3}
+  - key: btn_trophy
+    sprite: {fileID: 21300000, guid: f6147dbfca2e0aa4d87f75731e963e56, type: 3}
+  - key: btn_trophy_pressed
+    sprite: {fileID: 21300000, guid: 908bd88542ad24349854e786782da212, type: 3}
+  - key: btn_unlock
+    sprite: {fileID: 21300000, guid: 3421fbfdf51e44b47a0cf814f9a63fa8, type: 3}
   - key: item_weapon_sword
     sprite: {fileID: 21300000, guid: b42c512b7304f824285809d37d475f70, type: 3}
+  - key: lvl_badge_gold
+    sprite: {fileID: 21300000, guid: c5a524500699aa14eacbf8fdef9b474a, type: 3}
+  - key: lvl_badge_gray
+    sprite: {fileID: 21300000, guid: 07644f80d1919e74fa99b903a1a35297, type: 3}
+  - key: lvl_btn_boss
+    sprite: {fileID: 21300000, guid: 15708fe901e6ba5408c67eaf5cfc8dc8, type: 3}
+  - key: lvl_btn_done
+    sprite: {fileID: 21300000, guid: 08c63976dc0d7bb42b9db55f00ac7513, type: 3}
+  - key: lvl_btn_locked
+    sprite: {fileID: 21300000, guid: 6bc9f8369643f8d4a90d26f69a1ef694, type: 3}
+  - key: lvl_btn_open
+    sprite: {fileID: 21300000, guid: fda799c99d81b1e4184c14eeec8d5467, type: 3}
+  - key: shop_card_bg
+    sprite: {fileID: 21300000, guid: e79b1492103cbe44f931765f5dfc333a, type: 3}
   - key: item_weapon_staff
     sprite: {fileID: 21300000, guid: a7d1bf39997d3b3429fac9d357ff93e0, type: 3}
+  - key: shop_card_owned
+    sprite: {fileID: 21300000, guid: 9f489f6863ea06f4a8d962788d300b9e, type: 3}
+  - key: shop_tab
+    sprite: {fileID: 21300000, guid: f7c8bb69aca84e04ea1dc30b0d40a841, type: 3}
+  - key: shop_tab_active
+    sprite: {fileID: 21300000, guid: 6400b2020c7313e418b2cb4e850f0849, type: 3}
+  - key: stat_dmg
+    sprite: {fileID: 21300000, guid: 46a3f3d69d4747346be1e6652808d478, type: 3}
+  - key: stat_hp
+    sprite: {fileID: 21300000, guid: 31fdb7194ec910a4dbd8b842dd6e8cfa, type: 3}
+  - key: stat_range
+    sprite: {fileID: 21300000, guid: 67317b628677e0543b3f76827f866277, type: 3}
+  - key: stat_speed
+    sprite: {fileID: 21300000, guid: 6a2adde6d2f6fcd40b9bf20b928a6579, type: 3}
+  - key: tag_gold
+    sprite: {fileID: 21300000, guid: 864b272d0c4436d4ca3cbb4f4588085c, type: 3}
+  - key: tag_green
+    sprite: {fileID: 21300000, guid: 74a5164076fe48244bdd0a5c142bec5f, type: 3}
+  - key: shop_card_selected
+    sprite: {fileID: 21300000, guid: 85164dddd9f180e428dc7560631f1a18, type: 3}
   - key: item_weapon_hammer
     sprite: {fileID: 21300000, guid: 357cfc8af044f4f45800f6384ffe849d, type: 3}
   - key: item_weapon_axe
     sprite: {fileID: 21300000, guid: ec3c0bf79832b4a4284c40b582ce437f, type: 3}
   - key: item_potion_red
     sprite: {fileID: 21300000, guid: 8714c2a068b8f7d4c8a81286dd228b11, type: 3}
-  - key: bar_hp_enemy_fill
-    sprite: {fileID: 21300000, guid: 4efc08e3bbaeec14f84a386989909576, type: 3}
-  - key: bar_hp_hero_bg
-    sprite: {fileID: 21300000, guid: 30b10831744d42a45b4d2fb980a0be62, type: 3}
-  - key: bar_mana_bg
-    sprite: {fileID: 21300000, guid: a5357a4379d67ac4db95d9c3502dd5ed, type: 3}
-  - key: hud_btn_home_64
-    sprite: {fileID: 21300000, guid: 56ad5f002bd169f47b3878a43a4eaaa3, type: 3}
-  - key: hud_btn_home_48
-    sprite: {fileID: 21300000, guid: 8f15d94a73f379d42b99940c3b7eb583, type: 3}
-  - key: hud_btn_ff_64
-    sprite: {fileID: 21300000, guid: c1ae7305efdf5204690c604283fac0e6, type: 3}
-  - key: hud_btn_ff_48
-    sprite: {fileID: 21300000, guid: d271c1ebf94485c46860381ecb095280, type: 3}
-  - key: hud_btn_continue_64
-    sprite: {fileID: 21300000, guid: 17094f388f443f04a8b6ea842e57169a, type: 3}
-  - key: hud_btn_continue_48
-    sprite: {fileID: 21300000, guid: bf8b246376eb66843ba6437ddf18e21c, type: 3}
-  - key: tower_range_indicator
-    sprite: {fileID: 21300000, guid: 1595ca7fbf434994c828ff2cd2d57bd9, type: 3}
-  - key: stars_3
-    sprite: {fileID: 21300000, guid: 63ca594695006db44a29723cc8958d11, type: 3}
-  - key: stars_2
-    sprite: {fileID: 21300000, guid: f43cb161ac9141c499d1c8c07c7250ef, type: 3}
-  - key: stars_1
-    sprite: {fileID: 21300000, guid: c7f85edfef1cb114b89b0883127949f2, type: 3}
-  - key: stars_0
-    sprite: {fileID: 21300000, guid: ee68892bf0456e2409f073f655893678, type: 3}
-  - key: star_full
-    sprite: {fileID: 21300000, guid: 4892a0d774ebbb94db41875dca7030b2, type: 3}
-  - key: star_empty
-    sprite: {fileID: 21300000, guid: 19ee4e065ef563140b5b929210e2b40e, type: 3}
-  - key: icon_wave_flag
-    sprite: {fileID: 21300000, guid: 4bf61a5b209919b439121acf6e3d970c, type: 3}
-  - key: icon_skull_kills
-    sprite: {fileID: 21300000, guid: b4fa1b0a6bda4884ead10302f09b8370, type: 3}
-  - key: icon_heart_empty
-    sprite: {fileID: 21300000, guid: 8e11c596d3cf568418ecc1a809b67f66, type: 3}
-  - key: icon_heart
-    sprite: {fileID: 21300000, guid: fe70ff7b2950b904b9712fe62f3870a0, type: 3}
-  - key: icon_coin_spin_sheet
-    sprite: {fileID: 21300000, guid: 89c49a259ffb9b845a9b108599179c76, type: 3}
-  - key: icon_coin
-    sprite: {fileID: 21300000, guid: 5ad8961b406376a47b2ad5beee886267, type: 3}
-  - key: build_pad
-    sprite: {fileID: 21300000, guid: 591ba2dc0de920a468fdd9e2cf058fb3, type: 3}
-  - key: bar_wave_progress_fill
-    sprite: {fileID: 21300000, guid: 1d0cc239aa382b54d925bc796f127592, type: 3}
-  - key: bar_wave_progress_bg
-    sprite: {fileID: 21300000, guid: adaaf7bf8707a5a4595681c91e391b30, type: 3}
-  - key: bar_mini_enemy_fill
-    sprite: {fileID: 21300000, guid: a929eea0246705d42904c8c57d794191, type: 3}
-  - key: bar_mini_enemy_bg
-    sprite: {fileID: 21300000, guid: 8c57df3e68a89f84ea3635140238c306, type: 3}
-  - key: bar_mana_fill
-    sprite: {fileID: 21300000, guid: 02d61577a83180846b5dc3d3f4102a0d, type: 3}
-  - key: bar_hp_hero_fill
-    sprite: {fileID: 21300000, guid: 9dea6cdec879eca40940bad21d2d5951, type: 3}
+  - key: btn_unlock_pressed
+    sprite: {fileID: 21300000, guid: 62c8d74fdbf2d17499f11d5c678e72b0, type: 3}
+  - key: btn_wide_disabled
+    sprite: {fileID: 21300000, guid: 33f1ed209fa6f9945a31745e8f3ba6e3, type: 3}
+  - key: btn_wide_green
+    sprite: {fileID: 21300000, guid: 0e5074b26ad5e4847b094060d716a996, type: 3}
+  - key: btn_wide_green_pressed
+    sprite: {fileID: 21300000, guid: 05b2e926a16f3c14497a0f89aea3c32f, type: 3}
+  - key: btn_wide_lavender
+    sprite: {fileID: 21300000, guid: ebcd87f3d8385a44fa7676045344cbd3, type: 3}
+  - key: btn_wide_lavender_pressed
+    sprite: {fileID: 21300000, guid: d0dc6ab2933aea7459745c11a12d088e, type: 3}
+  - key: btn_wide_orange
+    sprite: {fileID: 21300000, guid: 1e8d838e912c08049ba344945e8d0b95, type: 3}
+  - key: btn_wide_orange_pressed
+    sprite: {fileID: 21300000, guid: 98c1baab588bde44f8ac417ebaed3ef6, type: 3}
+  - key: btn_wide_red
+    sprite: {fileID: 21300000, guid: 5b84f4a989fd90e4a87d0430386d793c, type: 3}
+  - key: btn_wide_red_pressed
+    sprite: {fileID: 21300000, guid: bbef543c68a3f6443a022669e5cb4080, type: 3}
+  - key: badge_circle
+    sprite: {fileID: 21300000, guid: d922cf9071302e040b4c5f2d112fab06, type: 3}
+  - key: card_hero_bg
+    sprite: {fileID: 21300000, guid: bc6bebcf75810384eb17dbde1df8f461, type: 3}
+  - key: card_hero_locked
+    sprite: {fileID: 21300000, guid: 8744ea3b182f9b74283efb9bce252037, type: 3}
+  - key: card_hero_selected
+    sprite: {fileID: 21300000, guid: 64980f18c4b73fb44a5b9ef41ea42969, type: 3}
+  - key: icon_gem
+    sprite: {fileID: 21300000, guid: 5afc2f6174c774f478b9ce627038028a, type: 3}
+  - key: icon_lock_white
+    sprite: {fileID: 21300000, guid: dcd338f845928d04193ff1dd492783a1, type: 3}
+  - key: item_chest_gold
+    sprite: {fileID: 21300000, guid: bed454af8a0f0eb439f4d56ec60f46fb, type: 3}
+  - key: item_potion_blue
+    sprite: {fileID: 21300000, guid: c18ce046d9d34df4aa74caefe720ff67, type: 3}
+  - key: item_potion_green
+    sprite: {fileID: 21300000, guid: 7799b97f948130b47987e992a888ba3d, type: 3}
+  - key: tag_red
+    sprite: {fileID: 21300000, guid: c1059dd753778a943bc4b26a6cea0cf2, type: 3}
+  - key: skill_cooldown_overlay
+    sprite: {fileID: 21300000, guid: c474c344d8332f24f81fc66d66cf69b0, type: 3}

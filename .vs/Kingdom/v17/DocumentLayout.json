@@ -67,10 +67,6 @@
       "RelativeMoniker": "D:0:0:{662FBB2B-7792-05F0-F70F-68FDD059AC61}|Assembly-CSharp.csproj|solutionrelative:assets\\_project\\scripts\\enemyscripts\\enemymovement.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{7ED8C90A-4E9D-F306-317B-BB0CA98A8B3D}|Assembly-CSharp-Editor.csproj|C:\\work_splace\\game\\project_cv\\Kingdom\\assets\\editor\\tdautoprefabtool.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{7ED8C90A-4E9D-F306-317B-BB0CA98A8B3D}|Assembly-CSharp-Editor.csproj|solutionrelative:assets\\editor\\tdautoprefabtool.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
       "AbsoluteMoniker": "D:0:0:{7ED8C90A-4E9D-F306-317B-BB0CA98A8B3D}|Assembly-CSharp-Editor.csproj|C:\\work_splace\\game\\project_cv\\Kingdom\\assets\\editor\\setupbuildsettingstool.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{7ED8C90A-4E9D-F306-317B-BB0CA98A8B3D}|Assembly-CSharp-Editor.csproj|solutionrelative:assets\\editor\\setupbuildsettingstool.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
@@ -87,20 +83,8 @@
       "RelativeMoniker": "D:0:0:{7ED8C90A-4E9D-F306-317B-BB0CA98A8B3D}|Assembly-CSharp-Editor.csproj|solutionrelative:assets\\editor\\levelvalidator.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{7ED8C90A-4E9D-F306-317B-BB0CA98A8B3D}|Assembly-CSharp-Editor.csproj|C:\\work_splace\\game\\project_cv\\Kingdom\\assets\\editor\\isometrictilehelper.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{7ED8C90A-4E9D-F306-317B-BB0CA98A8B3D}|Assembly-CSharp-Editor.csproj|solutionrelative:assets\\editor\\isometrictilehelper.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{7ED8C90A-4E9D-F306-317B-BB0CA98A8B3D}|Assembly-CSharp-Editor.csproj|C:\\work_splace\\game\\project_cv\\Kingdom\\assets\\editor\\heroprefabbuilder.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{7ED8C90A-4E9D-F306-317B-BB0CA98A8B3D}|Assembly-CSharp-Editor.csproj|solutionrelative:assets\\editor\\heroprefabbuilder.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
       "AbsoluteMoniker": "D:0:0:{7ED8C90A-4E9D-F306-317B-BB0CA98A8B3D}|Assembly-CSharp-Editor.csproj|C:\\work_splace\\game\\project_cv\\Kingdom\\assets\\editor\\gamedatabalancer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{7ED8C90A-4E9D-F306-317B-BB0CA98A8B3D}|Assembly-CSharp-Editor.csproj|solutionrelative:assets\\editor\\gamedatabalancer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{7ED8C90A-4E9D-F306-317B-BB0CA98A8B3D}|Assembly-CSharp-Editor.csproj|C:\\work_splace\\game\\project_cv\\Kingdom\\assets\\editor\\bulletprefabgenerator.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{7ED8C90A-4E9D-F306-317B-BB0CA98A8B3D}|Assembly-CSharp-Editor.csproj|solutionrelative:assets\\editor\\bulletprefabgenerator.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{662FBB2B-7792-05F0-F70F-68FDD059AC61}|Assembly-CSharp.csproj|C:\\work_splace\\game\\project_cv\\Kingdom\\assets\\_project\\scripts\\enemyscripts\\dragonboss.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
@@ -237,6 +221,22 @@
     {
       "AbsoluteMoniker": "D:0:0:{662FBB2B-7792-05F0-F70F-68FDD059AC61}|Assembly-CSharp.csproj|C:\\work_splace\\game\\project_cv\\Kingdom\\assets\\_project\\scripts\\vfx\\explosioneffect.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{662FBB2B-7792-05F0-F70F-68FDD059AC61}|Assembly-CSharp.csproj|solutionrelative:assets\\_project\\scripts\\vfx\\explosioneffect.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\work_splace\\game\\project_cv\\Kingdom\\Assets\\Editor\\TDAutoPrefabTool.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:Assets\\Editor\\TDAutoPrefabTool.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\work_splace\\game\\project_cv\\Kingdom\\Assets\\Editor\\IsometricTileHelper.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:Assets\\Editor\\IsometricTileHelper.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\work_splace\\game\\project_cv\\Kingdom\\Assets\\Editor\\HeroPrefabBuilder.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:Assets\\Editor\\HeroPrefabBuilder.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\work_splace\\game\\project_cv\\Kingdom\\Assets\\Editor\\BulletPrefabGenerator.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:Assets\\Editor\\BulletPrefabGenerator.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     }
   ],
   "DocumentGroupContainers": [
@@ -443,7 +443,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 16,
+              "DocumentIndex": 55,
               "Title": "TDAutoPrefabTool.cs",
               "DocumentMoniker": "C:\\work_splace\\game\\project_cv\\Kingdom\\Assets\\Editor\\TDAutoPrefabTool.cs",
               "RelativeDocumentMoniker": "Assets\\Editor\\TDAutoPrefabTool.cs",
@@ -455,7 +455,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 17,
+              "DocumentIndex": 16,
               "Title": "SetupBuildSettingsTool.cs",
               "DocumentMoniker": "C:\\work_splace\\game\\project_cv\\Kingdom\\Assets\\Editor\\SetupBuildSettingsTool.cs",
               "RelativeDocumentMoniker": "Assets\\Editor\\SetupBuildSettingsTool.cs",
@@ -467,7 +467,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 18,
+              "DocumentIndex": 17,
               "Title": "TowerUI.cs",
               "DocumentMoniker": "C:\\work_splace\\game\\project_cv\\Kingdom\\Assets\\_Project\\Scripts\\UI\\TowerUI.cs",
               "RelativeDocumentMoniker": "Assets\\_Project\\Scripts\\UI\\TowerUI.cs",
@@ -479,7 +479,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 19,
+              "DocumentIndex": 18,
               "Title": "Tower.cs",
               "DocumentMoniker": "C:\\work_splace\\game\\project_cv\\Kingdom\\Assets\\_Project\\Scripts\\Buildings\\Tower.cs",
               "RelativeDocumentMoniker": "Assets\\_Project\\Scripts\\Buildings\\Tower.cs",
@@ -491,7 +491,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 20,
+              "DocumentIndex": 19,
               "Title": "LevelValidator.cs",
               "DocumentMoniker": "C:\\work_splace\\game\\project_cv\\Kingdom\\Assets\\Editor\\LevelValidator.cs",
               "RelativeDocumentMoniker": "Assets\\Editor\\LevelValidator.cs",
@@ -503,7 +503,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 21,
+              "DocumentIndex": 56,
               "Title": "IsometricTileHelper.cs",
               "DocumentMoniker": "C:\\work_splace\\game\\project_cv\\Kingdom\\Assets\\Editor\\IsometricTileHelper.cs",
               "RelativeDocumentMoniker": "Assets\\Editor\\IsometricTileHelper.cs",
@@ -515,7 +515,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 22,
+              "DocumentIndex": 57,
               "Title": "HeroPrefabBuilder.cs",
               "DocumentMoniker": "C:\\work_splace\\game\\project_cv\\Kingdom\\Assets\\Editor\\HeroPrefabBuilder.cs",
               "RelativeDocumentMoniker": "Assets\\Editor\\HeroPrefabBuilder.cs",
@@ -527,7 +527,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 23,
+              "DocumentIndex": 20,
               "Title": "GameDataBalancer.cs",
               "DocumentMoniker": "C:\\work_splace\\game\\project_cv\\Kingdom\\Assets\\Editor\\GameDataBalancer.cs",
               "RelativeDocumentMoniker": "Assets\\Editor\\GameDataBalancer.cs",
@@ -539,7 +539,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 24,
+              "DocumentIndex": 58,
               "Title": "BulletPrefabGenerator.cs",
               "DocumentMoniker": "C:\\work_splace\\game\\project_cv\\Kingdom\\Assets\\Editor\\BulletPrefabGenerator.cs",
               "RelativeDocumentMoniker": "Assets\\Editor\\BulletPrefabGenerator.cs",
@@ -551,7 +551,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 25,
+              "DocumentIndex": 21,
               "Title": "DragonBoss.cs",
               "DocumentMoniker": "C:\\work_splace\\game\\project_cv\\Kingdom\\Assets\\_Project\\Scripts\\EnemyScripts\\DragonBoss.cs",
               "RelativeDocumentMoniker": "Assets\\_Project\\Scripts\\EnemyScripts\\DragonBoss.cs",
@@ -563,7 +563,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 26,
+              "DocumentIndex": 22,
               "Title": "EnemyHealth.cs",
               "DocumentMoniker": "C:\\work_splace\\game\\project_cv\\Kingdom\\Assets\\_Project\\Scripts\\EnemyScripts\\EnemyHealth.cs",
               "RelativeDocumentMoniker": "Assets\\_Project\\Scripts\\EnemyScripts\\EnemyHealth.cs",
@@ -575,7 +575,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 27,
+              "DocumentIndex": 23,
               "Title": "Hero.cs",
               "DocumentMoniker": "C:\\work_splace\\game\\project_cv\\Kingdom\\Assets\\_Project\\Scripts\\HeroScripts\\Hero.cs",
               "RelativeDocumentMoniker": "Assets\\_Project\\Scripts\\HeroScripts\\Hero.cs",
@@ -587,7 +587,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 29,
+              "DocumentIndex": 25,
               "Title": "HeroCameraController.cs",
               "DocumentMoniker": "C:\\work_splace\\game\\project_cv\\Kingdom\\Assets\\_Project\\Scripts\\HeroScripts\\HeroCameraController.cs",
               "RelativeDocumentMoniker": "Assets\\_Project\\Scripts\\HeroScripts\\HeroCameraController.cs",
@@ -599,7 +599,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 28,
+              "DocumentIndex": 24,
               "Title": "HeroHUD.cs",
               "DocumentMoniker": "C:\\work_splace\\game\\project_cv\\Kingdom\\Assets\\_Project\\Scripts\\UI\\HeroHUD.cs",
               "RelativeDocumentMoniker": "Assets\\_Project\\Scripts\\UI\\HeroHUD.cs",
@@ -611,7 +611,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 30,
+              "DocumentIndex": 26,
               "Title": "DameTextManager.cs",
               "DocumentMoniker": "C:\\work_splace\\game\\project_cv\\Kingdom\\Assets\\_Project\\Scripts\\UI\\DameTextManager.cs",
               "RelativeDocumentMoniker": "Assets\\_Project\\Scripts\\UI\\DameTextManager.cs",
@@ -623,7 +623,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 31,
+              "DocumentIndex": 27,
               "Title": "InputRouter.cs",
               "DocumentMoniker": "C:\\work_splace\\game\\project_cv\\Kingdom\\Assets\\_Project\\Scripts\\Utils\\InputRouter.cs",
               "RelativeDocumentMoniker": "Assets\\_Project\\Scripts\\Utils\\InputRouter.cs",
@@ -635,7 +635,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 32,
+              "DocumentIndex": 28,
               "Title": "HeroController.cs",
               "DocumentMoniker": "C:\\work_splace\\game\\project_cv\\Kingdom\\Assets\\_Project\\Scripts\\HeroScripts\\HeroController.cs",
               "RelativeDocumentMoniker": "Assets\\_Project\\Scripts\\HeroScripts\\HeroController.cs",
@@ -647,7 +647,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 33,
+              "DocumentIndex": 29,
               "Title": "BottomEnemyHUD.cs",
               "DocumentMoniker": "C:\\work_splace\\game\\project_cv\\Kingdom\\Assets\\_Project\\Scripts\\UI\\BottomEnemyHUD.cs",
               "RelativeDocumentMoniker": "Assets\\_Project\\Scripts\\UI\\BottomEnemyHUD.cs",
@@ -659,7 +659,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 34,
+              "DocumentIndex": 30,
               "Title": "HeroDeployer.cs",
               "DocumentMoniker": "C:\\work_splace\\game\\project_cv\\Kingdom\\Assets\\_Project\\Scripts\\HeroScripts\\HeroDeployer.cs",
               "RelativeDocumentMoniker": "Assets\\_Project\\Scripts\\HeroScripts\\HeroDeployer.cs",
@@ -671,7 +671,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 35,
+              "DocumentIndex": 31,
               "Title": "Plot.cs",
               "DocumentMoniker": "C:\\work_splace\\game\\project_cv\\Kingdom\\Assets\\_Project\\Scripts\\Plot.cs",
               "RelativeDocumentMoniker": "Assets\\_Project\\Scripts\\Plot.cs",
@@ -683,7 +683,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 36,
+              "DocumentIndex": 32,
               "Title": "MissionTracker.cs",
               "DocumentMoniker": "C:\\work_splace\\game\\project_cv\\Kingdom\\Assets\\_Project\\Scripts\\Managers\\MissionTracker.cs",
               "RelativeDocumentMoniker": "Assets\\_Project\\Scripts\\Managers\\MissionTracker.cs",
@@ -695,7 +695,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 37,
+              "DocumentIndex": 33,
               "Title": "GameInput.cs",
               "DocumentMoniker": "C:\\work_splace\\game\\project_cv\\Kingdom\\Assets\\_Project\\Scripts\\Utils\\GameInput.cs",
               "RelativeDocumentMoniker": "Assets\\_Project\\Scripts\\Utils\\GameInput.cs",
@@ -707,7 +707,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 38,
+              "DocumentIndex": 34,
               "Title": "SlowTurret.cs",
               "DocumentMoniker": "C:\\work_splace\\game\\project_cv\\Kingdom\\Assets\\_Project\\Scripts\\Buildings\\SlowTurret.cs",
               "RelativeDocumentMoniker": "Assets\\_Project\\Scripts\\Buildings\\SlowTurret.cs",
@@ -719,7 +719,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 40,
+              "DocumentIndex": 36,
               "Title": "BuffController.cs",
               "DocumentMoniker": "C:\\work_splace\\game\\project_cv\\Kingdom\\Assets\\_Project\\Scripts\\Buildings\\BuffController.cs",
               "RelativeDocumentMoniker": "Assets\\_Project\\Scripts\\Buildings\\BuffController.cs",
@@ -731,7 +731,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 39,
+              "DocumentIndex": 35,
               "Title": "IBaseTower.cs",
               "DocumentMoniker": "C:\\work_splace\\game\\project_cv\\Kingdom\\Assets\\_Project\\Scripts\\Buildings\\IBaseTower.cs",
               "RelativeDocumentMoniker": "Assets\\_Project\\Scripts\\Buildings\\IBaseTower.cs",
@@ -743,7 +743,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 41,
+              "DocumentIndex": 37,
               "Title": "StatusEffectController.cs",
               "DocumentMoniker": "C:\\work_splace\\game\\project_cv\\Kingdom\\Assets\\_Project\\Scripts\\EnemyScripts\\StatusEffectController.cs",
               "RelativeDocumentMoniker": "Assets\\_Project\\Scripts\\EnemyScripts\\StatusEffectController.cs",
@@ -755,7 +755,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 42,
+              "DocumentIndex": 38,
               "Title": "Bullet.cs",
               "DocumentMoniker": "C:\\work_splace\\game\\project_cv\\Kingdom\\Assets\\_Project\\Scripts\\Bullet.cs",
               "RelativeDocumentMoniker": "Assets\\_Project\\Scripts\\Bullet.cs",
@@ -767,7 +767,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 43,
+              "DocumentIndex": 39,
               "Title": "CastleManager.cs",
               "DocumentMoniker": "C:\\work_splace\\game\\project_cv\\Kingdom\\Assets\\_Project\\Scripts\\Managers\\CastleManager.cs",
               "RelativeDocumentMoniker": "Assets\\_Project\\Scripts\\Managers\\CastleManager.cs",
@@ -779,7 +779,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 44,
+              "DocumentIndex": 40,
               "Title": "Definitions.cs",
               "DocumentMoniker": "C:\\work_splace\\game\\project_cv\\Kingdom\\Assets\\_Project\\Scripts\\Core\\Definitions.cs",
               "RelativeDocumentMoniker": "Assets\\_Project\\Scripts\\Core\\Definitions.cs",
@@ -791,7 +791,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 45,
+              "DocumentIndex": 41,
               "Title": "GameDataBalancer.cs",
               "DocumentMoniker": "C:\\work_splace\\game\\project_cv\\Kingdom\\Assets\\_Project\\Scripts\\Data\\GameDataBalancer.cs",
               "RelativeDocumentMoniker": "Assets\\_Project\\Scripts\\Data\\GameDataBalancer.cs",
@@ -803,7 +803,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 46,
+              "DocumentIndex": 42,
               "Title": "EnemyRegistry.cs",
               "DocumentMoniker": "C:\\work_splace\\game\\project_cv\\Kingdom\\Assets\\_Project\\Scripts\\EnemyScripts\\EnemyRegistry.cs",
               "RelativeDocumentMoniker": "Assets\\_Project\\Scripts\\EnemyScripts\\EnemyRegistry.cs",
@@ -815,7 +815,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 47,
+              "DocumentIndex": 43,
               "Title": "LevelDatabase.cs",
               "DocumentMoniker": "C:\\work_splace\\game\\project_cv\\Kingdom\\Assets\\_Project\\Scripts\\Data\\LevelDatabase.cs",
               "RelativeDocumentMoniker": "Assets\\_Project\\Scripts\\Data\\LevelDatabase.cs",
@@ -827,7 +827,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 48,
+              "DocumentIndex": 44,
               "Title": "LevelPrepManager.cs",
               "DocumentMoniker": "C:\\work_splace\\game\\project_cv\\Kingdom\\Assets\\_Project\\Scripts\\UI\\LevelPrepManager.cs",
               "RelativeDocumentMoniker": "Assets\\_Project\\Scripts\\UI\\LevelPrepManager.cs",
@@ -839,7 +839,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 50,
+              "DocumentIndex": 46,
               "Title": "LevelDefinition.cs",
               "DocumentMoniker": "C:\\work_splace\\game\\project_cv\\Kingdom\\Assets\\_Project\\Scripts\\Data\\LevelDefinition.cs",
               "RelativeDocumentMoniker": "Assets\\_Project\\Scripts\\Data\\LevelDefinition.cs",
@@ -851,7 +851,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 51,
+              "DocumentIndex": 47,
               "Title": "DamgeInfo.cs",
               "DocumentMoniker": "C:\\work_splace\\game\\project_cv\\Kingdom\\Assets\\_Project\\Scripts\\EnemyScripts\\DamgeInfo.cs",
               "RelativeDocumentMoniker": "Assets\\_Project\\Scripts\\EnemyScripts\\DamgeInfo.cs",
@@ -863,7 +863,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 49,
+              "DocumentIndex": 45,
               "Title": "SaveManager.cs",
               "DocumentMoniker": "C:\\work_splace\\game\\project_cv\\Kingdom\\Assets\\_Project\\Scripts\\Managers\\SaveManager.cs",
               "RelativeDocumentMoniker": "Assets\\_Project\\Scripts\\Managers\\SaveManager.cs",
@@ -875,7 +875,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 52,
+              "DocumentIndex": 48,
               "Title": "RangeIndicator.cs",
               "DocumentMoniker": "C:\\work_splace\\game\\project_cv\\Kingdom\\Assets\\_Project\\Scripts\\UI\\RangeIndicator.cs",
               "RelativeDocumentMoniker": "Assets\\_Project\\Scripts\\UI\\RangeIndicator.cs",
@@ -887,7 +887,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 53,
+              "DocumentIndex": 49,
               "Title": "GameOverScreen.cs",
               "DocumentMoniker": "C:\\work_splace\\game\\project_cv\\Kingdom\\Assets\\_Project\\Scripts\\UI\\GameOverScreen.cs",
               "RelativeDocumentMoniker": "Assets\\_Project\\Scripts\\UI\\GameOverScreen.cs",
@@ -899,7 +899,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 54,
+              "DocumentIndex": 50,
               "Title": "EventSystemInputFixer.cs",
               "DocumentMoniker": "C:\\work_splace\\game\\project_cv\\Kingdom\\Assets\\_Project\\Scripts\\Utils\\EventSystemInputFixer.cs",
               "RelativeDocumentMoniker": "Assets\\_Project\\Scripts\\Utils\\EventSystemInputFixer.cs",
@@ -911,7 +911,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 55,
+              "DocumentIndex": 51,
               "Title": "NewMonoBehaviourScript.cs",
               "DocumentMoniker": "C:\\work_splace\\game\\project_cv\\Kingdom\\Assets\\_Project\\Scripts\\Utils\\NewMonoBehaviourScript.cs",
               "RelativeDocumentMoniker": "Assets\\_Project\\Scripts\\Utils\\NewMonoBehaviourScript.cs",
@@ -923,7 +923,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 56,
+              "DocumentIndex": 52,
               "Title": "NewMonoBehaviourScript.cs",
               "DocumentMoniker": "C:\\work_splace\\game\\project_cv\\Kingdom\\Assets\\_Project\\Scripts\\UI\\NewMonoBehaviourScript.cs",
               "RelativeDocumentMoniker": "Assets\\_Project\\Scripts\\UI\\NewMonoBehaviourScript.cs",
@@ -935,7 +935,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 58,
+              "DocumentIndex": 54,
               "Title": "ExplosionEffect.cs",
               "DocumentMoniker": "C:\\work_splace\\game\\project_cv\\Kingdom\\Assets\\_Project\\Scripts\\VFX\\ExplosionEffect.cs",
               "RelativeDocumentMoniker": "Assets\\_Project\\Scripts\\VFX\\ExplosionEffect.cs",
@@ -947,7 +947,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 57,
+              "DocumentIndex": 53,
               "Title": "SpellManager.cs",
               "DocumentMoniker": "C:\\work_splace\\game\\project_cv\\Kingdom\\Assets\\_Project\\Scripts\\Managers\\SpellManager.cs",
               "RelativeDocumentMoniker": "Assets\\_Project\\Scripts\\Managers\\SpellManager.cs",

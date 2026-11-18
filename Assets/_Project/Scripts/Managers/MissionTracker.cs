@@ -172,6 +172,9 @@ public class MissionTracker : MonoBehaviour
     public void RegisterBossKill()
     {
         bossesKilled++;
+        // Nhiệm vụ "diệt trùm" (Bảng 22): lấy số trùm ĐÚNG LOẠI do ObjectiveTracker đếm.
+        // GameEvents.OnEnemyKilled được phát trước RegisterBossKill nên số đếm đã cập nhật; quái con của trùm không tính.
+        if (ObjectiveTracker.IsActive && ObjectiveTracker.Instance.MainIsKillBosses) bossesKilled = ObjectiveTracker.Instance.BossesKilled;
         Debug.Log($"<color=yellow>[MissionTracker]</color> Đã hạ Boss! Tổng số Boss đã diệt: {bossesKilled}/{(int)missionData.targetValue}");
         EvaluateSecondaryObjectives();
         UpdateHUDBanner();
@@ -526,6 +529,9 @@ public class MissionTracker : MonoBehaviour
         }
 
         cups = Mathf.Clamp(cups, 1, 3);
+
+        // Điều kiện 3 sao theo Bảng 22 (tài liệu nâng cấp): thay cho cách tính từ mục tiêu phụ cũ khi màn có dữ liệu objectives
+        if (ObjectiveTracker.IsActive) cups = ObjectiveTracker.Instance.EvaluateStars();
 
         int levelNum = LevelManager.main.levelNumber;
         if (SaveManager.instance != null)

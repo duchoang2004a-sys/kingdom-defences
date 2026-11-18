@@ -12,7 +12,7 @@ MonoBehaviour:
   m_Script: {fileID: 13312, guid: 0000000000000000e000000000000000, type: 0}
   m_Name: deco_rock_cf8771
   m_EditorClassIdentifier: UnityEngine.dll::UnityEngine.Tilemaps.Tile
-  m_Sprite: {fileID: 21300000, guid: 2d50fde62b446ca449189538fab6d1f4, type: 3}
+  m_Sprite: {fileID: 21300000, guid: 0f13d7249e3af9b44b6283437cbc61ee, type: 3}
   m_Color: {r: 1, g: 1, b: 1, a: 1}
   m_Transform:
     e00: 1

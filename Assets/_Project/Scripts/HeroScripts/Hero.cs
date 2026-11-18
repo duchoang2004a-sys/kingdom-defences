@@ -537,6 +537,7 @@ public class Hero : MonoBehaviour, IBlocker
         }
 
         Debug.Log($"[Hero] Anh hùng tử trận! Quái vật được giải phóng. Sẽ hồi sinh sau {respawnDuration:F0} giây...");
+        ObjectiveTracker.NotifyHeroDown();
         StartCoroutine(RespawnRoutine());
     }
 

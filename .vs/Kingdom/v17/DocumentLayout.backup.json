@@ -3,11 +3,11 @@
   "WorkspaceRootPath": "C:\\work_splace\\game\\project_cv\\Kingdom\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{7ED8C90A-4E9D-F306-317B-BB0CA98A8B3D}|Assembly-CSharp-Editor.csproj|C:\\work_splace\\game\\project_cv\\Kingdom\\assets\\editor\\tdscenegenerator.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{7ED8C90A-4E9D-F306-317B-BB0CA98A8B3D}|Assembly-CSharp-Editor.csproj|c:\\work_splace\\game\\project_cv\\kingdom\\assets\\editor\\tdscenegenerator.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{7ED8C90A-4E9D-F306-317B-BB0CA98A8B3D}|Assembly-CSharp-Editor.csproj|solutionrelative:assets\\editor\\tdscenegenerator.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{662FBB2B-7792-05F0-F70F-68FDD059AC61}|Assembly-CSharp.csproj|c:\\work_splace\\game\\project_cv\\kingdom\\assets\\_project\\scripts\\utils\\universalspriteloader.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{662FBB2B-7792-05F0-F70F-68FDD059AC61}|Assembly-CSharp.csproj|C:\\work_splace\\game\\project_cv\\Kingdom\\assets\\_project\\scripts\\utils\\universalspriteloader.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{662FBB2B-7792-05F0-F70F-68FDD059AC61}|Assembly-CSharp.csproj|solutionrelative:assets\\_project\\scripts\\utils\\universalspriteloader.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
@@ -258,8 +258,7 @@
               "RelativeToolTip": "Assets\\_Project\\Scripts\\Utils\\UniversalSpriteLoader.cs",
               "ViewState": "AgIAACYAAAAAAAAAAAAwwFUAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-10-28T11:54:34.178Z",
-              "EditorCaption": ""
+              "WhenOpened": "2026-10-28T11:54:34.178Z"
             },
             {
               "$type": "Document",
@@ -269,7 +268,7 @@
               "RelativeDocumentMoniker": "Assets\\Editor\\TDSceneGenerator.cs",
               "ToolTip": "C:\\work_splace\\game\\project_cv\\Kingdom\\Assets\\Editor\\TDSceneGenerator.cs",
               "RelativeToolTip": "Assets\\Editor\\TDSceneGenerator.cs",
-              "ViewState": "AgIAAFgDAAAAAAAAAAAgwF0DAAAAAAAAAAAAAA==",
+              "ViewState": "AgIAADMCAAAAAAAAAAAqwFYCAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2026-10-26T09:07:20.787Z",
               "EditorCaption": ""

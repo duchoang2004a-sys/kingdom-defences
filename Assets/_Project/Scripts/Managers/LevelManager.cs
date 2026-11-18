@@ -227,6 +227,9 @@ public class LevelManager : MonoBehaviour
         try { OnLivesChanged?.Invoke(livesCount); } catch (Exception ex) { Debug.LogWarning($"[LevelManager] OnLivesChanged exception: {ex.Message}"); }
         try { OnCurrencyChanged?.Invoke(currency); } catch (Exception ex) { Debug.LogWarning($"[LevelManager] OnCurrencyChanged exception: {ex.Message}"); }
         try { OnWaveChanged?.Invoke(currWave); } catch (Exception ex) { Debug.LogWarning($"[LevelManager] OnWaveChanged exception: {ex.Message}"); }
+
+        // 5. Bảng 22: dựng bộ theo dõi mục tiêu 3 sao + Thẻ nhiệm vụ (không làm gì nếu màn chưa có dữ liệu objectives)
+        ObjectiveTracker.BeginLevel(levelNumber);
     }
 
     public void NotifyHealthAndLivesChanged()

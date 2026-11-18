@@ -243,10 +243,18 @@ public class StatsUI : MonoBehaviour
         UIKit.IconButton(root, "Retry", "btn_retry", "btn_retry_pressed", c, c, new Vector2(0f, 20f), new Vector2(180f, 180f), Retry);
         UIKit.IconButton(root, "Home", "btn_home", "btn_home_pressed", c, c, new Vector2(220f, 20f), new Vector2(180f, 180f), GoHome);
 
-        // Hàng 2: âm thanh / nhạc
+        // Hàng 2: âm thanh / nhạc (+ nút "NHIỆM VỤ" xem lại Thẻ nhiệm vụ khi màn có nhiệm vụ 3 sao)
         bool soundOn = PlayerPrefs.GetInt("SoundOn", 1) == 1;
         bool musicOn = PlayerPrefs.GetInt("MusicOn", 1) == 1;
-        Button sb = UIKit.IconButton(root, "Sound", soundOn ? "btn_sound" : "btn_sound_off", null, c, c, new Vector2(-90f, -170f), new Vector2(110f, 110f), null);
+        bool hasMission = ObjectiveTracker.IsActive;
+        float rowSoundX = hasMission ? -195f : -90f;
+        float rowMusicX = hasMission ? -45f : 90f;
+        if (hasMission)
+        {
+            Button missionBtn = UIKit.IconButton(root, "Mission", "btn_wide_green", "btn_wide_green_pressed", c, c, new Vector2(145f, -170f), new Vector2(230f, 84f), MissionCardUI.ShowReview);
+            UIKit.Text(missionBtn.transform, "Label", "NHIỆM VỤ", 30f, Color.white, new Vector2(0.5f, 0.5f), new Vector2(0.5f, 0.5f), Vector2.zero, new Vector2(220f, 60f));
+        }
+        Button sb = UIKit.IconButton(root, "Sound", soundOn ? "btn_sound" : "btn_sound_off", null, c, c, new Vector2(rowSoundX, -170f), new Vector2(110f, 110f), null);
         soundImg = sb.GetComponent<Image>();
         sb.onClick.AddListener(() =>
         {
@@ -255,7 +263,7 @@ public class StatsUI : MonoBehaviour
             AudioListener.volume = on ? 1f : 0f;
             soundImg.sprite = UIAssets.Get(on ? "btn_sound" : "btn_sound_off");
         });
-        Button mb = UIKit.IconButton(root, "Music", musicOn ? "btn_music" : "btn_music_off", null, c, c, new Vector2(90f, -170f), new Vector2(110f, 110f), null);
+        Button mb = UIKit.IconButton(root, "Music", musicOn ? "btn_music" : "btn_music_off", null, c, c, new Vector2(rowMusicX, -170f), new Vector2(110f, 110f), null);
         musicImg = mb.GetComponent<Image>();
         mb.onClick.AddListener(() =>
         {

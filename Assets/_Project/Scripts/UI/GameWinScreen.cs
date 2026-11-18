@@ -191,7 +191,12 @@ public class GameWinScreen : MonoBehaviour
     {
         StringBuilder sb = new StringBuilder();
         MissionTracker mt = MissionTracker.main;
-        if (mt != null && mt.missionData != null)
+        if (ObjectiveTracker.IsActive)
+        {
+            // Bảng 22: liệt kê lần lượt từng sao kèm lý do đạt / không đạt
+            ObjectiveTracker.Instance.AppendResultLines(sb);
+        }
+        else if (mt != null && mt.missionData != null)
         {
             sb.Append("<color=#77ff99>[v]</color> ").Append(mt.missionData.missionTitle).Append("  (nhiệm vụ chính)");
             List<SecondaryMissionData> subs = mt.missionData.secondaryMissions;
@@ -271,7 +276,21 @@ public class GameWinScreen : MonoBehaviour
     {
         Time.timeScale = 1f;
         string next = NextSceneName();
-        SceneManager.LoadScene(next != null ? next : "MainMenu");
+        if (next == null)
+        {
+            // Hết màn: thắng màn 10 thì phát kết truyện (lần đầu hoặc khi bật "Luôn xem cốt truyện") rồi về menu
+            if (SceneManager.GetActiveScene().name == "Level_10")
+                StoryFlow.PlayEnding(() => SceneManager.LoadScene("MainMenu"));
+            else
+                SceneManager.LoadScene("MainMenu");
+            return;
+        }
+
+        int nextLevel;
+        if (next.StartsWith("Level_") && int.TryParse(next.Substring(6), out nextLevel))
+            StoryFlow.PlayThenContinue(nextLevel, false, () => SceneManager.LoadScene(next));
+        else
+            SceneManager.LoadScene(next);
     }
 
     public void OnReplayButtonPressed()

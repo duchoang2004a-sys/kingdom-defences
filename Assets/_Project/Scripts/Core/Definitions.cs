@@ -56,6 +56,10 @@ public static class GameMissionDatabase
 {
     public static LevelMissionData GetMissionForLevel(int levelNum)
     {
+        // Nhiệm vụ chính + mục tiêu phụ theo Bảng 22 (tài liệu nâng cấp): ưu tiên dữ liệu objectives nếu màn có
+        LevelMissionData spec = ObjectiveTracker.BuildMissionFromSpec(levelNum);
+        if (spec != null) return spec;
+
         LevelMissionData m = new LevelMissionData();
         m.missionTitle = $"Màn {levelNum}: Phòng Thủ";
         m.missionType = MissionType.SurviveWaves;

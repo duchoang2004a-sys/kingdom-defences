@@ -163,6 +163,7 @@ public class SpellManager : MonoBehaviour
     private IEnumerator CastMeteor(Vector2 targetPos)
     {
         Debug.Log("[Spell] Thiên thạch Meteor đang rơi... 1s delay!");
+        GameEvents.TriggerSpellOrItemUsed("Meteor");
         // v3: vòng cảnh báo đúng vùng sát thương tại điểm vừa click, tồn tại tới khi thiên thạch giáng xuống
         MakeRing(targetPos, MeteorRadius, new Color(1f, 0.35f, 0.1f, 0.95f), meteorDelay + 0.4f);
         yield return new WaitForSeconds(meteorDelay);
@@ -196,6 +197,7 @@ public class SpellManager : MonoBehaviour
         {
             freezeUses--;
             GlobalFreezeRemaining = freezeDuration;
+            GameEvents.TriggerSpellOrItemUsed("Freeze");
 
             var enemies = EnemyRegistry.ActiveEnemies;
             for (int i = 0; i < enemies.Count; i++)
@@ -221,6 +223,7 @@ public class SpellManager : MonoBehaviour
 
     private void CastReinforcements(Vector2 targetPos)
     {
+        GameEvents.TriggerSpellOrItemUsed("Reinforcements");
         if (reinforcementPrefab != null)
         {
             Instantiate(reinforcementPrefab, targetPos + Vector2.left * 0.4f, Quaternion.identity);

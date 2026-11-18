@@ -210,7 +210,8 @@ public class MainMenuController : MonoBehaviour
     public void LoadLevel(int level)
     {
         Time.timeScale = 1f;
-        SceneManager.LoadScene("Level_" + level);
+        // Chọn màn -> Story Intro (lần đầu hoặc khi bật "Luôn xem cốt truyện") -> vào màn chơi -> Thẻ nhiệm vụ
+        StoryFlow.PlayThenContinue(level, false, () => SceneManager.LoadScene("Level_" + level));
     }
 
     public void OpenHeroesPopup()
@@ -268,6 +269,17 @@ public class MainMenuController : MonoBehaviour
             PlayerPrefs.SetInt("MusicOn", on ? 1 : 0);
             mb.GetComponent<Image>().sprite = UIAssets.Get(on ? "btn_music" : "btn_music_off");
         });
+
+        // Công tắc "Luôn xem cốt truyện" (mặc định: chỉ xem lần đầu của từng màn)
+        RectTransform st = UIKit.Box(m, "StoryToggle", c, c, new Vector2(0f, -150f), new Vector2(540f, 70f));
+        Image stImg = st.gameObject.AddComponent<Image>();
+        stImg.color = new Color(0.16f, 0.20f, 0.34f, 1f);
+        stImg.raycastTarget = true;
+        TextMeshProUGUI stLabel = UIKit.Text(st, "Label", "", 30f, Color.white, c, c, Vector2.zero, new Vector2(520f, 60f));
+        System.Action refreshStory = () => stLabel.text = "Luôn xem cốt truyện: " + (StoryFlow.AlwaysShow ? "BẬT" : "TẮT");
+        refreshStory();
+        UIKit.MakeButton(stImg, null, () => { StoryFlow.AlwaysShow = !StoryFlow.AlwaysShow; refreshStory(); });
+
         UIKit.IconButton(m, "Close", "btn_close", "btn_close_pressed", c, c, new Vector2(320f, 190f), new Vector2(84f, 84f), () => m.gameObject.SetActive(false));
         return m.gameObject;
     }

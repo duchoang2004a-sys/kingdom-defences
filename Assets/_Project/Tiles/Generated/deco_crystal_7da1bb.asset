@@ -12,7 +12,7 @@ MonoBehaviour:
   m_Script: {fileID: 13312, guid: 0000000000000000e000000000000000, type: 0}
   m_Name: deco_crystal_7da1bb
   m_EditorClassIdentifier: UnityEngine.dll::UnityEngine.Tilemaps.Tile
-  m_Sprite: {fileID: 21300000, guid: e86441e4342fd4044b9c90fb02b3cb6d, type: 3}
+  m_Sprite: {fileID: 21300000, guid: 9cc5a084ca9c4dc4e9015659a6f58631, type: 3}
   m_Color: {r: 1, g: 1, b: 1, a: 1}
   m_Transform:
     e00: 1

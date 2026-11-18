@@ -1,0 +1,918 @@
+{
+ "version": 1,
+ "levels": [
+  {
+   "level": 1,
+   "name": "Đường Mòn",
+   "chapter": "Chương 1 — Tiếng kèn đầu tiên",
+   "sceneCount": 3,
+   "pages": [
+    {
+     "scene": "Cảnh 1: Biên giới phía đông",
+     "sceneIndex": 1,
+     "speaker": "Dẫn truyện",
+     "narrator": true,
+     "text": "Biên giới phía đông, lúc bình minh. Những tiếng kèn lạ vang lên từ phía rừng."
+    },
+    {
+     "scene": "Cảnh 1: Biên giới phía đông",
+     "sceneIndex": 1,
+     "speaker": "Trinh sát Mira",
+     "narrator": false,
+     "text": "Thưa bệ hạ, một toán Goblin vừa vượt biên giới. Tôi đếm được chừng ba chục tên, chúng chạy rất nhanh."
+    },
+    {
+     "scene": "Cảnh 2: Sảnh lâu đài",
+     "sceneIndex": 2,
+     "speaker": "Vua Aldric",
+     "narrator": false,
+     "text": "Hiệp sĩ Kael, đây là đợt tấn công đầu tiên. Chúng tưởng con đường mòn này không có ai canh giữ."
+    },
+    {
+     "scene": "Cảnh 2: Sảnh lâu đài",
+     "sceneIndex": 2,
+     "speaker": "Hiệp Sĩ Kael",
+     "narrator": false,
+     "text": "Thần sẽ chặn chúng ngay trên đường."
+    },
+    {
+     "scene": "Cảnh 2: Sảnh lâu đài",
+     "sceneIndex": 2,
+     "speaker": "Vua Aldric",
+     "narrator": false,
+     "text": "Hãy xây tháp trên các bệ đá dọc đường. Chạm vào bệ đá để chọn tháp; Cung thủ rẻ và bắn nhanh."
+    },
+    {
+     "scene": "Cảnh 3: Ra trận",
+     "sceneIndex": 3,
+     "speaker": "Trinh sát Mira",
+     "narrator": false,
+     "text": "Anh hùng của ngài đã sẵn sàng. Bấm vào anh hùng rồi chạm xuống đường để di chuyển."
+    },
+    {
+     "scene": "Cảnh 3: Ra trận",
+     "sceneIndex": 3,
+     "speaker": "Vua Aldric",
+     "narrator": false,
+     "text": "Giữ vững con đường này, rồi chúng ta sẽ tính tiếp. Xuất quân!"
+    }
+   ],
+   "objectives": {
+    "star1": {
+     "type": "SURVIVE_WAVES",
+     "text": "Sống sót qua 8 đợt tấn công",
+     "enemy": "",
+     "count": 8,
+     "seconds": 0.0,
+     "percent": 0.0
+    },
+    "star2": {
+     "type": "NO_LEAK",
+     "text": "Không để quái nào lọt vào lâu đài",
+     "enemy": "",
+     "count": 0,
+     "seconds": 0.0,
+     "percent": 0.0
+    },
+    "star3": {
+     "type": "NO_SPELLS",
+     "text": "Không dùng phép thuật nào",
+     "enemy": "",
+     "count": 0,
+     "seconds": 0.0,
+     "percent": 0.0
+    }
+   }
+  },
+  {
+   "level": 2,
+   "name": "Ngã Rẽ",
+   "chapter": "Chương 2 — Những kẻ mang giáp",
+   "sceneCount": 2,
+   "pages": [
+    {
+     "scene": "Cảnh 1: Ngã ba đường",
+     "sceneIndex": 1,
+     "speaker": "Dẫn truyện",
+     "narrator": true,
+     "text": "Con đường chia làm hai ngả. Tiếng giáp sắt va chạm vang lên từ phía bên kia."
+    },
+    {
+     "scene": "Cảnh 1: Ngã ba đường",
+     "sceneIndex": 1,
+     "speaker": "Thủ lĩnh Brogar",
+     "narrator": false,
+     "text": "Nghe tiếng giáp không? Lũ Orc đấy. Tên nào cũng mặc giáp dày, đòn vật lý bị giảm đáng kể."
+    },
+    {
+     "scene": "Cảnh 1: Ngã ba đường",
+     "sceneIndex": 1,
+     "speaker": "Hiệp Sĩ Kael",
+     "narrator": false,
+     "text": "Vậy ta phải cản bước chúng để các tháp có thời gian bắn."
+    },
+    {
+     "scene": "Cảnh 2: Bàn chiến thuật",
+     "sceneIndex": 2,
+     "speaker": "Thủ lĩnh Brogar",
+     "narrator": false,
+     "text": "Cứ đứng giữa đường. Ngươi chặn chúng lại, tháp sẽ lo phần còn lại."
+    },
+    {
+     "scene": "Cảnh 2: Bàn chiến thuật",
+     "sceneIndex": 2,
+     "speaker": "Trinh sát Mira",
+     "narrator": false,
+     "text": "Bệ hạ cho phép dùng Doanh trại. Lính của Doanh trại cũng chặn được quái."
+    },
+    {
+     "scene": "Cảnh 2: Bàn chiến thuật",
+     "sceneIndex": 2,
+     "speaker": "Thủ lĩnh Brogar",
+     "narrator": false,
+     "text": "Đừng để ta chờ lâu. Tiến lên!"
+    }
+   ],
+   "objectives": {
+    "star1": {
+     "type": "SURVIVE_WAVES",
+     "text": "Sống sót qua 10 đợt tấn công",
+     "enemy": "",
+     "count": 10,
+     "seconds": 0.0,
+     "percent": 0.0
+    },
+    "star2": {
+     "type": "MAX_LIVES_LOST",
+     "text": "Không mất quá 3 mạng",
+     "enemy": "",
+     "count": 3,
+     "seconds": 0.0,
+     "percent": 0.0
+    },
+    "star3": {
+     "type": "HERO_NOT_DOWN",
+     "text": "Anh hùng không bị hạ gục",
+     "enemy": "",
+     "count": 0,
+     "seconds": 0.0,
+     "percent": 0.0
+    }
+   }
+  },
+  {
+   "level": 3,
+   "name": "Cánh Đồng",
+   "chapter": "Chương 3 — Mùa gặt đẫm máu",
+   "sceneCount": 2,
+   "pages": [
+    {
+     "scene": "Cảnh 1: Cánh đồng lúa",
+     "sceneIndex": 1,
+     "speaker": "Dẫn truyện",
+     "narrator": true,
+     "text": "Cánh đồng lúa vàng của kinh thành. Dân làng vẫn đang gặt dở giữa tiếng chim."
+    },
+    {
+     "scene": "Cảnh 1: Cánh đồng lúa",
+     "sceneIndex": 1,
+     "speaker": "Trinh sát Mira",
+     "narrator": false,
+     "text": "Có Goblin xạ thủ nấp sau lùm cây. Chúng bắn lên cả lính của ta."
+    },
+    {
+     "scene": "Cảnh 1: Cánh đồng lúa",
+     "sceneIndex": 1,
+     "speaker": "Vua Aldric",
+     "narrator": false,
+     "text": "Giữ vững nơi đây bốn phút cho đến khi dân làng sơ tán xong."
+    },
+    {
+     "scene": "Cảnh 2: Chuẩn bị",
+     "sceneIndex": 2,
+     "speaker": "Hiệp Sĩ Kael",
+     "narrator": false,
+     "text": "Thần sẽ không để một hạt thóc nào rơi vào tay chúng."
+    },
+    {
+     "scene": "Cảnh 2: Chuẩn bị",
+     "sceneIndex": 2,
+     "speaker": "Trinh sát Mira",
+     "narrator": false,
+     "text": "Tôi đã đặt thêm Dầu tốc bắn vào kho đồ. Dùng nó khi quái đông."
+    },
+    {
+     "scene": "Cảnh 2: Chuẩn bị",
+     "sceneIndex": 2,
+     "speaker": "Vua Aldric",
+     "narrator": false,
+     "text": "Đi đi, hiệp sĩ. Dân làng đang trông cậy vào con."
+    }
+   ],
+   "objectives": {
+    "star1": {
+     "type": "HOLD_TIME",
+     "text": "Trụ vững 4 phút",
+     "enemy": "",
+     "count": 0,
+     "seconds": 240,
+     "percent": 0.0
+    },
+    "star2": {
+     "type": "NO_LEAK_ENEMY",
+     "text": "Không để Goblin Xạ thủ nào lọt vào lâu đài",
+     "enemy": "GoblinArcher",
+     "count": 0,
+     "seconds": 0.0,
+     "percent": 0.0
+    },
+    "star3": {
+     "type": "TOWER_LV3_BEFORE",
+     "text": "Có một tháp cấp 3 trước phút thứ 3",
+     "enemy": "",
+     "count": 1,
+     "seconds": 180,
+     "percent": 0.0
+    }
+   }
+  },
+  {
+   "level": 4,
+   "name": "Hẻm Đá",
+   "chapter": "Chương 4 — Chúa Troll",
+   "sceneCount": 3,
+   "pages": [
+    {
+     "scene": "Cảnh 1: Chân đèo",
+     "sceneIndex": 1,
+     "speaker": "Dẫn truyện",
+     "narrator": true,
+     "text": "Hẻm đá hẹp. Tiếng đá lăn vọng xuống khiến ngựa cũng phải lùi lại."
+    },
+    {
+     "scene": "Cảnh 1: Chân đèo",
+     "sceneIndex": 1,
+     "speaker": "Lão Pháp Sư Elwyn",
+     "narrator": false,
+     "text": "Hẻm này là nơi Troll trú ngụ. Hai con đầu đàn đang kéo cả bầy xuống."
+    },
+    {
+     "scene": "Cảnh 2: Cảnh báo",
+     "sceneIndex": 2,
+     "speaker": "Thủ lĩnh Brogar",
+     "narrator": false,
+     "text": "Hai ư? Ta đợi trận này lâu rồi!"
+    },
+    {
+     "scene": "Cảnh 2: Cảnh báo",
+     "sceneIndex": 2,
+     "speaker": "Lão Pháp Sư Elwyn",
+     "narrator": false,
+     "text": "Cẩn thận: Troll Chúa tự hồi máu nếu không bị đánh, và khi chết sẽ gọi thêm đàn con."
+    },
+    {
+     "scene": "Cảnh 2: Cảnh báo",
+     "sceneIndex": 2,
+     "speaker": "Hiệp Sĩ Kael",
+     "narrator": false,
+     "text": "Vậy ta phải dồn sát thương thật nhanh."
+    },
+    {
+     "scene": "Cảnh 3: Xuất phát",
+     "sceneIndex": 3,
+     "speaker": "Lão Pháp Sư Elwyn",
+     "narrator": false,
+     "text": "Dùng Cung từ cấp hai: tên xuyên một phần giáp của chúng."
+    },
+    {
+     "scene": "Cảnh 3: Xuất phát",
+     "sceneIndex": 3,
+     "speaker": "Thủ lĩnh Brogar",
+     "narrator": false,
+     "text": "Ta sẽ đứng ngoài tầm dậm chân của chúng. Đi nào!"
+    }
+   ],
+   "objectives": {
+    "star1": {
+     "type": "KILL_BOSSES",
+     "text": "Diệt cả hai Troll Chúa",
+     "enemy": "TrollBoss",
+     "count": 2,
+     "seconds": 0.0,
+     "percent": 0.0
+    },
+    "star2": {
+     "type": "BOSS_KILL_WITHIN",
+     "text": "Hạ mỗi Troll Chúa trong 60 giây kể từ lúc xuất hiện",
+     "enemy": "TrollBoss",
+     "count": 0,
+     "seconds": 60,
+     "percent": 0.0
+    },
+    "star3": {
+     "type": "NO_SELL_TOWER",
+     "text": "Không bán tháp nào",
+     "enemy": "",
+     "count": 0,
+     "seconds": 0.0,
+     "percent": 0.0
+    }
+   }
+  },
+  {
+   "level": 5,
+   "name": "Giao Lộ",
+   "chapter": "Chương 5 — Ngã tư bóng tối",
+   "sceneCount": 3,
+   "pages": [
+    {
+     "scene": "Cảnh 1: Thung lũng sương mù",
+     "sceneIndex": 1,
+     "speaker": "Dẫn truyện",
+     "narrator": true,
+     "text": "Sương mù dày đặc phủ kín thung lũng. Hai con đường cắt nhau ở giữa."
+    },
+    {
+     "scene": "Cảnh 1: Thung lũng sương mù",
+     "sceneIndex": 1,
+     "speaker": "Trinh sát Mira",
+     "narrator": false,
+     "text": "Kẻ địch có thể đến từ cả hai hướng. Hãy đặt tháp ngay gần giao lộ."
+    },
+    {
+     "scene": "Cảnh 2: Lời cảnh báo",
+     "sceneIndex": 2,
+     "speaker": "Lão Pháp Sư Elwyn",
+     "narrator": false,
+     "text": "Lũ Dark Elf kháng phép rất mạnh. Hãy dùng tên bắn và đại bác thay cho phép thuật."
+    },
+    {
+     "scene": "Cảnh 2: Lời cảnh báo",
+     "sceneIndex": 2,
+     "speaker": "Hiệp Sĩ Kael",
+     "narrator": false,
+     "text": "Còn kẻ nào đứng sau chúng?"
+    },
+    {
+     "scene": "Cảnh 2: Lời cảnh báo",
+     "sceneIndex": 2,
+     "speaker": "Lão Pháp Sư Elwyn",
+     "narrator": false,
+     "text": "Một cái bóng khổng lồ… Ta chưa dám gọi tên nó."
+    },
+    {
+     "scene": "Cảnh 3: Cái bóng trên trời",
+     "sceneIndex": 3,
+     "speaker": "Dẫn truyện",
+     "narrator": true,
+     "text": "Trên bầu trời, một cái bóng khổng lồ lướt qua đỉnh núi rồi biến mất."
+    },
+    {
+     "scene": "Cảnh 3: Cái bóng trên trời",
+     "sceneIndex": 3,
+     "speaker": "Hiệp Sĩ Kael",
+     "narrator": false,
+     "text": "Dù là ai, thần cũng không lùi bước."
+    }
+   ],
+   "objectives": {
+    "star1": {
+     "type": "HOLD_TIME",
+     "text": "Trụ vững 4 phút",
+     "enemy": "",
+     "count": 0,
+     "seconds": 240,
+     "percent": 0.0
+    },
+    "star2": {
+     "type": "TOWER_LV3_BEFORE",
+     "text": "Có ít nhất hai tháp cấp 3 trước phút thứ 3",
+     "enemy": "",
+     "count": 2,
+     "seconds": 180,
+     "percent": 0.0
+    },
+    "star3": {
+     "type": "CASTLE_HP_ABOVE",
+     "text": "Lâu đài còn trên 80% máu",
+     "enemy": "",
+     "count": 0,
+     "seconds": 0.0,
+     "percent": 80
+    }
+   }
+  },
+  {
+   "level": 6,
+   "name": "Kẻ Dẫn Đường",
+   "chapter": "Chương 6 — Tiếng thì thầm bên dòng sông",
+   "sceneCount": 3,
+   "pages": [
+    {
+     "scene": "Cảnh 1: Bên dòng sông",
+     "sceneIndex": 1,
+     "speaker": "Dẫn truyện",
+     "narrator": true,
+     "text": "Dòng sông xanh cắt ngang thung lũng, những cây cầu đá mờ trong sương."
+    },
+    {
+     "scene": "Cảnh 1: Bên dòng sông",
+     "sceneIndex": 1,
+     "speaker": "Trinh sát Mira",
+     "narrator": false,
+     "text": "Có một tế sư Dark Elf đi cùng đoàn quân. Hắn không đánh ai, nhưng tháp nào hắn chỉ tay vào thì tê liệt."
+    },
+    {
+     "scene": "Cảnh 2: Bàn đối sách",
+     "sceneIndex": 2,
+     "speaker": "Lão Pháp Sư Elwyn",
+     "narrator": false,
+     "text": "Hắn còn biết dịch chuyển và biến quái thành mồi nhử. Đừng bắn bừa, hãy nhìn nơi hắn sắp xuất hiện."
+    },
+    {
+     "scene": "Cảnh 2: Bàn đối sách",
+     "sceneIndex": 2,
+     "speaker": "Hiệp Sĩ Kael",
+     "narrator": false,
+     "text": "Hắn tự hồi máu nữa sao?"
+    },
+    {
+     "scene": "Cảnh 2: Bàn đối sách",
+     "sceneIndex": 2,
+     "speaker": "Lão Pháp Sư Elwyn",
+     "narrator": false,
+     "text": "Nếu một lúc không bị đánh. Dầu độc sẽ chặn việc đó."
+    },
+    {
+     "scene": "Cảnh 3: Trước khi xuất quân",
+     "sceneIndex": 3,
+     "speaker": "Trinh sát Mira",
+     "narrator": false,
+     "text": "Tôi sẽ báo hiệu khi hắn xuất hiện. Hãy mang Dầu chống choáng."
+    },
+    {
+     "scene": "Cảnh 3: Trước khi xuất quân",
+     "sceneIndex": 3,
+     "speaker": "Hiệp Sĩ Kael",
+     "narrator": false,
+     "text": "Vậy ta hạ hắn trước khi đoàn quân vượt cầu."
+    }
+   ],
+   "objectives": {
+    "star1": {
+     "type": "KILL_BOSSES",
+     "text": "Diệt Shaman Dẫn Đường",
+     "enemy": "Shaman",
+     "count": 1,
+     "seconds": 0.0,
+     "percent": 0.0
+    },
+    "star2": {
+     "type": "BOSS_KILL_WITHIN",
+     "text": "Hạ Shaman trong 90 giây kể từ lúc xuất hiện",
+     "enemy": "Shaman",
+     "count": 0,
+     "seconds": 90,
+     "percent": 0.0
+    },
+    "star3": {
+     "type": "CASTLE_HP_ABOVE",
+     "text": "Lâu đài còn trên 70% máu",
+     "enemy": "",
+     "count": 0,
+     "seconds": 0.0,
+     "percent": 70
+    }
+   }
+  },
+  {
+   "level": 7,
+   "name": "Thành Lũy",
+   "chapter": "Chương 7 — Giữ thành",
+   "sceneCount": 3,
+   "pages": [
+    {
+     "scene": "Cảnh 1: Tường thành",
+     "sceneIndex": 1,
+     "speaker": "Dẫn truyện",
+     "narrator": true,
+     "text": "Những tường thành đá ôm quanh lâu đài. Tiếng trống trận vang lên từ hai phía."
+    },
+    {
+     "scene": "Cảnh 1: Tường thành",
+     "sceneIndex": 1,
+     "speaker": "Vua Aldric",
+     "narrator": false,
+     "text": "Chúng tấn công cùng lúc từ hai hướng. Lâu đài không được phép thất thủ, hiệp sĩ."
+    },
+    {
+     "scene": "Cảnh 2: Chia quân",
+     "sceneIndex": 2,
+     "speaker": "Thủ lĩnh Brogar",
+     "narrator": false,
+     "text": "Lũ Golem đá chậm nhưng cứng như thép. Cần pháp thuật hoặc đại bác để phá giáp."
+    },
+    {
+     "scene": "Cảnh 2: Chia quân",
+     "sceneIndex": 2,
+     "speaker": "Hiệp Sĩ Kael",
+     "narrator": false,
+     "text": "Thần sẽ giữ cổng phía bắc."
+    },
+    {
+     "scene": "Cảnh 2: Chia quân",
+     "sceneIndex": 2,
+     "speaker": "Thủ lĩnh Brogar",
+     "narrator": false,
+     "text": "Còn ta giữ cổng phía nam."
+    },
+    {
+     "scene": "Cảnh 3: Lời thề",
+     "sceneIndex": 3,
+     "speaker": "Vua Aldric",
+     "narrator": false,
+     "text": "Hãy nhớ: mỗi viên đá của lâu đài này là mạng sống của dân ta."
+    },
+    {
+     "scene": "Cảnh 3: Lời thề",
+     "sceneIndex": 3,
+     "speaker": "Hiệp Sĩ Kael",
+     "narrator": false,
+     "text": "Thần xin thề giữ thành đến hơi thở cuối cùng."
+    }
+   ],
+   "objectives": {
+    "star1": {
+     "type": "SURVIVE_WAVES",
+     "text": "Sống sót qua 10 đợt tấn công",
+     "enemy": "",
+     "count": 10,
+     "seconds": 0.0,
+     "percent": 0.0
+    },
+    "star2": {
+     "type": "CASTLE_HP_ABOVE",
+     "text": "Lâu đài còn trên 70% máu",
+     "enemy": "",
+     "count": 0,
+     "seconds": 0.0,
+     "percent": 70
+    },
+    "star3": {
+     "type": "NO_LEAK_ENEMY",
+     "text": "Không để Golem nào lọt vào lâu đài",
+     "enemy": "Golem",
+     "count": 0,
+     "seconds": 0.0,
+     "percent": 0.0
+    }
+   }
+  },
+  {
+   "level": 8,
+   "name": "Băng Giá",
+   "chapter": "Chương 8 — Cánh đồng băng",
+   "sceneCount": 3,
+   "pages": [
+    {
+     "scene": "Cảnh 1: Vùng tuyết",
+     "sceneIndex": 1,
+     "speaker": "Dẫn truyện",
+     "narrator": true,
+     "text": "Tuyết trắng phủ kín mặt đất. Gió lạnh buốt đến mức hơi thở cũng đóng băng."
+    },
+    {
+     "scene": "Cảnh 1: Vùng tuyết",
+     "sceneIndex": 1,
+     "speaker": "Lão Pháp Sư Elwyn",
+     "narrator": false,
+     "text": "Giá lạnh này không tự nhiên. Một Golem băng đã bị đánh thức."
+    },
+    {
+     "scene": "Cảnh 1: Vùng tuyết",
+     "sceneIndex": 1,
+     "speaker": "Trinh sát Mira",
+     "narrator": false,
+     "text": "Nó có thể đóng băng cả tháp của chúng ta."
+    },
+    {
+     "scene": "Cảnh 2: Bàn đối sách",
+     "sceneIndex": 2,
+     "speaker": "Trinh sát Mira",
+     "narrator": false,
+     "text": "Và nó có lớp giáp băng tái tạo nữa."
+    },
+    {
+     "scene": "Cảnh 2: Bàn đối sách",
+     "sceneIndex": 2,
+     "speaker": "Lão Pháp Sư Elwyn",
+     "narrator": false,
+     "text": "Phép thuật bỏ qua giáp là cách duy nhất. Hãy mang Dầu chống choáng nếu ngươi có."
+    },
+    {
+     "scene": "Cảnh 2: Bàn đối sách",
+     "sceneIndex": 2,
+     "speaker": "Hiệp Sĩ Kael",
+     "narrator": false,
+     "text": "Còn nếu lớp giáp vỡ?"
+    },
+    {
+     "scene": "Cảnh 3: Xuất quân",
+     "sceneIndex": 3,
+     "speaker": "Lão Pháp Sư Elwyn",
+     "narrator": false,
+     "text": "Khi giáp vỡ, hãy bồi thêm sát thương và dồn tất cả vào nó."
+    },
+    {
+     "scene": "Cảnh 3: Xuất quân",
+     "sceneIndex": 3,
+     "speaker": "Hiệp Sĩ Kael",
+     "narrator": false,
+     "text": "Thần hiểu rồi. Tiến lên!"
+    }
+   ],
+   "objectives": {
+    "star1": {
+     "type": "KILL_BOSSES",
+     "text": "Diệt Golem Băng",
+     "enemy": "IceGolem",
+     "count": 1,
+     "seconds": 0.0,
+     "percent": 0.0
+    },
+    "star2": {
+     "type": "BOSS_KILL_WITHIN",
+     "text": "Hạ Golem Băng trong 90 giây kể từ lúc xuất hiện",
+     "enemy": "IceGolem",
+     "count": 0,
+     "seconds": 90,
+     "percent": 0.0
+    },
+    "star3": {
+     "type": "CASTLE_HP_ABOVE",
+     "text": "Lâu đài còn trên 60% máu",
+     "enemy": "",
+     "count": 0,
+     "seconds": 0.0,
+     "percent": 60
+    }
+   }
+  },
+  {
+   "level": 9,
+   "name": "Núi Lửa",
+   "chapter": "Chương 9 — Lò rèn của Vyrax",
+   "sceneCount": 3,
+   "pages": [
+    {
+     "scene": "Cảnh 1: Dưới chân núi lửa",
+     "sceneIndex": 1,
+     "speaker": "Dẫn truyện",
+     "narrator": true,
+     "text": "Bầu trời đỏ rực. Núi lửa nhả khói đen che kín mặt trời."
+    },
+    {
+     "scene": "Cảnh 1: Dưới chân núi lửa",
+     "sceneIndex": 1,
+     "speaker": "Thủ lĩnh Brogar",
+     "narrator": false,
+     "text": "Mùi lưu huỳnh… Đây là lò rèn nơi Vyrax đúc quân đội."
+    },
+    {
+     "scene": "Cảnh 1: Dưới chân núi lửa",
+     "sceneIndex": 1,
+     "speaker": "Trinh sát Mira",
+     "narrator": false,
+     "text": "Dung nham sẽ phun lên bất ngờ. Thấy vòng đỏ báo trước thì rời tháp ngay."
+    },
+    {
+     "scene": "Cảnh 2: Hai Demon Chúa",
+     "sceneIndex": 2,
+     "speaker": "Lão Pháp Sư Elwyn",
+     "narrator": false,
+     "text": "Có hai Demon Chúa Lửa đang canh giữ. Mỗi con để lại vệt lửa trên đường."
+    },
+    {
+     "scene": "Cảnh 2: Hai Demon Chúa",
+     "sceneIndex": 2,
+     "speaker": "Hiệp Sĩ Kael",
+     "narrator": false,
+     "text": "Vậy anh hùng phải đứng ngoài vệt lửa."
+    },
+    {
+     "scene": "Cảnh 2: Hai Demon Chúa",
+     "sceneIndex": 2,
+     "speaker": "Lão Pháp Sư Elwyn",
+     "narrator": false,
+     "text": "Đúng. Dùng Băng để làm chậm chúng."
+    },
+    {
+     "scene": "Cảnh 3: Tiến lên",
+     "sceneIndex": 3,
+     "speaker": "Thủ lĩnh Brogar",
+     "narrator": false,
+     "text": "Qua được nơi này là tới tận ngai rồng."
+    },
+    {
+     "scene": "Cảnh 3: Tiến lên",
+     "sceneIndex": 3,
+     "speaker": "Hiệp Sĩ Kael",
+     "narrator": false,
+     "text": "Thần sẽ qua. Vì tất cả chúng ta."
+    }
+   ],
+   "objectives": {
+    "star1": {
+     "type": "KILL_BOSSES",
+     "text": "Diệt cả hai Demon Chúa Lửa",
+     "enemy": "FireDemon",
+     "count": 2,
+     "seconds": 0.0,
+     "percent": 0.0
+    },
+    "star2": {
+     "type": "NO_TOWER_LOCK_OVER",
+     "text": "Không có tháp nào bị khóa quá 3 lần",
+     "enemy": "",
+     "count": 3,
+     "seconds": 0.0,
+     "percent": 0.0
+    },
+    "star3": {
+     "type": "CASTLE_HP_ABOVE",
+     "text": "Lâu đài còn trên 60% máu",
+     "enemy": "",
+     "count": 0,
+     "seconds": 0.0,
+     "percent": 60
+    }
+   }
+  },
+  {
+   "level": 10,
+   "name": "Ngai Rồng",
+   "chapter": "Chương cuối — Đêm không bình minh",
+   "sceneCount": 4,
+   "pages": [
+    {
+     "scene": "Cảnh 1: Trước ngai rồng",
+     "sceneIndex": 1,
+     "speaker": "Dẫn truyện",
+     "narrator": true,
+     "text": "Ngai đá đen giữa trời tím sẫm. Hai cổng lửa mở ra từ hai phía."
+    },
+    {
+     "scene": "Cảnh 1: Trước ngai rồng",
+     "sceneIndex": 1,
+     "speaker": "Vua Aldric",
+     "narrator": false,
+     "text": "Đây là trận cuối cùng, hiệp sĩ. Cả vương quốc đang dõi theo con."
+    },
+    {
+     "scene": "Cảnh 1: Trước ngai rồng",
+     "sceneIndex": 1,
+     "speaker": "Hiệp Sĩ Kael",
+     "narrator": false,
+     "text": "Thần sẽ không phụ lòng bệ hạ."
+    },
+    {
+     "scene": "Cảnh 2: Lời cảnh báo",
+     "sceneIndex": 2,
+     "speaker": "Lão Pháp Sư Elwyn",
+     "narrator": false,
+     "text": "Vyrax đã thức dậy trên ngai đá. Nếu ngọn lửa của nó chạm tới lâu đài, mọi thứ chúng ta gìn giữ sẽ hóa tro."
+    },
+    {
+     "scene": "Cảnh 2: Lời cảnh báo",
+     "sceneIndex": 2,
+     "speaker": "Trinh sát Mira",
+     "narrator": false,
+     "text": "Rồng bay thẳng tới lâu đài, bỏ qua đường đi. Pháo không bắn được nó."
+    },
+    {
+     "scene": "Cảnh 3: Tiếng gầm",
+     "sceneIndex": 3,
+     "speaker": "Vyrax",
+     "narrator": false,
+     "text": "Ta đã đốt cháy những vương quốc lớn hơn thế này. Các ngươi chỉ là tro tàn đang chờ gió thổi."
+    },
+    {
+     "scene": "Cảnh 3: Tiếng gầm",
+     "sceneIndex": 3,
+     "speaker": "Hiệp Sĩ Kael",
+     "narrator": false,
+     "text": "Vậy hãy để ngọn lửa ấy tắt ngay tại đây!"
+    },
+    {
+     "scene": "Cảnh 3: Tiếng gầm",
+     "sceneIndex": 3,
+     "speaker": "Thủ lĩnh Brogar",
+     "narrator": false,
+     "text": "Nghe thấy chưa? Cả đội đã sẵn sàng!"
+    },
+    {
+     "scene": "Cảnh 4: Chuẩn bị chặn rồng",
+     "sceneIndex": 4,
+     "speaker": "Lão Pháp Sư Elwyn",
+     "narrator": false,
+     "text": "Khi Rồng bốc cháy ở pha ba, hãy chuẩn bị chặn nó lúc nó đáp xuống lâu đài."
+    },
+    {
+     "scene": "Cảnh 4: Chuẩn bị chặn rồng",
+     "sceneIndex": 4,
+     "speaker": "Vua Aldric",
+     "narrator": false,
+     "text": "Chiến đấu vì Elaria!"
+    }
+   ],
+   "objectives": {
+    "star1": {
+     "type": "KILL_BOSSES",
+     "text": "Diệt Rồng Hắc Ám",
+     "enemy": "Dragon",
+     "count": 1,
+     "seconds": 0.0,
+     "percent": 0.0
+    },
+    "star2": {
+     "type": "KILL_BOSS_BEFORE_LANDING",
+     "text": "Hạ Rồng trước khi nó đáp xuống lâu đài",
+     "enemy": "Dragon",
+     "count": 0,
+     "seconds": 0.0,
+     "percent": 0.0
+    },
+    "star3": {
+     "type": "CASTLE_HP_ABOVE",
+     "text": "Lâu đài còn trên 50% máu",
+     "enemy": "",
+     "count": 0,
+     "seconds": 0.0,
+     "percent": 50
+    }
+   }
+  }
+ ],
+ "ending": {
+  "level": 0,
+  "name": "Kết truyện",
+  "chapter": "Sau khi hạ Rồng",
+  "sceneCount": 1,
+  "pages": [
+   {
+    "scene": "Sau chiến thắng",
+    "sceneIndex": 1,
+    "speaker": "Lão Pháp Sư Elwyn",
+    "narrator": false,
+    "text": "Ngọn lửa cuối cùng đã tắt. Lần đầu tiên sau nhiều năm, bầu trời phía đông sáng lên."
+   },
+   {
+    "scene": "Sau chiến thắng",
+    "sceneIndex": 1,
+    "speaker": "Vua Aldric",
+    "narrator": false,
+    "text": "Hiệp sĩ Kael, vương quốc nợ con một bình minh."
+   },
+   {
+    "scene": "Sau chiến thắng",
+    "sceneIndex": 1,
+    "speaker": "Hiệp Sĩ Kael",
+    "narrator": false,
+    "text": "Bình minh thuộc về những người đã chiến đấu cùng thần."
+   },
+   {
+    "scene": "Sau chiến thắng",
+    "sceneIndex": 1,
+    "speaker": "Dẫn truyện",
+    "narrator": true,
+    "text": "Elaria được cứu. Nhưng những ngọn lửa xa xôi vẫn còn đang chờ… (Hết chiến dịch.)"
+   }
+  ],
+  "objectives": {
+   "star1": {
+    "type": "",
+    "text": "",
+    "enemy": "",
+    "count": 0,
+    "seconds": 0.0,
+    "percent": 0.0
+   },
+   "star2": {
+    "type": "",
+    "text": "",
+    "enemy": "",
+    "count": 0,
+    "seconds": 0.0,
+    "percent": 0.0
+   },
+   "star3": {
+    "type": "",
+    "text": "",
+    "enemy": "",
+    "count": 0,
+    "seconds": 0.0,
+    "percent": 0.0
+   }
+  }
+ }
+}
